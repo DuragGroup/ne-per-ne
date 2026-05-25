@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="sq" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gazeta Shkollore – Portali informativ i shkollës 'Vasil Shanto'. Lajme, teknologji, sport dhe kulturë." />
+  <meta name="keywords" content="gazeta shkollore, lajme, teknologji, sport, kulturë, shqipëri, vasil shanto" />
+  <meta name="author" content="Klubi i Informatikës – Shkolla Vasil Shanto" />
+  <meta property="og:title" content="Gazeta Shkollore | Vasil Shanto" />
+  <meta property="og:description" content="Zëri i nxënësve – lajme, sport, teknologji dhe kulturë." />
+  <meta property="og:type" content="website" />
+  <title>Gazeta Shkollore | Vasil Shanto</title>
+
+  <!-- Google Fonts: Inter + Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER
+  ============================================================ -->
+  <header class="site-header" id="siteHeader">
+
+    <!-- Top bar: date · school name · social · dark toggle -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="top-bar-left">
+          <span id="currentDate" class="top-date"></span>
+          <span class="top-sep">|</span>
+          <span class="top-school">Shkolla "Vasil Shanto" · Tiranë</span>
+        </div>
+        <div class="top-bar-right">
+          <div class="top-social">
+            <a href="#" aria-label="Facebook"  class="tsocial">&#x66;</a>
+            <a href="#" aria-label="Instagram" class="tsocial">&#x25A1;</a>
+            <a href="#" aria-label="YouTube"   class="tsocial">&#x25B6;</a>
+          </div>
+          <button class="dark-btn" id="darkToggle" aria-label="Ndrysho temën">
+            <span class="dark-icon" id="darkIcon">🌙</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main navigation bar -->
+    <nav class="main-nav" role="navigation" aria-label="Navigimi kryesor">
+      <div class="container">
+        <!-- Logo -->
+        <a href="#" class="nav-logo" aria-label="Gazeta Shkollore – ballina">
+          <span class="logo-primary">Gazeta e shkolles</span>
+        </a>
+
+        <!-- Desktop links -->
+        <ul class="nav-links" id="navLinks" role="list">
+          <li><a href="#hero"       class="nav-link" data-section="hero">Kreu</a></li>
+          <li><a href="#teknologji" class="nav-link" data-section="teknologji">Teknologji</a></li>
+          <li><a href="#sport"      class="nav-link" data-section="sport">Sport</a></li>
+          <li><a href="#kulture"    class="nav-link" data-section="kulture">Kulturë</a></li>
+          <li><a href="#shkence"    class="nav-link" data-section="shkence">Shkencë</a></li>
+          <li><a href="#kontakt"    class="nav-link">Kontakt</a></li>
+        </ul>
+
+        <!-- Right actions: search + hamburger -->
+        <div class="nav-actions">
+          <button class="icon-btn search-toggle" id="searchToggle" aria-label="Hap kërkimin" aria-expanded="false">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+          </button>
+          <button class="hamburger" id="hamburger" aria-label="Hap menunë" aria-expanded="false" aria-controls="mobileDrawer">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Search bar (slide-down) -->
+    <div class="search-bar" id="searchBar" role="search" aria-hidden="true">
+      <div class="container">
+        <svg class="search-bar-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input type="search" id="searchInput" placeholder="Kërko artikuj, kategori, autorë…" aria-label="Kërko" />
+        <button class="search-close" id="searchClose" aria-label="Mbyll kërkimin">✕</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Reading progress bar -->
+  <div class="reading-progress" id="readingProgress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+  <!-- Mobile drawer overlay -->
+  <div class="overlay" id="overlay" aria-hidden="true"></div>
+
+  <!-- Mobile drawer -->
+  <nav class="mobile-drawer" id="mobileDrawer" aria-label="Navigimi mobil" aria-hidden="true">
+    <div class="drawer-head">
+      <a href="#" class="nav-logo">
+        <span class="logo-primary">Gazeta e shkolles</span>
+      </a>
+      <button class="icon-btn drawer-close" id="drawerClose" aria-label="Mbyll menunë">✕</button>
+    </div>
+    <ul class="drawer-links" role="list">
+      <li><a href="#hero">🏠&ensp;Kreu</a></li>
+      <li><a href="#teknologji">💻&ensp;Teknologji</a></li>
+      <li><a href="#sport">⚽&ensp;Sport</a></li>
+      <li><a href="#kulture">🎭&ensp;Kulturë</a></li>
+      <li><a href="#shkence">🔬&ensp;Shkencë</a></li>
+      <li><a href="#newsletter">📬&ensp;Newsletter</a></li>
+      <li><a href="#kontakt">📧&ensp;Kontakt</a></li>
+    </ul>
+    <div class="drawer-footer">
+      <div class="top-social">
+        <a href="#" aria-label="Facebook"  class="tsocial">f</a>
+        <a href="#" aria-label="Instagram" class="tsocial">&#x25A1;</a>
+        <a href="#" aria-label="YouTube"   class="tsocial">▶</a>
+      </div>
+      <p class="drawer-copy">© 2024 Gazeta Shkollore</p>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       BREAKING NEWS TICKER
+  ============================================================ -->
+  <div class="breaking-bar" role="region" aria-label="Lajmi i fundit">
+    <div class="breaking-label">LIVE</div>
+    <div class="ticker-viewport">
+      <div class="ticker-track" id="tickerTrack">
+        <span>📢 Shkolla jonë merr çmimin "Shkolla Inovative e Vitit 2024" nga Ministria e Arsimit</span>
+        <span>🏆 Ekipi i matematikës kualifikohet në Olimpiadën Ndërkombëtare të Shkencave</span>
+        <span>🎨 Ekspozita e artit të nxënësve hapet sot në Galerinë e Qytetit</span>
+        <span>⚽ Finalja e futbollit ndërshkollor të shtunën në Stadiumin Komunal ora 16:00</span>
+        <span>📚 Bibliotekat e reja digjitale lansohen javën e ardhshme — Hyni para kohe!</span>
+        <!-- Duplicate for seamless loop -->
+        <span>📢 Shkolla jonë merr çmimin "Shkolla Inovative e Vitit 2024" nga Ministria e Arsimit</span>
+        <span>🏆 Ekipi i matematikës kualifikohet në Olimpiadën Ndërkombëtare të Shkencave</span>
+        <span>🎨 Ekspozita e artit të nxënësve hapet sot në Galerinë e Qytetit</span>
+        <span>⚽ Finalja e futbollit ndërshkollor të shtunën në Stadiumin Komunal ora 16:00</span>
+        <span>📚 Bibliotekat e reja digjitale lansohen javën e ardhshme — Hyni para kohe!</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+
+        <!-- Main featured article -->
+        <article class="hero-main reveal">
+          <a href="article.html?slug=teknologjia-ai-ne-arsim" class="hero-img-wrap" aria-label="Lexo artikullin">
+            <img
+              src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&h=680&q=95"
+              srcset="
+                https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&h=340&q=85   600w,
+                https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&h=510&q=90   900w,
+                https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&h=680&q=95 1200w
+              "
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 800px"
+              alt="Robot humanoid i inteligjencës artificiale — simbol i revolucionit teknologjik në arsim"
+              class="hero-img"
+              loading="eager"
+              fetchpriority="high"
+            />
+            <div class="hero-img-overlay"></div>
+          </a>
+          <div class="hero-body">
+            <div class="meta-row">
+              <span class="badge badge-tech">Teknologji</span>
+              <span class="read-time">5 min lexim</span>
+            </div>
+            <h1 class="hero-title">
+              <a href="article.html?slug=teknologjia-ai-ne-arsim">Revolucioni i Inteligjencës Artificiale dhe Ndikimi i Tij në Sistemin Arsimor Shqiptar</a>
+            </h1>
+            <p class="hero-excerpt">
+              Inteligjenca artificiale po transformon mënyrën e mësimit dhe mësimdhënies. Ekspertët debatojnë nëse kjo teknologji do të jetë aleat apo kundërshtar i brezit të ri shqiptar…
+            </p>
+            <div class="article-meta">
+              <img src="https://ui-avatars.com/api/?name=Andi+Krasniqi&background=c0392b&color=fff&size=40&bold=true&rounded=true" alt="" class="avatar" aria-hidden="true" />
+              <span class="author-name">Andi Krasniqi</span>
+              <span class="meta-sep">·</span>
+              <time datetime="2024-11-20">20 Nëntor 2024</time>
+            </div>
+          </div>
+        </article>
+
+        <!-- Side articles (3 stacked) -->
+        <div class="hero-side">
+          <article class="hero-side-card reveal">
+            <a href="article.html?slug=volejbolli-finale" class="side-img-wrap">
+              <img src="https://loremflickr.com/380/220/volleyball,sportvolleyball,sport,athlete?lock=2" alt="Volejboll finales" loading="lazy" />
+            </a>
+            <div class="side-body">
+              <span class="badge badge-sport">Sport</span>
+              <h3><a href="article.html?slug=volejbolli-finale">Ekipi i Volejbollit Kualifikohet në Finalen Kombëtare pas Ndeshjes Dramatike</a></h3>
+              <div class="article-meta">
+                <time datetime="2024-11-19">19 Nëntor 2024</time>
+              </div>
+            </div>
+          </article>
+
+          <article class="hero-side-card reveal">
+            <a href="article.html?slug=festivali-letersise" class="side-img-wrap">
+              <img src="https://loremflickr.com/380/220/book,reading,librarybook,reading,library?lock=3" alt="Festival letërsie" loading="lazy" />
+            </a>
+            <div class="side-body">
+              <span class="badge badge-culture">Kulturë</span>
+              <h3><a href="article.html?slug=festivali-letersise">Festivali i Letërsisë Shqipe: Nxënësit Shprehin Talentin e Rrallë</a></h3>
+              <div class="article-meta">
+                <time datetime="2024-11-18">18 Nëntor 2024</time>
+              </div>
+            </div>
+          </article>
+
+          <article class="hero-side-card reveal">
+            <a href="#" class="side-img-wrap">
+              <img src="https://loremflickr.com/380/220/laboratory,science,experiment?lock=4" alt="Eksperiment shkencor" loading="lazy" />
+            </a>
+            <div class="side-body">
+              <span class="badge badge-science">Shkencë</span>
+              <h3><a href="#">Nxënësit e Klasës XI Zbulojnë Metodë të Re të Filtrimit të Ujit</a></h3>
+              <div class="article-meta">
+                <time datetime="2024-11-17">17 Nëntor 2024</time>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TRENDING SLIDER
+  ============================================================ -->
+  <section class="trending-section" aria-label="Artikujt në trend">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title"><span class="accent-pill" style="background:var(--primary)">🔥</span> Trending</h2>
+        <div class="slider-btns">
+          <button class="slider-btn" id="sliderPrev" aria-label="Artikulli i mëparshëm">&#8249;</button>
+          <button class="slider-btn" id="sliderNext" aria-label="Artikulli i ardhshëm">&#8250;</button>
+        </div>
+      </div>
+      <div class="slider-viewport" id="sliderViewport">
+        <div class="trending-slider" id="trendingSlider">
+
+          <article class="t-card">
+            <span class="t-num">01</span>
+            <a href="#" class="t-img-wrap"><img src="https://loremflickr.com/300/190/laptop,technology,education?lock=10" alt="Teknologji mësimore" loading="lazy" /></a>
+            <div class="t-body">
+              <span class="badge badge-tech">Teknologji</span>
+              <h4><a href="#">Si Po Ndryshon Teknologjia Mënyrën e Mësimit në Shkollat Shqiptare</a></h4>
+              <time>15 Nëntor 2024</time>
+            </div>
+          </article>
+
+          <article class="t-card">
+            <span class="t-num">02</span>
+            <a href="#" class="t-img-wrap"><img src="https://loremflickr.com/300/190/athletics,running,track?lock=11" alt="Atlet sprintist" loading="lazy" /></a>
+            <div class="t-body">
+              <span class="badge badge-sport">Sport</span>
+              <h4><a href="#">Atletizmi si Mënyrë Jete: Historia e Sprinterit që Befasoi Të Gjithë</a></h4>
+              <time>14 Nëntor 2024</time>
+            </div>
+          </article>
+
+          <article class="t-card">
+            <span class="t-num">03</span>
+            <a href="#" class="t-img-wrap"><img src="https://loremflickr.com/300/190/architecture,city,history?lock=12" alt="Ekspeditë kulturore" loading="lazy" /></a>
+            <div class="t-body">
+              <span class="badge badge-culture">Kulturë</span>
+              <h4><a href="#">Ekspedita Kulturore në Qytetet Historike të Jugut të Shqipërisë</a></h4>
+              <time>13 Nëntor 2024</time>
+            </div>
+          </article>
+
+          <article class="t-card">
+            <span class="t-num">04</span>
+            <a href="#" class="t-img-wrap"><img src="https://loremflickr.com/300/190/garden,ecology,plants?lock=13" alt="Kopsht ekologjik" loading="lazy" /></a>
+            <div class="t-body">
+              <span class="badge badge-science">Shkencë</span>
+              <h4><a href="#">Projekti Ekologjik: Kopshti i Gjelbër Pritet të Mbjellë 500 Bimë</a></h4>
+              <time>12 Nëntor 2024</time>
+            </div>
+          </article>
+
+          <article class="t-card">
+            <span class="t-num">05</span>
+            <a href="#" class="t-img-wrap"><img src="https://loremflickr.com/300/190/smartphone,phone,student?lock=14" alt="Debat shkollor" loading="lazy" /></a>
+            <div class="t-body">
+              <span class="badge badge-society">Shoqëri</span>
+              <h4><a href="#">Debati i Madh: A Duhet të Lejohen Telefonat Celularë në Klasë?</a></h4>
+              <time>11 Nëntor 2024</time>
+            </div>
+          </article>
+
+          <article class="t-card">
+            <span class="t-num">06</span>
+            <a href="#" class="t-img-wrap"><img src="https://loremflickr.com/300/190/book,literature,writing?lock=15" alt="Libër letërsia" loading="lazy" /></a>
+            <div class="t-body">
+              <span class="badge badge-literature">Letërsi</span>
+              <h4><a href="#">Vepra Letrare e Fjolla Gashit Botohet në Revistën Kombëtare Letrare</a></h4>
+              <time>10 Nëntor 2024</time>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       MAIN CONTENT + SIDEBAR
+  ============================================================ -->
+  <div class="page-body">
+    <div class="container">
+      <div class="content-sidebar-grid">
+
+        <!-- ======== MAIN CONTENT ======== -->
+        <main class="main-content" id="mainContent">
+
+          <!-- ——— TEKNOLOGJI ——— -->
+          <section class="cat-section" id="teknologji">
+            <div class="section-head">
+              <h2 class="section-title">
+                <span class="accent-pill" style="background:var(--tech-color)">💻</span>
+                Teknologji
+              </h2>
+              <a href="#" class="view-all-link">Shiko të gjitha →</a>
+            </div>
+
+            <!-- Featured-first grid -->
+            <div class="cards-grid cards-featured-first">
+
+              <!-- Featured card (spans 2 rows on desktop) -->
+              <article class="news-card card-featured reveal">
+                <a href="article.html?slug=chatgpt-mik-apo-armik" class="card-img-wrap">
+                  <img src="https://loremflickr.com/700/420/artificial-intelligence,robotartificial-intelligence,robot,technology?lock=20" alt="ChatGPT dhe nxënësit" loading="lazy" class="card-img" />
+                  <span class="card-badge-overlay"><span class="badge badge-tech">Teknologji</span></span>
+                </a>
+                <div class="card-body">
+                  <h3 class="card-title"><a href="article.html?slug=chatgpt-mik-apo-armik">ChatGPT dhe Arsimi: Mik apo Armik i Nxënësve Shqiptarë?</a></h3>
+                  <p class="card-excerpt">Mjeti i inteligjencës artificiale ChatGPT po bëhet gjithnjë e më i pranishëm në jetën e studentëve. A po dëmton aftësinë e të menduarit kritik apo po ofron një krah të ri të dijes?</p>
+                  <div class="card-foot">
+                    <div class="article-meta">
+                      <img src="https://ui-avatars.com/api/?name=Elira+Hoxha&background=8e44ad&color=fff&size=32&bold=true&rounded=true" alt="" class="avatar" aria-hidden="true" />
+                      <span class="author-name">Elira Hoxha</span>
+                      <span class="meta-sep">·</span>
+                      <time datetime="2024-11-18">18 Nën 2024</time>
+                    </div>
+                    <span class="read-time">7 min</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="news-card reveal">
+                <a href="article.html?slug=robotika-ne-shkolle" class="card-img-wrap">
+                  <img src="https://loremflickr.com/420/260/robot,robotics,engineeringrobot,robotics,engineering?lock=21" alt="Robotikë shkollore" loading="lazy" class="card-img" />
+                  <span class="card-badge-overlay"><span class="badge badge-tech">Teknologji</span></span>
+                </a>
+                <div class="card-body">
+                  <h3 class="card-title"><a href="article.html?slug=robotika-ne-shkolle">Robotikat në Shkollën Tonë: Projekti që Befasoi Ekspertët</a></h3>
+                  <p class="card-excerpt">Klubi i robotikës ndërtoi robotin e parë të programuar plotësisht nga nxënës 14-vjeçarë. Projekti synon garën europiane në pranverë.</p>
+                  <div class="card-foot">
+                    <div class="article-meta">
+                      <img src="https://ui-avatars.com/api/?name=Besnik+Shehu&background=2980b9&color=fff&size=32&bold=true&rounded=true" alt="" class="avatar" aria-hidden="true" />
+                      <span class="author-name">Besnik Shehu</span>
+                      <span class="meta-sep">·</span>
+                      <time>16 Nën 2024</time>
+                    </div>
+                    <span class="read-time">4 min</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="news-card reveal">
+                <a href="article.html?slug=aplikacioni-studismart" class="card-img-wrap">
+                  <img src="https://loremflickr.com/420/260/smartphone,coding,applicationsmartphone,coding,application?lock=22" alt="Çmim aplikacioni" loading="lazy" class="card-img" />
+                  <span class="card-badge-overlay"><span class="badge badge-tech">Teknologji</span></span>
+                </a>
+                <div class="card-body">
+                  <h3 class="card-title"><a href="article.html?slug=aplikacioni-studismart">Aplikacioni i Nxënësve Tanë Fiton Çmimin Kombëtar të Inovacionit</a></h3>
+                  <p class="card-excerpt">Tre nxënës të klasës XII zhvilluan aplikacionin "StudiSmart" dhe triumfuan në Festivalin Kombëtar të Teknologjisë.</p>
+                  <div class="card-foot">
+                    <div class="article-meta">
+                      <img src="https://ui-avatars.com/api/?name=Fjolla+Gashi&background=27ae60&color=fff&size=32&bold=true&rounded=true" alt="" class="avatar" aria-hidden="true" />
+                      <span class="author-name">Fjolla Gashi</span>
+                      <span class="meta-sep">·</span>
+                      <time>14 Nën 2024</time>
+                    </div>
+                    <span class="read-time">5 min</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="news-card reveal">
+                <a href="article.html?slug=siguria-kibernetike" class="card-img-wrap">
+                  <img src="https://loremflickr.com/420/260/cybersecurity,hacking,computercybersecurity,hacking,computer?lock=23" alt="Siguria kibernetike" loading="lazy" class="card-img" />
+                  <span class="card-badge-overlay"><span class="badge badge-tech">Teknologji</span></span>
+                </a>
+                <div class="card-body">
+                  <h3 class="card-title"><a href="article.html?slug=siguria-kibernetike">Si të Mbrohesh nga Rreziqet Online: Udhëzues Praktik për Adoleshentët</a></h3>
+                  <p class="card-excerpt">Ekspertët e sigurisë kibernetike vizituan shkollën dhe ndanë këshilla jetike për mbrojtjen e të dhënave personale.</p>
+                  <div class="card-foot">
+                    <div class="article-meta">
+                      <img src="https://ui-avatars.com/api/?name=Artan+Brahimi&background=d35400&color=fff&size=32&bold=true&rounded=true" alt="" class="avatar" aria-hidden="true" />
+                      <span class="author-name">Artan Brahimi</span>
+                      <span class="meta-sep">·</span>
+                      <time>12 Nën 2024</time>
+                    </div>
+                    <span class="read-time">6 min</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <!-- Promo banner -->
+          <div class="promo-banner reveal">
+            <span class="promo-text">📣 Regjistrohu për Gazetën Shkollore 2025 — Afati mbaron më <strong>30 Nëntor</strong>!</span>
+            <a href="#newsletter" class="promo-cta">Regjistrohu tani →</a>
+          </div>
+
+          <!-- ——— SPORT ——— -->
+          <section class="cat-section" id="sport">
+            <div class="section-head">
+              <h2 class="section-title">
+                <span class="accent-pill" style="background:var(--sport-color)">⚽</span>
+                Sport
+              </h2>
+              <a href="#" class="view-all-link">Shiko të gjitha →</a>
+            </div>
+
+            <div class="cards-grid">
+
+              <article class="news-card reveal">
+                <a href="article.html?slug=finalja-futboll-3-1" class="card-img-wrap">
+                  <img src="https://loremflickr.com/420/260/football,soccer,goalfootball,soccer,goal?lock=30" alt="Fitore futbolli" loading="lazy" class="card-img" />
+                  <span class="card-badge-overlay"><span class="badge badge-sport">Sport</span></span>
+                </a>
+                <div class="card-body">
+                  <h3 class="card-title"><a href="article.html?slug=finalja-futboll-3-1">Finalja e Madhe: Shkolla Jonë Triumfon 3–1 në Kampionatin Rajonal!</a></h3>
+                  <p class="card-excerpt">Në një ndeshje dramatike që mbajti frymën të gjithëve, ekipi ynë rrëmbeu titullin rajonal pas 5 vitesh.</p>
+                  <div class="card-foot">
+                    <div class="article-meta">
+                      <img src="https://ui-avatars.com/api/?name=Mimoza+Leka&background=c0392b&color=fff&size=32&bold=true&rounded=true" alt="" class="avatar" aria-hidden="true" />
+                      <span class="author-name">Mimoza Leka</span>
+                      <span class="meta-sep">·</span>
+                      <time>17 Nën 2024</time>
+                    </div>
+                    <span class="read-time">3 min</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="news-card reveal">
+                <a href="article.html?slug=basketboll-rikthimi" class="card-img-wrap">
+                  <img src="https://loremflickr.com/420/260/basketball,player,sportbasketball,player,sport?lock=31" alt="Basketboll ndeshje" loading="lazy" class="card-img" />
+                  <span class="card-badge-overlay"><span class="badge badge-sport">Sport</span></span>
+                </a>
+                <div class="card-body">
+                  <h3 class="card-title"><a href="article.html?slug=basketboll-rikthimi">Basketboll: Rikthimi Epik — nga -12 Pikë tek Fitorja Historike</a></h3>
+                  <p class="card-excerpt">Pas humbjes fillestare me 12 pikë, ekipi ynë bëri rikthimin e pabesueshëm dhe siguroi vendin e dytë kombëtar.</p>
+                  <div class="card-foot">
+                    <div class="article-meta">
+                      <img src="https://ui-avatars.com/api/?name=Drita+Selimi&background=16a085&color=fff&size=32&bold=true&rounded=true" alt="" class="avatar" aria-hidden="true" />
+                      <span class="author-name">Drita Selimi</span>
+                      <span class="meta-sep">·</span>
+                      <time>15 Nën 2024</time>
+                    </div>
+                    <span class="read-time">4 min</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="news-card reveal">
+                <a href="article.html?slug=enis-bajrami-rekord" class="card-img-wrap">
+                  <img src="https://loremflickr.com/420/260/running,athletics,sprintrunning,athletics,sprint?lock=32" alt="Atlet sprint" loading="lazy" class="card-img" />
+                  <span class="card-badge-overlay"><span class="badge badge-sport">Sport</span></span>
+                </a>
+                <div class="card-body">
+                  <h3 class="card-title"><a href="article.html?slug=enis-bajrami-rekord">Enis Bajrami Thyen Rekordin Kombëtar të Nënmoshave në 100 Metrat</a></h3>
+                  <p class="card-excerpt">Nxënësi i klasës X u bë atletisti i parë shqiptar nënmoshave që kalon kufirin magjik të 11 sekondave.</p>
+                  <div class="card-foot">
+                    <div class="article-meta">
+                      <img src="https://ui-avatars.com/api/?name=Andi+Krasniqi&background=c0392b&color=fff&size=32&bold=true&rounded=true" alt="" class="avatar" aria-hidden="true" />
+                      <span class="author-name">Andi Krasniqi</span>
+                      <span class="meta-sep">·</span>
+                      <time>13 Nën 2024</time>
+                    </div>
+                    <span class="read-time">5 min</span>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+          </section>
+
+          <!-- ——— KULTURË + SHKENCË (2 columns) ——— -->
+          <div class="dual-sections">
+
+            <section class="cat-section compact-cat" id="kulture">
+              <div class="section-head">
+                <h2 class="section-title">
+                  <span class="accent-pill" style="background:var(--culture-color)">🎭</span>
+                  Kulturë
+                </h2>
+                <a href="#" class="view-all-link">Shiko →</a>
+              </div>
+              <div class="list-cards">
+
+                <article class="list-card reveal">
+                  <a href="article.html?slug=grupi-teatral-cmimi" class="list-img-wrap">
+                    <img src="https://loremflickr.com/130/85/theatre,drama,stagetheatre,drama,stage?lock=40" alt="Teatri shkollor" loading="lazy" />
+                  </a>
+                  <div class="list-body">
+                    <span class="badge badge-culture">Kulturë</span>
+                    <h4><a href="article.html?slug=grupi-teatral-cmimi">Grupi Teatral Fiton Çmimin Kombëtar "Talenti i Vitit 2024"</a></h4>
+                    <time>16 Nëntor 2024</time>
+                  </div>
+                </article>
+
+                <article class="list-card reveal">
+                  <a href="article.html?slug=olimpiada-kimise" class="list-img-wrap">
+                    <img src="https://loremflickr.com/130/85/concert,music,singing?lock=41" alt="Koncert shkollor" loading="lazy" />
+                  </a>
+                  <div class="list-body">
+                    <span class="badge badge-culture">Kulturë</span>
+                    <h4><a href="#">Koncerti i Fundvitit: Muzikë Popullore dhe Moderne të Bashkuara</a></h4>
+                    <time>14 Nëntor 2024</time>
+                  </div>
+                </article>
+
+                <article class="list-card reveal">
+                  <a href="#" class="list-img-wrap">
+                    <img src="https://loremflickr.com/130/85/photography,camera,exhibition?lock=42" alt="Ekspozitë fotografike" loading="lazy" />
+                  </a>
+                  <div class="list-body">
+                    <span class="badge badge-culture">Kulturë</span>
+                    <h4><a href="#">Ekspozita Fotografike: Shqipëria nëpër Sytë e Nxënësve</a></h4>
+                    <time>12 Nëntor 2024</time>
+                  </div>
+                </article>
+
+                <article class="list-card reveal">
+                  <a href="#" class="list-img-wrap">
+                    <img src="https://loremflickr.com/130/85/cinema,film,movie?lock=43" alt="Filmi shkurt" loading="lazy" />
+                  </a>
+                  <div class="list-body">
+                    <span class="badge badge-culture">Kulturë</span>
+                    <h4><a href="#">Filmi i Shkurtër "Ditët e Fundit" Shpallet Fitues në Festivalin Ballkanik</a></h4>
+                    <time>10 Nëntor 2024</time>
+                  </div>
+                </article>
+
+              </div>
+            </section>
+
+            <section class="cat-section compact-cat" id="shkence">
+              <div class="section-head">
+                <h2 class="section-title">
+                  <span class="accent-pill" style="background:var(--science-color)">🔬</span>
+                  Shkencë
+                </h2>
+                <a href="#" class="view-all-link">Shiko →</a>
+              </div>
+              <div class="list-cards">
+
+                <article class="list-card reveal">
+                  <a href="#" class="list-img-wrap">
+                    <img src="https://loremflickr.com/130/85/chemistry,laboratory,flaskchemistry,laboratory,flask?lock=50" alt="Kimia laborator" loading="lazy" />
+                  </a>
+                  <div class="list-body">
+                    <span class="badge badge-science">Shkencë</span>
+                    <h4><a href="article.html?slug=olimpiada-kimise">Olimpiada e Kimisë: Nxënësi ynë Merr Medaljen e Artë Kombëtare</a></h4>
+                    <time>15 Nëntor 2024</time>
+                  </div>
+                </article>
+
+                <article class="list-card reveal">
+                  <a href="#" class="list-img-wrap">
+                    <img src="https://loremflickr.com/130/85/biology,microscope,research?lock=51" alt="Biologji eksperiment" loading="lazy" />
+                  </a>
+                  <div class="list-body">
+                    <span class="badge badge-science">Shkencë</span>
+                    <h4><a href="#">Eksperimenti i Biologjisë që Mori Vëmendjen e Universitetit të Tiranës</a></h4>
+                    <time>13 Nëntor 2024</time>
+                  </div>
+                </article>
+
+                <article class="list-card reveal">
+                  <a href="#" class="list-img-wrap">
+                    <img src="https://loremflickr.com/130/85/solar,energy,renewable?lock=52" alt="Energji diellore" loading="lazy" />
+                  </a>
+                  <div class="list-body">
+                    <span class="badge badge-science">Shkencë</span>
+                    <h4><a href="#">Projekti i Fizikës: Panelet Diellore për Furnizimin e Shkollës Sonë</a></h4>
+                    <time>11 Nëntor 2024</time>
+                  </div>
+                </article>
+
+                <article class="list-card reveal">
+                  <a href="#" class="list-img-wrap">
+                    <img src="https://loremflickr.com/130/85/mathematics,numbers,chalkboard?lock=53" alt="Matematikë konkurs" loading="lazy" />
+                  </a>
+                  <div class="list-body">
+                    <span class="badge badge-science">Shkencë</span>
+                    <h4><a href="#">Ekipi i Matematikës Kualifikohet për Garat Europiane në Vjenë</a></h4>
+                    <time>9 Nëntor 2024</time>
+                  </div>
+                </article>
+
+              </div>
+            </section>
+
+          </div><!-- /.dual-sections -->
+
+        </main><!-- /.main-content -->
+
+        <!-- ======== SIDEBAR ======== -->
+        <aside class="sidebar" aria-label="Shiriti anësor">
+
+          <!-- Popular posts -->
+          <div class="widget">
+            <h3 class="widget-title">🔥 Më të Lexuarat</h3>
+            <ol class="popular-list" role="list">
+              <li class="popular-item">
+                <span class="pop-rank">01</span>
+                <div class="pop-body">
+                  <h4><a href="article.html?slug=interviste-drejtori">Intervistë me Drejtorin: Vizioni për Shkollën e Ardhmes</a></h4>
+                  <div class="article-meta">
+                    <time>20 Nëntor 2024</time>
+                    <span class="views">👁 2.4K</span>
+                  </div>
+                </div>
+              </li>
+              <li class="popular-item">
+                <span class="pop-rank">02</span>
+                <div class="pop-body">
+                  <h4><a href="article.html?slug=keshilla-provimet">10 Këshilla për të Kaluar Provimet Maturës me Sukses</a></h4>
+                  <div class="article-meta">
+                    <time>18 Nëntor 2024</time>
+                    <span class="views">👁 1.8K</span>
+                  </div>
+                </div>
+              </li>
+              <li class="popular-item">
+                <span class="pop-rank">03</span>
+                <div class="pop-body">
+                  <h4><a href="article.html?slug=historia-shkolles">Historia e Shkollës Sonë: 75 Vjet Arsim dhe Tradita të Pasura</a></h4>
+                  <div class="article-meta">
+                    <time>15 Nëntor 2024</time>
+                    <span class="views">👁 1.5K</span>
+                  </div>
+                </div>
+              </li>
+              <li class="popular-item">
+                <span class="pop-rank">04</span>
+                <div class="pop-body">
+                  <h4><a href="#">Nxënësit e Shkollës Tanë Fitojnë Bursa Studimi në Europë</a></h4>
+                  <div class="article-meta">
+                    <time>13 Nëntor 2024</time>
+                    <span class="views">👁 1.2K</span>
+                  </div>
+                </div>
+              </li>
+              <li class="popular-item">
+                <span class="pop-rank">05</span>
+                <div class="pop-body">
+                  <h4><a href="#">Si Mund të Ndihmojmë Mjedisin Tonë nga Klasa jonë</a></h4>
+                  <div class="article-meta">
+                    <time>11 Nëntor 2024</time>
+                    <span class="views">👁 987</span>
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </div>
+
+          <!-- Mini newsletter -->
+          <div class="widget widget-accent" id="newsletter">
+            <div class="widget-nl-icon" aria-hidden="true">📰</div>
+            <h3 class="widget-title">Abonohu</h3>
+            <p class="widget-text">Merr lajmet e reja direkt në email çdo javë.</p>
+            <form class="mini-nl-form" id="miniNlForm">
+              <input type="email" placeholder="email@shembull.com" aria-label="Email adresa" required />
+              <button type="submit">Abonohu</button>
+            </form>
+          </div>
+
+          <!-- Tags cloud -->
+          <div class="widget">
+            <h3 class="widget-title">🏷️ Etiketat</h3>
+            <div class="tags-cloud">
+              <a href="#" class="tag">Teknologji</a>
+              <a href="#" class="tag">Sport</a>
+              <a href="#" class="tag">Kulturë</a>
+              <a href="#" class="tag">Shkencë</a>
+              <a href="#" class="tag">Letërsi</a>
+              <a href="#" class="tag">Histori</a>
+              <a href="#" class="tag">Ekologji</a>
+              <a href="#" class="tag">Muzikë</a>
+              <a href="#" class="tag">Arte</a>
+              <a href="#" class="tag">Matematikë</a>
+              <a href="#" class="tag">Fizikë</a>
+              <a href="#" class="tag">Biologji</a>
+              <a href="#" class="tag">Futboll</a>
+              <a href="#" class="tag">Basketboll</a>
+              <a href="#" class="tag">Olimpiada</a>
+              <a href="#" class="tag">Robotikë</a>
+            </div>
+          </div>
+
+          <!-- Social follow -->
+          <div class="widget">
+            <h3 class="widget-title">📱 Ndiqni Gazetën</h3>
+            <div class="social-follow">
+              <a href="#" class="sf-item sf-fb">
+                <span class="sf-icon">f</span>
+                <div class="sf-info">
+                  <span class="sf-name">Facebook</span>
+                  <span class="sf-count">3.2K ndjekës</span>
+                </div>
+                <span class="sf-arrow">→</span>
+              </a>
+              <a href="#" class="sf-item sf-ig">
+                <span class="sf-icon">📷</span>
+                <div class="sf-info">
+                  <span class="sf-name">Instagram</span>
+                  <span class="sf-count">1.8K ndjekës</span>
+                </div>
+                <span class="sf-arrow">→</span>
+              </a>
+              <a href="#" class="sf-item sf-yt">
+                <span class="sf-icon">▶</span>
+                <div class="sf-info">
+                  <span class="sf-name">YouTube</span>
+                  <span class="sf-count">856 abonentë</span>
+                </div>
+                <span class="sf-arrow">→</span>
+              </a>
+            </div>
+          </div>
+
+        </aside>
+
+      </div><!-- /.content-sidebar-grid -->
+    </div><!-- /.container -->
+  </div><!-- /.page-body -->
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer" id="kontakt">
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+
+          <!-- About -->
+          <div class="footer-col footer-about-col">
+            <a href="#" class="nav-logo footer-logo-link">
+              <span class="logo-primary">Gazeta e shkolles</span>
+            </a>
+            <p>Gazeta Shkollore e "Vasil Shanto" është zëri i nxënësve tanë. Raportojmë me pasion, shkruajmë me integritet dhe informojmë komunitetin çdo javë.</p>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook"  class="footer-sl">f</a>
+              <a href="#" aria-label="Instagram" class="footer-sl">📷</a>
+              <a href="#" aria-label="YouTube"   class="footer-sl">▶</a>
+              <a href="#" aria-label="TikTok"    class="footer-sl">♪</a>
+            </div>
+          </div>
+
+          <!-- Categories -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Kategoritë</h4>
+            <ul class="footer-links">
+              <li><a href="#teknologji">💻 Teknologji</a></li>
+              <li><a href="#sport">⚽ Sport</a></li>
+              <li><a href="#kulture">🎭 Kulturë</a></li>
+              <li><a href="#shkence">🔬 Shkencë</a></li>
+              <li><a href="#">📚 Letërsi</a></li>
+              <li><a href="#">🌍 Histori</a></li>
+            </ul>
+          </div>
+
+          <!-- Quick links -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Lidhje të Shpejta</h4>
+            <ul class="footer-links">
+              <li><a href="#hero">🏠 Kreu</a></li>
+              <li><a href="#">👥 Rreth Nesh</a></li>
+              <li><a href="#">✍️ Shkruaj për Ne</a></li>
+              <li><a href="#newsletter">📬 Newsletter</a></li>
+              <li><a href="#">🔒 Privatësia</a></li>
+              <li><a href="#">📜 Kushtet e Përdorimit</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Kontakti</h4>
+            <ul class="contact-list">
+              <li><span class="ci">📍</span> Rruga "Vasil Shanto" Nr. 5, Tiranë</li>
+              <li><span class="ci">📞</span> +355 4 234 5678</li>
+              <li><span class="ci">📧</span> gazeta@vasil-shanto.edu.al</li>
+              <li><span class="ci">🕐</span> E Hënë – E Premte: 8:00 – 16:00</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2024 Gazeta Shkollore "Vasil Shanto". Të gjitha të drejtat e rezervuara.</p>
+        <p class="footer-credits">Zhvilluar me ❤️ nga Klubi i Informatikës</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll-to-top button -->
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Kthehu lart">↑</button>
+
+  <script src="articles-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

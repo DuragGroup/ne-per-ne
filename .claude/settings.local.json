@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Recurse \"C:\\\\Users\\\\klear\\\\Documents\\\\Gazeta\")",
+      "Bash(Select-Object FullName, Length)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(xargs wc -l)",
+      "Bash(grep -c 'id=\"__TRACKED_VAR__\"' C:/Users/klear/Documents/Gazeta/index.html)"
+    ]
+  }
+}
