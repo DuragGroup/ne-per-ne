@@ -111,6 +111,7 @@ const $$ = (selector, ctx = document) => [...ctx.querySelectorAll(selector)];
   const input    = $('#searchInput');
 
   function open() {
+    document.getElementById('siteHeader')?.classList.remove('hide');
     bar?.classList.add('open');
     bar?.setAttribute('aria-hidden', 'false');
     toggle?.setAttribute('aria-expanded', 'true');
@@ -524,30 +525,76 @@ const $$ = (selector, ctx = document) => [...ctx.querySelectorAll(selector)];
 })();
 
 /* ——————————————————————————————————————
-   19. SEARCH — basic filter on page (demo)
+   19. SEARCH — live article search from window.ARTICLES
 —————————————————————————————————————— */
 (function searchFilter() {
-  const input = $('#searchInput');
-  if (!input) return;
+  const input      = $('#searchInput');
+  const resultsEl  = $('#searchResults');
+  const searchBar  = $('#searchBar');
+  if (!input || !resultsEl) return;
 
   let debounceTimer;
+
+  function escape(str) {
+    return str.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function highlight(text, query) {
+    const safe  = escape(text);
+    const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    return safe.replace(regex, '<mark>$1</mark>');
+  }
+
+  function showResults(articles, rawQuery) {
+    if (!articles.length) {
+      resultsEl.innerHTML = `<p class="sr-empty">Nuk u gjet asnjë artikull për "<strong>${escape(rawQuery)}</strong>".</p>`;
+    } else {
+      resultsEl.innerHTML = articles.map(a => `
+        <a href="article.html?slug=${a.slug}" class="sr-item" role="option">
+          <span class="badge ${a.badgeClass}">${escape(a.categoryLabel)}</span>
+          <span class="sr-info">
+            <span class="sr-title">${highlight(a.title, rawQuery)}</span>
+            <span class="sr-meta">${escape(a.author)} · ${escape(a.dateFormatted)}</span>
+          </span>
+        </a>`).join('');
+    }
+    resultsEl.classList.add('show');
+    searchBar?.classList.add('has-results');
+  }
+
+  function clearResults() {
+    resultsEl.innerHTML = '';
+    resultsEl.classList.remove('show');
+    searchBar?.classList.remove('has-results');
+  }
 
   input.addEventListener('input', () => {
     clearTimeout(debounceTimer);
     debounceTimer = setTimeout(() => {
-      const query = input.value.trim().toLowerCase();
-      if (!query) {
-        // Reset visibility
-        $$('.news-card, .t-card, .list-card').forEach(c => {
-          c.style.display = '';
-        });
-        return;
-      }
-      $$('.news-card, .t-card, .list-card').forEach(card => {
-        const text = card.textContent.toLowerCase();
-        card.style.display = text.includes(query) ? '' : 'none';
-      });
-    }, 300);
+      const raw   = input.value.trim();
+      const query = raw.toLowerCase();
+      if (query.length < 2) { clearResults(); return; }
+
+      const articles = Array.isArray(window.ARTICLES) ? window.ARTICLES : [];
+      const matches  = articles.filter(a => {
+        const hay = [a.title, a.excerpt, a.author, a.categoryLabel, ...(a.tags || [])].join(' ').toLowerCase();
+        return hay.includes(query);
+      }).slice(0, 7);
+
+      showResults(matches, raw);
+    }, 250);
+  });
+
+  // Close results when clicking outside the search bar
+  document.addEventListener('click', e => {
+    if (!e.target.closest('#searchBar')) clearResults();
+  });
+
+  // Also clear when the search bar is closed via the close button
+  $('#searchClose')?.addEventListener('click', clearResults);
+
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Escape') clearResults();
   });
 })();
 
