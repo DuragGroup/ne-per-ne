@@ -779,6 +779,64 @@ function showToast(message, duration = 4000) {
 })();
 
 /* ——————————————————————————————————————
-   21. INIT — log version
+   21. BLUR-BACKDROP IMAGE BACKGROUNDS
+   Reads each image wrapper's <img> src and sets the same
+   URL as the wrapper's background-image so the CSS ::before
+   pseudo-element can render it blurred behind the real image.
 —————————————————————————————————————— */
-console.log('%cGazeta Shkollore 🗞️  v1.0', 'color:#c0392b;font-weight:bold;font-size:14px;');
+(function blurBackgrounds() {
+  const WRAPS = [
+    '.hero-img-wrap',
+    '.side-img-wrap',
+    '.card-img-wrap',
+    '.list-img-wrap',
+    '.article-hero-img-wrap',
+    '.prose-img-wrap',
+    '.related-img-wrap',
+  ];
+
+  function applyToWrap(wrap) {
+    const img = wrap.querySelector('img');
+    if (!img) return;
+
+    function set() {
+      const src = img.currentSrc || img.src;
+      if (!src || src.startsWith('data:') || src.startsWith('about:')) return;
+      /* Only update if changed — avoids unnecessary repaints */
+      const encoded = 'url("' + src.replace(/"/g, '%22') + '")';
+      if (wrap.style.backgroundImage === encoded) return;
+      wrap.style.backgroundImage = encoded;
+    }
+
+    if (img.complete && img.naturalWidth > 0) {
+      set();
+    } else {
+      img.addEventListener('load',  set, { once: true });
+      img.addEventListener('error', () => {
+        wrap.style.backgroundImage = '';
+      }, { once: true });
+    }
+  }
+
+  function scan() {
+    WRAPS.forEach(sel =>
+      document.querySelectorAll(sel).forEach(applyToWrap)
+    );
+  }
+
+  /* Initial scan — runs after categorySections() has populated the DOM */
+  scan();
+
+  /* Catch dynamically added content (article.js, "Shiko të gjitha") */
+  let debounce;
+  const mo = new MutationObserver(() => {
+    clearTimeout(debounce);
+    debounce = setTimeout(scan, 120);
+  });
+  mo.observe(document.body, { childList: true, subtree: true });
+})();
+
+/* ——————————————————————————————————————
+   22. INIT — log version
+—————————————————————————————————————— */
+console.log('%cGazeta Shkollore v1.0', 'color:#c0392b;font-weight:bold;font-size:14px;');

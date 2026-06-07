@@ -2382,6 +2382,76 @@ img { max-width: 100%; height: auto; display: block; }
   .related-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
+/* ═══════════════════════════════════════════════════════════
+   BLUR-BACKDROP IMAGE DISPLAY
+   Full image visible (contain) + same image blurred as fill.
+   Consistent across all pages, all breakpoints.
+═══════════════════════════════════════════════════════════ */
+
+/* 1 — Wrappers: must be position:relative so ::before stays inside */
+.hero-img-wrap,
+.side-img-wrap,
+.card-img-wrap,
+.list-img-wrap,
+.article-hero-img-wrap,
+.prose-img-wrap,
+.related-img-wrap {
+  position: relative;          /* contains the absolute ::before */
+  overflow: hidden;            /* clips blur at wrapper edge */
+  background-color: #0d0d0d;  /* fallback until image loads */
+  background-size: cover;
+  background-position: center;
+}
+
+/* 2 — Blurred backdrop via ::before */
+.hero-img-wrap::before,
+.side-img-wrap::before,
+.card-img-wrap::before,
+.list-img-wrap::before,
+.article-hero-img-wrap::before,
+.prose-img-wrap::before,
+.related-img-wrap::before {
+  content: '';
+  position: absolute;
+  inset: -20%;             /* extend past edges — blur hides the seam */
+  background-image: inherit;
+  background-size:  cover;
+  background-position: center;
+  filter:  blur(24px);
+  transform: scale(1.1);
+  opacity: 0.9;
+  z-index: 0;
+}
+
+/* 3 — Actual image: full, no crop, centred on top */
+.hero-img,
+.side-img-wrap > img,
+.card-img,
+.list-img-wrap > img,
+.article-hero-img,
+.prose-img-wrap > img,
+.related-img {
+  position: relative;
+  z-index:  1;
+  object-fit:      contain !important;
+  object-position: center  !important;
+  filter: none !important;   /* lift any tint / saturate applied in cover mode */
+}
+
+/* 4 — Overlays and badges must sit above image (z-index > 1) */
+.hero-img-overlay,
+.article-hero-overlay,
+.card-badge-overlay { z-index: 2; }
+
+/* 5 — Hover: subtle brightness lift instead of zoom-crop */
+.hero-main:hover .hero-img,
+.news-card:hover  .card-img,
+.related-card:hover .related-img {
+  transform: none !important;
+  filter: brightness(1.06) !important;
+  transition: filter 0.35s ease;
+}
+
 /* ── Print: hide article sidebar + related ── */
 @media print {
   .article-sidebar,

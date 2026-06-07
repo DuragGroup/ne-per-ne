@@ -132,7 +132,6 @@
             <div class="prose-img-wrap">
               <img src="${esc(block.src)}" alt="${esc(block.alt)}" loading="lazy" />
             </div>
-            ${block.caption ? `<figcaption>${esc(block.caption)}</figcaption>` : ''}
           </figure>`;
 
       case 'quote':
