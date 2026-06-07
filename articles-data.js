@@ -570,7 +570,7 @@ window.ARTICLES = [
   },
   {
     "slug": "dhjetor-fundviti",
-    "title": "Dhjetori i Festave: Magjia e Fundvitit dhe Lamtumirë me Dashurie",
+    "title": "Dhjetori i Festave: Magjia e Fundvitit dhe Lamtumirë me Dashuri",
     "excerpt": "Fundviti solli gëzim, dekorime dhe solidaritet — por edhe momentet më prekëse: pensionimi i dy mësuese të dashura, Nexhi Doko dhe Valdete Mullai.",
     "category": "kulture",
     "categoryLabel": "Kulturë",
@@ -629,7 +629,7 @@ window.ARTICLES = [
         "type": "image",
         "src": "assets/gazeta/image26.png",
         "alt": "Ceremonia e pensionimit të mësueses Nexhi Doko me stafin e shkollës",
-        "caption": "Me mirënjohje dhe dashurie — lamtumirë zysh Nexhi Doko!"
+        "caption": "Me mirënjohje dhe dashuri — lamtumirë zysh Nexhi Doko!"
       },
       {
         "type": "heading",
