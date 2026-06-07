@@ -148,6 +148,19 @@
             ${block.items.map(i => `<li>${esc(i)}</li>`).join('')}
           </ul>`;
 
+      case 'qa':
+        return `
+          <div class="prose-qa">
+            <div class="prose-qa-q">
+              <div class="prose-qa-q-label">${esc(block.questioner)}</div>
+              <p>${esc(block.question)}</p>
+            </div>
+            <div class="prose-qa-a">
+              <div class="prose-qa-a-label">↳ ${esc(block.answerer)}</div>
+              <div class="prose-qa-a-body">${(block.answerBlocks || []).map(renderBlock).join('')}</div>
+            </div>
+          </div>`;
+
       default:
         return '';
     }
@@ -155,7 +168,7 @@
 
   function renderTags(a) {
     tagsEl.innerHTML = `
-      <span class="tags-label">Etiketa:</span>
+      <span class="tags-label">Temat:</span>
       <div class="tags-cloud">
         ${a.tags.map(t => `<span class="tag">${esc(t)}</span>`).join('')}
       </div>
@@ -215,34 +228,52 @@
   }
 
   function wireShareButtons(a) {
-    const url   = encodeURIComponent(location.href);
-    const title = encodeURIComponent(a.title);
+    const pageUrl = location.href;
+    const encoded = encodeURIComponent(pageUrl);
+    const title   = encodeURIComponent(a.title);
 
-    function openShare(link) {
-      window.open(link, '_blank', 'width=600,height=400,noopener');
+    const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encoded}`;
+    const twUrl = `https://twitter.com/intent/tweet?text=${title}&url=${encoded}`;
+
+    function openShare(url) {
+      window.open(url, '_blank', 'width=620,height=450');
     }
 
-    const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
-    const twUrl = `https://twitter.com/intent/tweet?text=${title}&url=${url}`;
+    function showCopied() {
+      const btn = document.getElementById('shareCopy');
+      const asb = document.getElementById('asbCopy');
+      if (btn) { btn.textContent = '✓ Kopjuar!'; setTimeout(() => btn.textContent = 'Kopjo', 2000); }
+      if (asb) { asb.textContent = '✓'; setTimeout(() => asb.textContent = '⎘', 2000); }
+    }
+
+    function copyLink() {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(pageUrl).then(showCopied).catch(fallbackCopy);
+      } else {
+        fallbackCopy();
+      }
+    }
+
+    function fallbackCopy() {
+      const el = document.createElement('textarea');
+      el.value = pageUrl;
+      el.style.cssText = 'position:fixed;top:-9999px;left:-9999px;opacity:0';
+      document.body.appendChild(el);
+      el.focus();
+      el.select();
+      try { document.execCommand('copy'); showCopied(); } catch (e) {}
+      document.body.removeChild(el);
+    }
 
     /* footer share row */
     document.getElementById('shareFacebook')?.addEventListener('click', () => openShare(fbUrl));
     document.getElementById('shareTwitter')?.addEventListener('click',  () => openShare(twUrl));
-    document.getElementById('shareCopy')?.addEventListener('click',     () => copyLink());
+    document.getElementById('shareCopy')?.addEventListener('click',     copyLink);
 
     /* sidebar share */
     document.getElementById('asbFacebook')?.addEventListener('click', () => openShare(fbUrl));
     document.getElementById('asbTwitter')?.addEventListener('click',  () => openShare(twUrl));
-    document.getElementById('asbCopy')?.addEventListener('click',     () => copyLink());
-
-    function copyLink() {
-      navigator.clipboard.writeText(location.href).then(() => {
-        const btn = document.getElementById('shareCopy');
-        const asb = document.getElementById('asbCopy');
-        if (btn) { btn.textContent = '✅ Kopjuar!'; setTimeout(() => btn.textContent = '🔗 Kopjo', 2000); }
-        if (asb) { asb.textContent = '✅'; setTimeout(() => asb.textContent = '🔗', 2000); }
-      });
-    }
+    document.getElementById('asbCopy')?.addEventListener('click',     copyLink);
   }
 
   function initDynamicImages() {

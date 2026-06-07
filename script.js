@@ -111,13 +111,16 @@ const $$ = (selector, ctx = document) => [...ctx.querySelectorAll(selector)];
   const input    = $('#searchInput');
 
   function open() {
-    document.getElementById('siteHeader')?.classList.remove('hide');
+    const header = document.getElementById('siteHeader');
+    header?.classList.remove('hide');
+    header?.classList.add('search-active');
     bar?.classList.add('open');
     bar?.setAttribute('aria-hidden', 'false');
     toggle?.setAttribute('aria-expanded', 'true');
     setTimeout(() => input?.focus(), 50);
   }
   function close() {
+    document.getElementById('siteHeader')?.classList.remove('search-active');
     bar?.classList.remove('open');
     bar?.setAttribute('aria-hidden', 'true');
     toggle?.setAttribute('aria-expanded', 'false');
@@ -145,6 +148,11 @@ const $$ = (selector, ctx = document) => [...ctx.querySelectorAll(selector)];
 
   function update() {
     const y = window.scrollY;
+    if (header.classList.contains('search-active')) {
+      lastY = y;
+      ticking = false;
+      return;
+    }
     if (y > 100) {
       if (y > lastY) {
         header.classList.add('hide');
@@ -432,7 +440,25 @@ const $$ = (selector, ctx = document) => [...ctx.querySelectorAll(selector)];
 })();
 
 /* ——————————————————————————————————————
-   13. MINI NEWSLETTER (sidebar)
+   13. TOAST NOTIFICATION
+—————————————————————————————————————— */
+function showToast(message, duration = 4000) {
+  let toast = document.getElementById('siteToast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'siteToast';
+    toast.setAttribute('role', 'status');
+    toast.setAttribute('aria-live', 'polite');
+    document.body.appendChild(toast);
+  }
+  toast.textContent = message;
+  toast.classList.add('toast-show');
+  clearTimeout(toast._timer);
+  toast._timer = setTimeout(() => toast.classList.remove('toast-show'), duration);
+}
+
+/* ——————————————————————————————————————
+   14. MINI NEWSLETTER (sidebar)
 —————————————————————————————————————— */
 (function miniNewsletter() {
   const form = $('#miniNlForm');
@@ -441,18 +467,24 @@ const $$ = (selector, ctx = document) => [...ctx.querySelectorAll(selector)];
   form.addEventListener('submit', e => {
     e.preventDefault();
     const input = form.querySelector('input[type="email"]');
-    if (!input?.value.trim()) return;
+    const val   = input?.value.trim() ?? '';
+
+    if (!val || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val)) {
+      showToast('Ju lutemi shkruani një adresë emaili të vlefshme.');
+      input?.focus();
+      return;
+    }
+
+    showToast('Faleminderit! Do t\'ju njoftojmë per lajmet e reja.');
+
+    if (input) { input.value = ''; input.blur(); }
 
     const btn = form.querySelector('button');
     if (btn) {
-      btn.textContent = '✅ Faleminderit!';
-      btn.style.background = '#27ae60';
-      btn.style.color = '#fff';
+      const orig = btn.textContent;
+      btn.textContent = 'U regjistruat!';
       btn.disabled = true;
-    }
-    if (input) {
-      input.disabled = true;
-      input.value = '';
+      setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 3500);
     }
   });
 })();
@@ -460,6 +492,125 @@ const $$ = (selector, ctx = document) => [...ctx.querySelectorAll(selector)];
 /* ——————————————————————————————————————
    14. SMOOTH SCROLL for anchor links
 —————————————————————————————————————— */
+/* ——————————————————————————————————————
+   15. CATEGORY SECTION DYNAMIC RENDERING
+   Populates .cat-articles containers from window.ARTICLES.
+   Hero slugs are excluded so every article appears once.
+   "Shiko të gjitha" reveals the hero articles for that category.
+—————————————————————————————————————— */
+(function categorySections() {
+  if (!window.ARTICLES) return;
+
+  /* Articles shown in the hero — excluded from sections initially */
+  const HERO_SLUGS = new Set([
+    'mire-se-vini',
+    'busulla-jone',
+    'tetori-letersise-teatri',
+    'pavaresia-28-nentor'
+  ]);
+
+  function h(str) {
+    return String(str ?? '')
+      .replace(/&/g,  '&amp;')
+      .replace(/</g,  '&lt;')
+      .replace(/>/g,  '&gt;')
+      .replace(/"/g,  '&quot;');
+  }
+
+  function newsCard(a, featured, extra) {
+    return `
+      <article class="news-card${featured ? ' card-featured' : ''}${extra ? ' cat-extra-item' : ''} reveal">
+        <a href="article.html?slug=${h(a.slug)}" class="card-img-wrap">
+          <img src="${h(a.image)}" alt="${h(a.imageAlt)}" loading="lazy" class="card-img" />
+          <span class="card-badge-overlay">
+            <span class="badge ${h(a.badgeClass)}">${h(a.categoryLabel)}</span>
+          </span>
+        </a>
+        <div class="card-body">
+          <h3 class="card-title">
+            <a href="article.html?slug=${h(a.slug)}">${h(a.title)}</a>
+          </h3>
+          <p class="card-excerpt">${h(a.excerpt)}</p>
+          <div class="card-foot">
+            <div class="article-meta">
+              <img src="${h(a.authorAvatar)}" alt="" class="avatar" aria-hidden="true" />
+              <span class="author-name">${h(a.author)}</span>
+              <span class="meta-sep">·</span>
+              <time datetime="${h(a.date)}">${h(a.dateFormatted)}</time>
+            </div>
+            <span class="read-time">${h(a.readTime)}</span>
+          </div>
+        </div>
+      </article>`;
+  }
+
+  function listCard(a, extra) {
+    return `
+      <article class="list-card${extra ? ' cat-extra-item' : ''} reveal">
+        <a href="article.html?slug=${h(a.slug)}" class="list-img-wrap">
+          <img src="${h(a.image)}" alt="${h(a.imageAlt)}" loading="lazy" />
+        </a>
+        <div class="list-body">
+          <span class="badge ${h(a.badgeClass)}">${h(a.categoryLabel)}</span>
+          <h4><a href="article.html?slug=${h(a.slug)}">${h(a.title)}</a></h4>
+          <time datetime="${h(a.date)}">${h(a.dateFormatted)}</time>
+        </div>
+      </article>`;
+  }
+
+  function renderList(articles, layout, featuredFirst, extra) {
+    return articles.map((a, i) =>
+      layout === 'list'
+        ? listCard(a, extra)
+        : newsCard(a, featuredFirst && i === 0, extra)
+    ).join('');
+  }
+
+  function triggerReveal(container) {
+    $$('.reveal:not(.visible)', container).forEach((el, i) => {
+      setTimeout(() => el.classList.add('visible'), i * 80);
+    });
+  }
+
+  $$('.cat-section[data-category]').forEach(section => {
+    const cat        = section.dataset.category;
+    const layout     = section.dataset.layout || 'grid';
+    const container  = section.querySelector('.cat-articles');
+    const btn        = section.querySelector('.view-all-btn');
+    if (!container) return;
+
+    const all       = window.ARTICLES.filter(a => a.category === cat);
+    const visible   = all.filter(a => !HERO_SLUGS.has(a.slug));
+    const heroExtra = all.filter(a =>  HERO_SLUGS.has(a.slug));
+
+    if (!all.length) { section.hidden = true; return; }
+
+    const isFeatured = layout === 'featured';
+    container.innerHTML = renderList(visible, layout, isFeatured);
+    setTimeout(() => triggerReveal(container), 60);
+
+    /* ── "Shiko të gjitha / Shiko më pak" toggle ── */
+    if (!btn) return;
+    if (!heroExtra.length) {
+      btn.hidden = true;
+    } else {
+      let expanded = false;
+      btn.addEventListener('click', () => {
+        if (!expanded) {
+          container.insertAdjacentHTML('beforeend',
+            renderList(heroExtra, layout, false, true));
+          setTimeout(() => triggerReveal(container), 30);
+          btn.textContent = 'Shiko më pak ↑';
+          expanded = true;
+        } else {
+          $$('.cat-extra-item', container).forEach(el => el.remove());
+          btn.textContent = 'Shiko të gjitha ↓';
+          expanded = false;
+        }
+      });
+    }
+  });
+})();
 (function smoothScroll() {
   document.addEventListener('click', e => {
     const link = e.target.closest('a[href^="#"]');

@@ -1,899 +1,1572 @@
 {
   "articles": [
     {
-      "slug": "teknologjia-ai-ne-arsim",
-      "title": "Revolucioni i Inteligjencës Artificiale dhe Ndikimi i Tij në Sistemin Arsimor Shqiptar",
-      "excerpt": "Inteligjenca artificiale po transformon mënyrën e mësimit dhe mësimdhënies. Ekspertët debatojnë nëse kjo teknologji do të jetë aleat apo kundërshtar i brezit të ri shqiptar.",
-      "category": "teknologji",
-      "categoryLabel": "Teknologji",
-      "badgeClass": "badge-tech",
-      "author": "Andi Krasniqi",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Andi+Krasniqi&background=c0392b&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-20",
-      "dateFormatted": "20 Nëntor 2024",
-      "readTime": "5 min lexim",
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&h=680&q=95",
-      "imageAlt": "Robot humanoid i inteligjencës artificiale — simbol i revolucionit teknologjik në arsim",
+      "slug": "mire-se-vini",
+      "title": "Mirë se Vini në Blogun Tonë \"Ne për Ne\"!",
+      "excerpt": "Gazeta jonë shkollore është hapësira ku nxënësit, mësuesit dhe prindërit ndajnë së bashku përvoja, aktivitete, suksese dhe kujtime nga jeta e përditshme në shkollën tonë.",
+      "category": "shkolla",
+      "categoryLabel": "Shkolla",
+      "badgeClass": "badge-science",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2026-05-01",
+      "dateFormatted": "1 Maj 2026",
+      "readTime": "2 min lexim",
+      "image": "assets/gazeta/image1.jpg",
+      "imageAlt": "Nxënësit e shkollës Vasil Shanto gjatë Fluturimit të Parë",
       "tags": [
-        "Teknologji",
-        "AI",
-        "Arsim",
-        "Inovacion",
-        "E Ardhmja"
+        "Shkolla",
+        "Blog",
+        "Komunitet",
+        "Vasil Shanto",
+        "Hyrje"
       ],
       "content": [
         {
-          "type": "paragraph",
-          "text": "Inteligjenca artificiale ka hyrë me hapa gjigantësh në çdo sektor të shoqërisë moderne, dhe arsimi nuk bën përjashtim. Shkollat shqiptare janë duke u përballur me një valë të re teknologjike që premton të rindërtojë tërësisht modelin tradicional të mësimdhënies."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Çfarë Ndryshon Konkretisht?"
+          "type": "image",
+          "src": "assets/gazeta/image1.jpg",
+          "alt": "Nxënësit e shkollës gjatë eventit Fluturimi Ynë i Parë",
+          "caption": "Fluturimi Ynë i Parë — Shkolla 9-vjeçare Vasil Shanto, Tiranë."
         },
         {
           "type": "paragraph",
-          "text": "Platformat e bazuara në AI mund të analizojnë stilin e të nxënit të çdo nxënësi dhe të përshtasin materialin mësimor sipas nevojave individuale. Kjo do të thotë se dy nxënës në të njëjtën klasë mund të marrin dy leksione krejtësisht të ndryshme për të njëjtën temë — secili i optimizuar për atë."
+          "text": "Mirë se vini në blogun tonë shkollor “Ne për Ne”, një hapësirë e veçantë ku nxënësit, mësuesit dhe prindërit ndajnë së bashku përvoja, aktivitete, suksese dhe kujtime nga jeta e përditshme në shkollën tonë."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ky blog është krijuar për të promovuar talentin, kreativitetin, bashkëpunimin dhe vlerat qytetare të komunitetit të shkollës sonë. Nëpërmjet tij do të publikohen aktivitete kulturore, sportive, artistike, projekte edukative, intervista, ese, foto dhe arritje të nxënësve tanë."
+        },
+        {
+          "type": "paragraph",
+          "text": "“Ne për Ne” është zëri i komunitetit tonë shkollor , një vend ku secili mund të shprehë idetë, emocionet dhe sukseset e veta, duke ndërtuar ura komunikimi dhe frymë pozitive mes nesh."
         },
         {
           "type": "quote",
-          "text": "AI nuk do të zëvendësojë mësuesin. Do të zëvendësojë mësuesin që nuk përdor AI.",
-          "cite": "Prof. Dr. Fatmir Memaj, Universiteti i Tiranës"
+          "text": "Së bashku mësojmë, krijojmë dhe ndajmë më të mirën e shkollës sonë!",
+          "cite": "Redaksia \"Ne për Ne\""
+        }
+      ],
+      "related": [
+        "busulla-jone",
+        "vasil-shanto-komemorim",
+        "lufta-kunder-bullizmit"
+      ]
+    },
+    {
+      "slug": "busulla-jone",
+      "title": "Busulla Jonë: Intervistë Ekskluzive me Drejtoreshën Mimoza Hamza",
+      "excerpt": "Kryeredaktorja Raiza Bizhga ulet në bisedë me drejtoreshën e shkollës për vizionin, sfidat e teknologjisë dhe surprizën e vitit: programin e ri Afterschool 2026-2027.",
+      "category": "shkolla",
+      "categoryLabel": "Shkolla",
+      "badgeClass": "badge-science",
+      "author": "Raiza Bizhga",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Raiza+Bizhga&background=c0392b&color=fff&size=40&bold=true&rounded=true",
+      "date": "2026-05-01",
+      "dateFormatted": "1 Maj 2026",
+      "readTime": "8 min lexim",
+      "image": "assets/gazeta/image2.png",
+      "imageAlt": "Drejtoresha Mimoza Hamza, Shkolla 9-vjeçare Vasil Shanto, Tiranë",
+      "tags": [
+        "Intervistë",
+        "Drejtoresha",
+        "Afterschool",
+        "Vizion",
+        "Shkolla"
+      ],
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/gazeta/image2.png",
+          "alt": "Drejtoresha Mimoza Hamza, Shkolla Vasil Shanto",
+          "caption": "Znj. Mimoza Hamza — Drejtoresha e Shkollës 9-vjeçare \"Vasil Shanto\", Tiranë."
         },
         {
-          "type": "heading",
-          "level": 2,
-          "text": "Sfidat dhe Rreziqet"
+          "type": "paragraph",
+          "text": "Një bisedë e hapur e Kryeredaktores Raiza Bizhga me Drejtoreshën e Shkollës 9-vjeçare “Vasil Shanto”, Tiranë, znj. Mimoza Hamza."
         },
         {
-          "type": "list",
-          "items": [
-            "Varësia nga teknologjia mund të dobësojë të menduarit kritik",
-            "Pabarazia digjitale midis zonave rurale dhe urbane",
-            "Rreziku i kopjimit dhe mashtrimit akademik",
-            "Mungesa e trajnimit të mësuesve për teknologjitë e reja",
-            "Çështjet e privatësisë së të dhënave të nxënësve"
+          "type": "paragraph",
+          "text": "Për numrin e parë të blogut tonë elektronik “Ne për Ne”, Kryeredaktorja e gazetës, Raiza Bizhga, u ul në një bisedë krejtësisht ndryshe me Drejtoreshën e shkollës 9-vjeçare “Vasil Shanto”. Nuk folëm për nota, as për statistika të thata, por për vizionin, orientimin dhe vlerat që e bëjnë shkollën tonë një komunitet të vërtetë e të ngrohtë. Ajo na tregoi se si të gjithë ne, si një skuadër e madhe, mund të gjejmë drejtimin e duhur në sfidat e kohës sonë."
+        },
+        {
+          "type": "qa",
+          "questioner": "Raiza Bizhga",
+          "question": "Nëse shkolla jonë do të ishte një anije në det të hapur, cili ka qenë momenti më sfidues i këtij viti ku ju është dashur të orientoni \"busullën\" tuaj?",
+          "answerer": "Drejtoresha Mimoza Hamza",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Sfidat më të mëdha sot nuk janë muret fizike të shkollës, por muret që nxënësit ndërtojnë shpesh online. Kur shoh se si teknologjia ndonjëherë i largon nga komunikimi i ngrohtë dhe njerëzor, detyra ime dhe e të gjithë stafit është të kthejmë busullën nga vlerat tona thelbësore: mirëkuptimi, bashkëpunimi, leximi dhe respekti reciprok. Shkolla duhet të jetë vendi ku rritemi shpirtërisht, jo thjesht ku marrim nota."
+            }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Pavarësisht sfidave, shumica e ekspertëve pajtohen se integrimi i AI në arsim është i pashmangshëm. Çelësi qëndron në mënyrën se si e menaxhojmë këtë tranzicion — me kujdes, me etikë dhe me fokus të vazhdueshëm te zhvillimi human."
+          "type": "qa",
+          "questioner": "Raiza Bizhga",
+          "question": "Në këtë numër, ne kemi hapur një rubrikë të re me titull: \"Të njohim rolet ndihmëse për ne në shkollë\". Përtej mësuesve të lëndëve, në shkollën \"Vasil Shanto\" ka një rrjet të tërë profesional dhe mbështetës që shpesh punon pas skenës. Sa e rëndësishme është puna e tyre për mbarëvajtjen e përditshme dhe si koordinohen të gjitha këto role?",
+          "answerer": "Drejtoresha Mimoza Hamza",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Shkolla është një organizëm i madh dhe i ndërlikuar. Unë mund të jem në zyrë, duke punuar, por pa këtë rrjet njerëzish të përkushtuar, anija jonë nuk do të lundronte dot përpara. Secili prej tyre ka një rol unik që plotëson tjetrin:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Koordinatori i Cilësisë (MKSC): Është funksioni strategjik i arritjes së standardeve tona në shkollë. Ky rol siguron që çdo projekt, çdo orë mësimore dhe çdo proces vlerësimi të jetë në nivelet më të larta të cilësisë, duke monitoruar dhe udhëzuar vazhdimisht punën tonë akademike.",
+                "Koordinatori i Orjentimit të Karrierës( KOK): Është ura që lidh bankat e shkollës me të ardhmen tuaj. Ky rol ju orienton që tani, ju ndihmon të zbuloni talentet tuaja unike dhe të ndërtoni një vizion të qartë se kush dëshironi të bëheni nesër.",
+                "Stafi Psiko-Social: Janë ata që kujdesen në çdo moment për shëndetin tuaj emocional. Në një moshë me plot ndryshime e sfida si adoleshenca, prania e tyre është një pikë referimi e sigurt për menaxhimin e stresit, të konflikteve apo të ngarkesës emocionale.",
+                "Oficeret e Sigurisë: Janë garantet e qetësisë dhe rendit në shkollë. Prania e tyre e përhershme na jep të gjithëve sigurinë se shkolla jonë është një mjedis i mbrojtur, ku prindërit tuaj i nisin fëmijët me zemër të qetë.",
+                "Mjekja dhe Dentistja e shkollës: Kujdesen për shëndetit tuaj fizik. Që nga kontrollet rutinë e deri te ndihma e parë e shpejtë, ato përkujdesen që ju të jeni gjithmonë mirë me shëndet për të ndjekur mësimin pa ndërprerje."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Dhe në fund, por kurrsesi më pak të rëndësishëm, janë ata që unë i quaj me plot gojë: heronjtë e heshtur të përditshmërisë sonë, flota e sanitareve  që kujdesen pa rreshtur që çdo klasë e korridor të shkëlqejë nga pastërtia, dhe rojet tona që vigjilojnë në çdo kohë në hyrje të shkollës që nga ardhja e deri te përcjellja e nxënësve. Shkolla nuk është thjesht një ndërtesë , por është ky komunitet i madh njerëzish që punon si një skuadër e vetme për ju."
+            }
+          ]
+        },
+        {
+          "type": "qa",
+          "questioner": "Raiza Bizhga",
+          "question": "Viti i ri shkollor 2026-2027 po afron dhe kemi dëgjuar se shkolla jonë do të jetë e përfshirë në programin “Afterschool”. Nisur nga eksperienca pozitive e shkollave që e pilotuan këtë projekt së fundmi, si është konceptuar ky program në shkollën tonë dhe çfarë do të thotë konkretisht për ne nxënësit dhe për prindërit tanë?",
+          "answerer": "Drejtoresha Mimoza Hamza",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Jam shumë e gëzuar që e shtroni këtë pyetje, sepse programi “Afterschool” është vërtet kryerisia e vitit të ardhshëm shkollor 2026-2027. Është një projekt që po e përgatitim me shumë kujdes e pasion së bashku me bordin e shkollës dhe ZVAP.."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nga të dhënat e shkollave që e pilotuan me sukses këtë nismë, kemi parë se ky program zgjidh një nga shqetësimet më të mëdha të familjeve të sotme në Tiranë. Ai është konceptuar mbi tre shtylla kryesore:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "1. Konsolidimi Akademik: Pas përfundimit të orarit zyrtar të mësimit, nxënësit do të kenë mundësi të qëndrojnë në shkollë për të përgatitur detyrat e shtëpisë për ditën pasardhëse. Ata do të kenë mbikëqyrjen dhe asistencën e mësuesve për çdo paqartësi. Kjo do të thotë se nxënësi kthehet në shtëpi pa ankthin e detyrave të pabëra dhe prindërit çlirohen nga kostot financiare për kurse private.",
+                "2. Zbulimi i Talenteve (Art & Zeje, Sport dhe Kodim): \"Afterschool\" nuk do të jetë thjesht një zgjatim i orëve të zakonshme të mësimit. Pasi të kryhen detyrat, programi përfshin module shumë praktike dhe argëtuese. Nxënësit mund të angazhohen në kurset e kodimit e teknologjisë, në trupat e teatrit e pikturës, apo në kampionatet sportive që organizohen brenda mjediseve tona.",
+                "3. Mjedis i Sigurt Social: Në vend që nxënësit të kalojnë orë të tëra të vetmuar përpara ekraneve të telefonave apo nëpër rrugë derisa prindërit të kthehen nga puna, shkolla u ofron një mjedis të sigurt, të kontrolluar nga oficerët tanë të sigurisë dhe të mbështetur nga stafi ynë psiko-social. Kështu ata mësojnë të bisedojnë, të bashkëpunojnë dhe të rriten si një skuadër e shëndetshme."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Ky program dëshmon se shkolla 9-vjeçare “Vasil Shanto” po kthehet në një qendër komunitare multifunksionale e moderne. Kur prindërit t'ju marrin nga shkolla  pasdite, ju do të keni përfunduar çdo detyrë, do të keni bërë aktivitet fizik e kulturor dhe do të jeni plotësisht gati për të shijuar kohën e lirë e të qetë me familjen tuaj."
+            }
+          ]
+        },
+        {
+          "type": "qa",
+          "questioner": "Raiza Bizhga",
+          "question": "Faleminderit për punën dhe përkushtimin tuaj , si dhe për kohën që na vutë në dispozicion.",
+          "answerer": "Drejtoresha Mimoza Hamza",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Faleminderit gjthashtu!"
+            }
+          ]
         }
       ],
       "related": [
-        "chatgpt-mik-apo-armik",
-        "robotika-ne-shkolle",
-        "siguria-kibernetike"
+        "mire-se-vini",
+        "vasil-shanto-komemorim",
+        "vizite-ne-parlament"
       ]
     },
     {
-      "slug": "volejbolli-finale",
-      "title": "Ekipi i Volejbollit Kualifikohet në Finalen Kombëtare pas Ndeshjes Dramatike",
-      "excerpt": "Pas një ndeshje tejet dramatike me pesë sete, ekipi ynë i volejbollit siguroi vendin në finalen kombëtare me rezultatin 3-2.",
-      "category": "sport",
-      "categoryLabel": "Sport",
-      "badgeClass": "badge-sport",
-      "author": "Mimoza Leka",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Mimoza+Leka&background=c0392b&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-19",
-      "dateFormatted": "19 Nëntor 2024",
-      "readTime": "3 min lexim",
-      "image": "https://loremflickr.com/380/220/volleyball,sport,athlete?lock=2",
-      "imageAlt": "Ekipi i volejbollit në veprim gjatë sfidës kombëtare",
-      "tags": [
-        "Sport",
-        "Volejboll",
-        "Kampionat",
-        "Finale"
-      ],
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "Salla ishte e mbushur me plot 800 tifozë kur ekipi ynë hyri në fushë. Atmosfera ishte elektrizuese — secili nxënës, mësues dhe prind i pranishëm e dinte rëndësinë e kësaj ndeshje."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Rruga drejt Finales"
-        },
-        {
-          "type": "paragraph",
-          "text": "Kampionati rajonal kishte filluar dy muaj më parë. Ekipi ynë kishte kaluar 8 ndeshje, duke humbur vetëm njërën. Ndeshja gjysmëfinale kundër shkollës së Vlorës ishte sfida e vërtetë: pesë sete lujtën, me çdo pikë të luftuar ashpër."
-        },
-        {
-          "type": "quote",
-          "text": "Kur morëm setin e fundit 15-13, s'kishte sy të thatë në sallë. Kjo është puna e disa muajve të stërvitjes intensive.",
-          "cite": "Rrok Mirashi, trajner i ekipit"
-        },
-        {
-          "type": "paragraph",
-          "text": "Finalja kombëtare do të zhvillohet në Tiranë më 5 Dhjetor. Shkolla jonë do të përfaqësohet me krenari nga 12 lojtarë dhe stafi i plotë teknik."
-        }
-      ],
-      "related": [
-        "finalja-futboll-3-1",
-        "basketboll-rikthimi",
-        "enis-bajrami-rekord"
-      ]
-    },
-    {
-      "slug": "festivali-letersise",
-      "title": "Festivali i Letërsisë Shqipe: Nxënësit Shprehin Talentin e Rrallë",
-      "excerpt": "Festivali vjetor i letërsisë u bë skenë për talente të jashtëzakonshme. Dhjetë nxënës fituan çmime kombëtare me veprat e tyre origjinale.",
+      "slug": "dita-europiane-gjuheve",
+      "title": "Dita Europiane e Gjuhëve: Shumëgjuhësia si Pasuri e Brezit Tonë",
+      "excerpt": "Me 26 Shtator, shkolla jonë hapi vitin shkollor me performanca të jashtëzakonshme në anglisht, frëngjisht, italisht, gjermanisht, spanjisht dhe turqisht.",
       "category": "kulture",
       "categoryLabel": "Kulturë",
       "badgeClass": "badge-culture",
-      "author": "Fjolla Gashi",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Fjolla+Gashi&background=27ae60&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-18",
-      "dateFormatted": "18 Nëntor 2024",
-      "readTime": "4 min lexim",
-      "image": "https://loremflickr.com/380/220/book,reading,library?lock=3",
-      "imageAlt": "Nxënës lexojnë dhe prezantojnë vepra letrare në festival",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2025-09-26",
+      "dateFormatted": "26 Shtator 2025",
+      "readTime": "3 min lexim",
+      "image": "assets/gazeta/image3.png",
+      "imageAlt": "Nxënës prezantojnë aktivitetin e Ditës Europiane të Gjuhëve me flamuj europianë",
       "tags": [
         "Kulturë",
-        "Letërsi",
-        "Festival",
-        "Arte",
-        "Talent"
+        "Gjuhë",
+        "Europë",
+        "Diversitet",
+        "Shtator"
       ],
       "content": [
         {
           "type": "paragraph",
-          "text": "Festivali i Letërsisë Shqipe ishte ngjarja kulturore kryesore e këtij semestri. Mbi 150 nxënës nga gjithë vendi u mblodhën për të ndarë krijimtarinë e tyre — poezi, tregime të shkurtra, ese dhe drama."
+          "text": "📝 Shënim i Redaksisë \"Ne për Ne” Sporti dhe aktivitetet në shkollën tonë nuk janë thjesht garë apo festë e radhës. Ato janë miqësi, bashkëpunim, përkushtim dhe gëzim. Çdo aktivitet ka historinë e vet dhe çdo nxënës është pjesë e këtij suksesi të madh të përbashkët. Ju ftojmë të gjithëve të ndani përshtypjet, emocionet dhe komentet tuaja në hapësirën më poshtë!"
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Çmimet dhe Fitoret"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Çmimi i Parë – Poezi: Elira Hoxha me veprën 'Malet e Heshtjes'",
-            "Çmimi i Dytë – Tregim: Besnik Shehu me 'Letra e Fundit'",
-            "Çmimi i Tretë – Ese: Artan Brahimi me 'Identiteti Shqiptar sot'",
-            "Çmim Special – Drama: Klasa XII me shfaqjen 'Skënderbeu dhe Koha'"
-          ]
-        },
-        {
-          "type": "quote",
-          "text": "Letërsia është zëri i brendshëm i një populli. Sot, ky zë pasqyrohet në çdo fjalë që kanë shkruar nxënësit tanë.",
-          "cite": "Mësuese Vjollca Prendi, Drejtoresha e Departamentit të Letërsisë"
+          "text": "26 Shtator – Dita Europiane e Gjuhëve"
         },
         {
           "type": "paragraph",
-          "text": "Festivali do të vijojë me botimin e antologjisë vjetore — një koleksion me 50 veprat më të mira. Libri do të jetë i disponueshëm në bibliotekën shkollore nga fillimi i vitit të ri."
-        }
-      ],
-      "related": [
-        "grupi-teatral-cmimi",
-        "interviste-drejtori",
-        "historia-shkolles"
-      ]
-    },
-    {
-      "slug": "chatgpt-mik-apo-armik",
-      "title": "ChatGPT dhe Arsimi: Mik apo Armik i Nxënësve Shqiptarë?",
-      "excerpt": "Mjeti i inteligjencës artificiale ChatGPT po bëhet gjithnjë e më i pranishëm në jetën e studentëve. A po dëmton aftësinë e të menduarit kritik apo po ofron një krah të ri të dijes?",
-      "category": "teknologji",
-      "categoryLabel": "Teknologji",
-      "badgeClass": "badge-tech",
-      "author": "Elira Hoxha",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Elira+Hoxha&background=8e44ad&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-18",
-      "dateFormatted": "18 Nëntor 2024",
-      "readTime": "7 min lexim",
-      "image": "https://loremflickr.com/700/420/artificial-intelligence,robot,technology?lock=20",
-      "imageAlt": "Studente duke përdorur ChatGPT dhe inteligjencë artificiale",
-      "tags": [
-        "Teknologji",
-        "AI",
-        "ChatGPT",
-        "Arsim",
-        "Etikë"
-      ],
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "Nga dhjetori 2022, ChatGPT ka ndryshuar rrënjësisht mënyrën si nxënësit i qasen detyrave shtëpie, eseve dhe kërkimeve shkencore. Sot, rreth 67% e nxënësve të shkollave të mesme shqiptare e përdorin atë rregullisht — sipas një ankete të kryer nga gazeta jonë."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Anketimet Tregojnë Pamjen e Vërtetë"
-        },
-        {
-          "type": "paragraph",
-          "text": "Nga 200 nxënës të anketuar, 45% pranuan se e kanë përdorur ChatGPT-në për të shkruar ese që i kanë dorëzuar si të tyret. Vetëm 23% e kishin informuar mësuesin. Nga ana tjetër, 78% thanë se e përdorin për të kuptuar koncepte të vështira — një përdorim krejtësisht legjitim."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Argumentet Pro dhe Kundër"
-        },
-        {
-          "type": "list",
-          "items": [
-            "PRO: Shpjegon koncepte komplekse me gjuhë të thjeshtë",
-            "PRO: Ndihmon nxënësit me disleksi dhe vështirësi mësuese",
-            "PRO: Ofron shpjegime multigjuhësore pa kosto",
-            "KUNDËR: Rreziku i plagjiaturës dhe mashtrimit akademik",
-            "KUNDËR: Dobëson motivimin për të menduar vetë",
-            "KUNDËR: Informacioni mund të jetë i pasaktë ose i vjetëruar"
-          ]
-        },
-        {
-          "type": "quote",
-          "text": "ChatGPT është si kalkulatori — nuk e ndaluam llogaritjen me dorë, por mësuam kur dhe si ta përdorim. E njëjta logjikë duhet aplikuar me AI.",
-          "cite": "Mësues Agim Vrapi, Informatikë"
-        },
-        {
-          "type": "paragraph",
-          "text": "Shkolla jonë po harton një politikë të re të 'Përdorimit Etik të AI' që do të hyjë në fuqi nga janari 2025. Politika do të lejojë përdorimin transparent të ChatGPT-së si mjet ndihmës, por do të kërkojë deklarim të qartë nga nxënësi."
-        }
-      ],
-      "related": [
-        "teknologjia-ai-ne-arsim",
-        "robotika-ne-shkolle",
-        "siguria-kibernetike"
-      ]
-    },
-    {
-      "slug": "robotika-ne-shkolle",
-      "title": "Robotikat në Shkollën Tonë: Projekti që Befasoi Ekspertët",
-      "excerpt": "Klubi i robotikës ndërtoi robotin e parë të programuar plotësisht nga nxënës 14-vjeçarë. Projekti synon garën europiane në pranverë.",
-      "category": "teknologji",
-      "categoryLabel": "Teknologji",
-      "badgeClass": "badge-tech",
-      "author": "Besnik Shehu",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Besnik+Shehu&background=2980b9&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-16",
-      "dateFormatted": "16 Nëntor 2024",
-      "readTime": "4 min lexim",
-      "image": "https://loremflickr.com/420/260/robot,robotics,engineering?lock=21",
-      "imageAlt": "Robot i ndërtuar nga nxënës të shkollës sonë",
-      "tags": [
-        "Teknologji",
-        "Robotikë",
-        "Inovacion",
-        "STEM"
-      ],
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "Klubi i Robotikës u themelua vetëm 18 muaj më parë me 8 anëtarë dhe dy kompjuterë të vjetër. Sot ka 42 anëtarë, laborator të plotë dhe — gjëja më e rëndësishme — robotin e parë krejtësisht funksional të ndërtuar dhe programuar nga nxënësit tanë."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Si u Ndërtua Roboti 'ARKA-1'"
-        },
-        {
-          "type": "paragraph",
-          "text": "ARKA-1 — emri i zgjedhur nga anëtarët e klubit — është një robot me 6 dof (degrees of freedom) i aftë të kryejë detyra të thjeshta manipulimi. Programimi u bë me Python dhe Arduino. Ndërtimi zgjati 7 muaj dhe kaloi nëpër 14 prototipa të ndryshëm."
+          "text": "Viti shkollor nisi me një atmosferë të jashtëzakonshme festive dhe multikulturore. Nxënësit tanë performuan me mjaft talent në një aktivitet të pasur kulturor, duke sjellë poezi, këngë dhe dialogje dinamike në gjuhë të ndryshme si: anglisht, frëngjisht, italisht, gjermanisht, spanjisht dhe turqisht. Ky aktivitet promovoi pasurinë gjuhësore, komunikimin dhe respektin e thellë për kulturat e ndryshme europiane."
         },
         {
           "type": "image",
-          "src": "https://loremflickr.com/800/450/robot,robotics,engineering?lock=21",
-          "alt": "Roboti ARKA-1 gjatë demostratës publike",
-          "caption": "ARKA-1 gjatë demonstratës për prindërit dhe mësuesit e shkollës."
+          "src": "assets/gazeta/image3.png",
+          "alt": "Nxënës gjatë aktivitetit të Ditës Europiane të Gjuhëve me flamuj europianë",
+          "caption": "Nxënësit e shkollës sonë gjatë aktivitetit multikulturor — 26 Shtator 2025."
         },
         {
           "type": "quote",
-          "text": "Kur ARKA-1 mori lapsën dhe nënshkroi emrin tim, qava. Nuk gënjej.",
-          "cite": "Era Nushi, 14 vjeç, kryeprogramuese e projektit"
-        },
-        {
-          "type": "paragraph",
-          "text": "Gara Europiane e Robotikës për Nënmoshat zhvillohet në Varshavë, Mars 2025. Ekipi ynë është kualifikuar dhe po stërvitet çdo ditë pas orëve mësimore."
+          "text": "Çdo gjuhë që mësojmë është një dritare e re drejt botës. Sot kemi hapur dhjetëra dritare njëherësh.",
+          "cite": "Mësuese e gjuhëve të huaja, Shkolla Vasil Shanto"
         }
       ],
       "related": [
-        "chatgpt-mik-apo-armik",
-        "aplikacioni-studismart",
-        "teknologjia-ai-ne-arsim"
+        "tetori-letersise-teatri",
+        "dita-gjuhes-amtare",
+        "pavaresia-28-nentor"
       ]
     },
     {
-      "slug": "aplikacioni-studismart",
-      "title": "Aplikacioni i Nxënësve Tanë Fiton Çmimin Kombëtar të Inovacionit",
-      "excerpt": "Tre nxënës të klasës XII zhvilluan aplikacionin 'StudiSmart' dhe triumfuan në Festivalin Kombëtar të Teknologjisë.",
-      "category": "teknologji",
-      "categoryLabel": "Teknologji",
-      "badgeClass": "badge-tech",
-      "author": "Fjolla Gashi",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Fjolla+Gashi&background=27ae60&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-14",
-      "dateFormatted": "14 Nëntor 2024",
-      "readTime": "5 min lexim",
-      "image": "https://loremflickr.com/420/260/smartphone,coding,application?lock=22",
-      "imageAlt": "Nxënës prezantojnë aplikacionin StudiSmart",
-      "tags": [
-        "Teknologji",
-        "Aplikacion",
-        "Inovacion",
-        "Çmim"
-      ],
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "StudiSmart lindi nga një problem real: si të organizosh oraret, detyrat dhe shënimet kur ke 8 lëndë, aktivitete jashtëshkollore dhe jetë sociale? Tre nxënës të Klasës XII vendosën ta zgjidhin vetë."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Çfarë Bën StudiSmart?"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Organizon orarin mësimor me rikujtues inteligjentë",
-            "Ndan detyrat sipas prioritetit dhe afatit",
-            "Integrohet me kalendarin e shkollës automatikisht",
-            "Ofron statistika personale të progresit mësimor",
-            "Punon offline dhe sinkronizohet kur ka internet"
-          ]
-        },
-        {
-          "type": "quote",
-          "text": "Na duheshin 8 muaj zhvillim, 3 ridesignime totale dhe të gjithë pushimet verore. Por kur juria e tha 'Çmimi i Parë', gjithçka ia vlente.",
-          "cite": "Klea Dervishi, 18 vjeç, CEO e projektit"
-        },
-        {
-          "type": "paragraph",
-          "text": "Aplikacioni është disponueshëm falas në App Store dhe Google Play. Brenda 2 javësh nga lansimi, StudiSmart ka mbi 1,200 shkarkime — kryesisht nga nxënës shqiptarë të shkollave të mesme."
-        }
-      ],
-      "related": [
-        "robotika-ne-shkolle",
-        "chatgpt-mik-apo-armik",
-        "teknologjia-ai-ne-arsim"
-      ]
-    },
-    {
-      "slug": "siguria-kibernetike",
-      "title": "Si të Mbrohesh nga Rreziqet Online: Udhëzues Praktik për Adoleshentët",
-      "excerpt": "Ekspertët e sigurisë kibernetike vizituan shkollën dhe ndanë këshilla jetike për mbrojtjen e të dhënave personale.",
-      "category": "teknologji",
-      "categoryLabel": "Teknologji",
-      "badgeClass": "badge-tech",
-      "author": "Artan Brahimi",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Artan+Brahimi&background=d35400&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-12",
-      "dateFormatted": "12 Nëntor 2024",
+      "slug": "tetori-letersise-teatri",
+      "title": "Tetori i Letërsisë dhe Artit: Teatër, Ese, Muaji Rozë dhe Halloween",
+      "excerpt": "Klasa 7-D fiton konkursin teatror me «Epoka para gjyqit», Ester Dani rrëmben çmimin e esesë dhe shkolla ndërgjegjësohet për shëndetin.",
+      "category": "kulture",
+      "categoryLabel": "Kulturë",
+      "badgeClass": "badge-culture",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2025-10-31",
+      "dateFormatted": "31 Tetor 2025",
       "readTime": "6 min lexim",
-      "image": "https://loremflickr.com/420/260/cybersecurity,hacking,computer?lock=23",
-      "imageAlt": "Ekspert i sigurisë kibernetike gjatë leksionit në shkollë",
+      "image": "assets/gazeta/image4.png",
+      "imageAlt": "Nxënës duke performuar në konkursin teatror të tetorit",
       "tags": [
-        "Teknologji",
-        "Siguri",
-        "Online",
-        "Privatësi",
-        "Këshilla"
+        "Kulturë",
+        "Teatër",
+        "Letërsi",
+        "Arte",
+        "Tetor"
       ],
       "content": [
         {
+          "type": "heading",
+          "level": 2,
+          "text": "Tetori — Muaji i Letërsisë, Arteve dhe Shëndetit"
+        },
+        {
           "type": "paragraph",
-          "text": "Sulmet kibernetike ndaj adoleshentëve janë rritur me 340% gjatë 3 viteve të fundit sipas raportit të Interpolit. Ekspertë nga Agjencia Shqiptare e Sigurisë Kibernetike vizituan shkollën tonë për të edukuar nxënësit."
+          "text": "Tetori u shënua si muaji i shprehjes artistike dhe ndërgjegjësimit qytetar:"
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "10 Rregullat e Arta të Sigurisë Online"
+          "text": "Konkursi Teatror — Tre Faza, Tre Fitues"
+        },
+        {
+          "type": "paragraph",
+          "text": "Konkursi Teatror (i zhvilluar në tre faza): Skena jonë mirëpriti kryeveprat e letërsisë botërore dhe kombëtare, ku trupat teatrore të klasave treguan një nivel të lartë interpretimi:"
         },
         {
           "type": "list",
           "items": [
-            "Mos ndaj kurrë fjalëkalimin tënd, as me miqtë",
-            "Përdor autentifikimin me dy faktorë (2FA) kudo",
-            "Kontrollo dyfish çdo link para se të klikosh",
-            "Mos posto vendndodhjen në kohë reale",
-            "Profilet private = mbrojtje e shtuar",
-            "Raportoje çdo kontakt i dyshimtë te prindërit",
-            "Fjalëkalimet duhen të jenë mbi 12 karaktere",
-            "Software antivirus i azhornuar është i detyrueshëm",
-            "Wi-Fi publike — mos bëj transaksione bankare",
-            "Rezervo të dhënat rregullisht në cloud të sigurt"
+            "Vendi I: Klasa 7-D me dramatizimin e pjesës “Epoka para gjyqit”.",
+            "Vendi II: Klasat e 9-ta me tragjedinë e pavdekshme “Romeo dhe Zhuljeta”.",
+            "Vendi III: Klasat e 8-ta me komedinë e njohur “Karnavalet e Korçës”."
           ]
         },
         {
-          "type": "quote",
-          "text": "Shumica e sulmeve ndaj adoleshentëve mund të parandalohen me 5 minuta edukate digjitale. Problemi është se shumë prindër dinë më pak se fëmijët e tyre.",
-          "cite": "Eldon Çami, Ekspert i Sigurisë Kibernetike, AKSHI"
+          "type": "image",
+          "src": "assets/gazeta/image4.png",
+          "alt": "Performancë teatrore nga nxënësit e shkollës",
+          "caption": "Skena jonë gjatë Konkursit Teatror — Tetor 2025."
         },
         {
-          "type": "paragraph",
-          "text": "Shkolla po organizon seminar të hapur për prindërit me temë 'Si ta mbroni fëmijën tuaj online' — data: 10 Dhjetor 2024, ora 18:00 në sallën e madhe."
-        }
-      ],
-      "related": [
-        "chatgpt-mik-apo-armik",
-        "teknologjia-ai-ne-arsim",
-        "aplikacioni-studismart"
-      ]
-    },
-    {
-      "slug": "finalja-futboll-3-1",
-      "title": "Finalja e Madhe: Shkolla Jonë Triumfon 3–1 në Kampionatin Rajonal!",
-      "excerpt": "Në një ndeshje dramatike që mbajti frymën të gjithëve, ekipi ynë rrëmbeu titullin rajonal pas 5 vitesh.",
-      "category": "sport",
-      "categoryLabel": "Sport",
-      "badgeClass": "badge-sport",
-      "author": "Mimoza Leka",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Mimoza+Leka&background=c0392b&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-17",
-      "dateFormatted": "17 Nëntor 2024",
-      "readTime": "3 min lexim",
-      "image": "https://loremflickr.com/420/260/football,soccer,goal?lock=30",
-      "imageAlt": "Ekipi i futbollit duke festuar fitoren 3-1",
-      "tags": [
-        "Sport",
-        "Futboll",
-        "Kampionat",
-        "Fitore"
-      ],
-      "content": [
+          "type": "image",
+          "src": "assets/gazeta/image5.png",
+          "alt": "Nxënëse me çertifikatë fituese të muajit të Letërsisë",
+          "caption": "Nxënëse me çmimin e saj."
+        },
         {
-          "type": "paragraph",
-          "text": "Minute 87. Rezultati 2-1. Tenzioni maksimal. Dhe pastaj — goditja e mrekullueshme e Klajd Çobës nga 25 metra që bëri 3-1 dhe vendosi titullin. Tribunat shpërthyen."
+          "type": "image",
+          "src": "assets/gazeta/image6.png",
+          "alt": "Trupë teatrore e shkollës gjatë provës",
+          "caption": "Provë teatrale — bashkëpunim dhe pasion."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Rruga drejt Trofeut"
+          "text": "Çmimi i Esesë Më të Mirë"
         },
         {
           "type": "paragraph",
-          "text": "Kampionati rajonal i shkollave filloi në shtator me 16 ekipe. Ekipi ynë fitoi të gjitha 7 ndeshjet e fazës së grupeve, pastaj eliminoi Tiranën 2-0 dhe Durrësin 1-0 në gjysmëfinale. Finalja kundër shkollës 'Petro Nini Luarasi' ishte fituese 3-1."
+          "text": "Fituesja e Esesë më të mirë shkoi për nxënësen e klasës 8-A, Ester Dani , e cila mes shumë e shumë konkurentëve të fortë, arriti të rrëmbejë çmimin e muajit të Letërsisë dhe Artit me punimin e saj me temë: “Teknologjia dhe integrimi i saj në jetën tonë”."
         },
         {
           "type": "image",
-          "src": "https://loremflickr.com/800/450/football,soccer,goal?lock=30",
-          "alt": "Ekipi festë me trofeun kampionat",
-          "caption": "Kapiteni Klajd Çoba ngre lart trofeun e kampionatit rajonal, i rrethuar nga kolegët dhe tifozët."
+          "src": "assets/gazeta/image7.png",
+          "alt": "Posteri Dita e Letërsisë Shqiptare",
+          "caption": "Posteri i Ditës së Letërsisë Shqiptare — punë e nxënësve."
         },
         {
-          "type": "quote",
-          "text": "Ky titull nuk i takon vetëm lojtarëve. I takon gjithë shkollës — mësuesve, nxënësve, prindërve që erdhën çdo të diel.",
-          "cite": "Klajd Çoba, Kapiten i ekipit"
+          "type": "image",
+          "src": "assets/gazeta/image8.png",
+          "alt": "Nxënëse prezanton punimin e saj në hollin e shkollës",
+          "caption": "Prezantim në holl — muaji i Letërsisë."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image9.png",
+          "alt": "Posteri Tetori Muaji i Letërsisë me gjethe vjeshte",
+          "caption": "Tetori — Muaji i Letërsisë dhe Artit."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image10.png",
+          "alt": "Posteri Letërsia Shqiptare me portrete shkrimtarësh",
+          "caption": "Letërsia Shqiptare — pasuri e kombit tonë."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image11.png",
+          "alt": "Nxënës me çertifikatën e muajit letrar",
+          "caption": "Çertifikatë për arritjet letrare."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image12.png",
+          "alt": "Nxënëse me çmimin e saj letrare, poste artizanale në sfond",
+          "caption": "Çmimi letrar i muajit të Tetorit."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image13.png",
+          "alt": "Nxënëse me çertifikatë dhe ekspozitë 17 Shkurtit në sfond",
+          "caption": "Çertifikatë — muaji i Letërsisë dhe Artit."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Tetori Rozë — Ndërgjegjësim për Shëndetin"
         },
         {
           "type": "paragraph",
-          "text": "Kampionati kombëtar fillon 15 Janar 2025. Shkolla jonë do të përfaqësojë rajonin e Tiranës."
+          "text": "Tetori Rozë: Paralelisht, u zhvilluan takime dhe aktivitete ndërgjegjësuese për promovimin e kujdesit ndaj shëndetit."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image15.png",
+          "alt": "Aktivitet ndërgjegjësues Tetori Rozë — lufta kundër kancerit",
+          "caption": "Tetori Rozë — luftojmë bashkë!"
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image16.png",
+          "alt": "Nxënëse aktivizohet në kampanjën e Tetorit Rozë",
+          "caption": "Ndërgjegjësim për shëndetin — Tetor 2025."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Festa e Halloween-it — Kreativitet pa Limite"
+        },
+        {
+          "type": "paragraph",
+          "text": "Festa e Halloween-it (Kreativitet pa limite): Fundi i tetorit solli një atmosferë krejtësisht ndryshe, plot gjallëri dhe mister! Korridoret dhe klasat u dekoruan me kunguj, rrjeta merimangash dhe punime të punuara me dorë nga vetë nxënësit. Kulmi i aktivitetit ishte sfilata e kostumeve më origjinale, ku imagjinata e fëmijëve dhe prindërve të tyre na habiti të gjithëve. Një festë fantastike që solli shumë të qeshura, lojëra dhe mbi të gjitha, argëtim pa fund për të gjithë shkollën!"
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image17.png",
+          "alt": "Fëmijë me kostume Halloween plot kreativitet",
+          "caption": "Halloween — imagjinata pa kufi!"
         }
       ],
       "related": [
-        "volejbolli-finale",
-        "basketboll-rikthimi",
-        "enis-bajrami-rekord"
+        "dita-europiane-gjuheve",
+        "lufta-kunder-bullizmit",
+        "dita-gjuhes-amtare"
       ]
     },
     {
-      "slug": "basketboll-rikthimi",
-      "title": "Basketboll: Rikthimi Epik — nga -12 Pikë tek Fitorja Historike",
-      "excerpt": "Pas humbjes fillestare me 12 pikë, ekipi ynë bëri rikthimin e pabesueshëm dhe siguroi vendin e dytë kombëtar.",
+      "slug": "lufta-kunder-bullizmit",
+      "title": "Jo Bullizmit: Luis Seferaj Fiton me \"Guximi për të Mos Heshtur\"",
+      "excerpt": "Nëntor — Muaji Kundër Bullizmit. Nxënësi Luis Seferaj fiton çmimin e parë me ese të fuqishme, ndërsa Alesia Kalemi nga klasa 8-C thirrje: Ti nuk je vetëm!",
+      "category": "shkolla",
+      "categoryLabel": "Shkolla",
+      "badgeClass": "badge-science",
+      "author": "Alesia Kalemi",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Alesia+Kalemi&background=27ae60&color=fff&size=40&bold=true&rounded=true",
+      "date": "2025-11-01",
+      "dateFormatted": "1 Nëntor 2025",
+      "readTime": "4 min lexim",
+      "image": "assets/gazeta/image18.png",
+      "imageAlt": "Stop Bullying — Fushata Kombëtare Kundër Bullizmit Ndaj Fëmijëve",
+      "tags": [
+        "Shkolla",
+        "Anti-Bullizëm",
+        "Të Drejtat",
+        "Respekti",
+        "Nëntor"
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Fushata Kundër Bullizmit — Nëntor 2025"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fushata Anti-Bullizëm: Nxënësit u përfshinë në aktivitete sensibilizuese për Ditën Kundër Bullizmit, duke përcjellë mesazhe respekti, mirëkuptimi dhe bashkëjetese. Shkolla u mbush me postera dhe momente solidariteti ku të gjithë premtuan të thyejnë heshtjen."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Çmimi i Parë — Eseja Më e Mirë"
+        },
+        {
+          "type": "quote",
+          "text": "Guximi për të mos heshtur",
+          "cite": "Luis Seferaj, Klasa 9-B — Eseja fituese e muajit kundër bullizmit"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vendi I (Eseja më e mirë): Nxënësi Luis Seferaj (Klasa 9-B) preku zemrat e të gjithëve me punimin e tij mjaft të ndjeshëm: “Guximi për të mos heshtur”."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image18.png",
+          "alt": "Stop Bullying — Fushata Kombëtare Kundër Bullizmit",
+          "caption": "Fushata Kombëtare Kundër Bullizmit ndaj Fëmijëve."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "JO Bullizmit — Nga Alesia Kalemi, 8C"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nga: Alesia Kalemi, 8C"
+        },
+        {
+          "type": "paragraph",
+          "text": "A e dini se të fshehësh bullizmin nuk e zgjidh atë? Dokumenti i ri për shkollat tona thotë se erdhi koha të ndryshojmë!"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Çfarë Duhet të Bëjmë?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Çfarë do të bëjmë?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fol hapur: Mos e mbaj sekret! Raportimi i bullizmit është guxim, jo tregues dobësie.",
+            "Bëhu Shok: Qeveria e Nxënësve do të organizojë lojëra dhe aktivitete për të na mësuar si të jemi më të sjellshëm me njëri-tjetrin.",
+            "Kujdes në internet: Bullizmi në rrjete sociale (cyberbullying) lëndon po njëlloj.",
+            "Mëso me qejf: Gjatë verës do të kemi filma, ekspozita dhe teatro për të treguar fuqinë e miqësisë."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image19.png",
+          "alt": "Pasojat e Bullizmit Kibernetik — infografike",
+          "caption": "Pasojat e Bullizmit Kibernetik: psikologjike, fizike, mendore, emocionale dhe sociale."
+        },
+        {
+          "type": "quote",
+          "text": "Një shkollë e mirë nuk është ajo që s’ka probleme, por ajo që i zgjidh ato me drejtësi dhe dashuri. Ti nuk je vetëm!",
+          "cite": "Alesia Kalemi, Klasa 8C"
+        }
+      ],
+      "related": [
+        "busulla-jone",
+        "vasil-shanto-komemorim",
+        "pavaresia-28-nentor"
+      ]
+    },
+    {
+      "slug": "pavaresia-28-nentor",
+      "title": "Me Kuqezi në Zemër: Dita e të Drejtave të Fëmijëve dhe Festa e Pavarësisë",
+      "excerpt": "20 Nëntor — Dita Botërore e të Drejtave të Fëmijëve, pastaj 28-29 Nëntor — shkolla veshet kuqezi me këngë patriotike dhe kostume kombëtare.",
+      "category": "kulture",
+      "categoryLabel": "Kulturë",
+      "badgeClass": "badge-culture",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2025-11-28",
+      "dateFormatted": "28 Nëntor 2025",
+      "readTime": "4 min lexim",
+      "image": "assets/gazeta/pavaresia-kostume.jpeg",
+      "imageAlt": "Nxënës në kostume kombëtare shqiptare — Identiteti Kombëtar",
+      "tags": [
+        "Kulturë",
+        "Pavarësia",
+        "Atdheu",
+        "Kostumet Kombëtare",
+        "Nëntor"
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "20 Nëntor — Dita Botërore e të Drejtave të Fëmijëve"
+        },
+        {
+          "type": "paragraph",
+          "text": "20 Nëntor – Dita Botërore e të Drejtave të Fëmijëve: Me rastin e kësaj dite, nxënësit e shkollës sonë u bënë pjesë e aktiviteteve të pasura ndërgjegjësuese si dhe krijuese nëpër të gjitha klasat, kushtuar të drejtave tona. Përmes diskutimeve, posterave dhe mesazheve sensibilizuese, të gjithë reflektuan mbi rëndësinë e respektit, barazisë dhe mbrojtjes së çdo fëmije. Kjo ditë na kujtoi të gjithëve se çdo fëmijë ka të drejtën të dëgjohet, të mësojë, të ndihet i sigurt dhe të rritet i lumtur në një mjedis që e mbështet, i ofron mundësi,shanse të barabarta dhe e vlerëson."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image20.png",
+          "alt": "Ilustrim i gjithëpërfshirjes — të gjithë meritojmë mundësi të barabarta",
+          "caption": "Dita e të Drejtave të Fëmijëve — çdo fëmijë ka të drejtën të dëgjohet, të mësohet dhe të ndihet i sigurt."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "28-29 Nëntor — Dita e Pavarësisë dhe Çlirimit të Atdheut"
+        },
+        {
+          "type": "paragraph",
+          "text": "Në prag të 28-29 Nëntorit : Shkolla u vesh e gjitha kuqezi për të nderuar me krenari dhe respekt Ditën e Pavarësisë dhe Çlirimit të Atdheut. Aktivitet i larmishëm me këngë patriotiko-atdhetare të korit të shkollës nën dirigjimin e mësuesit të Muzikës, z. Ledion Qama."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image21.png",
+          "alt": "Nxënës duke kënduar me flamurin shqiptar gjatë ceremonisë së Pavarësisë",
+          "caption": "Kori i shkollës nën dirigjimin e mësuesit z. Ledion Qama — 28 Nëntor 2025."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image22.png",
+          "alt": "Vajza me flamurin kombëtar shqiptar në palestër",
+          "caption": "Me flamurin tonë — krenari dhe dashuri për atdheun."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image23.png",
+          "alt": "Nxënëse në kostume kombëtare shqiptare me flamurin kuq e zi",
+          "caption": "Kostume kombëtare — identiteti shqiptar i gjallë."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/pavaresia-kostume.jpeg",
+          "alt": "Grupi i nxënësve në kostume kombëtare shqiptare dhe kosovare",
+          "caption": "Identiteti Kombëtar — festat tona tregojnë bukurinë e kulturës shqiptare."
+        },
+        {
+          "type": "quote",
+          "text": "Çdo veshje, çdo këngë, çdo lëvizje e trupit flet për rrënjët tona. Festat tona tregojnë bukurinë e kulturës shqiptare.",
+          "cite": "Mësues i historisë, Shkolla Vasil Shanto"
+        }
+      ],
+      "related": [
+        "dita-europiane-gjuheve",
+        "lufta-kunder-bullizmit",
+        "dhjetor-fundviti"
+      ]
+    },
+    {
+      "slug": "dhjetor-fundviti",
+      "title": "Dhjetori i Festave: Magjia e Fundvitit dhe Lamtumirë me Dashurie",
+      "excerpt": "Fundviti solli gëzim, dekorime dhe solidaritet — por edhe momentet më prekëse: pensionimi i dy mësuese të dashura, Nexhi Doko dhe Valdete Mullai.",
+      "category": "kulture",
+      "categoryLabel": "Kulturë",
+      "badgeClass": "badge-culture",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2025-12-31",
+      "dateFormatted": "31 Dhjetor 2025",
+      "readTime": "4 min lexim",
+      "image": "assets/gazeta/image26.png",
+      "imageAlt": "Ceremonia e pensionimit të mësueses Nexhi Doko — stafi i shkollës",
+      "tags": [
+        "Kulturë",
+        "Dhjetor",
+        "Fundviti",
+        "Mësues",
+        "Pensionim"
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Magjia e Fundvitit — Dhjetor 2025"
+        },
+        {
+          "type": "paragraph",
+          "text": "Magjia e Fundvitit: Atmosfera festive e fundvitit pushtoi çdo cep të shkollës sonë, duke sjellë gëzim, dekorime plot dritë, solidaritet dhe shumë kreativitet midis nxënësve dhe mësuesve."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image24.png",
+          "alt": "Nxënës duke diskutuar gjatë aktivitetit të 8 Dhjetorit — Demokracia",
+          "caption": "8 Dhjetori — Dita e Lirisë dhe Demokracisë."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image25.png",
+          "alt": "Punime artizanale të nxënësve me temë festash fundviti",
+          "caption": "Kreativitet fundviti — punimet e nxënësve tanë."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Lamtumirë me Duartrokitje dhe Lot Gëzimi"
+        },
+        {
+          "type": "paragraph",
+          "text": "Një përcjellje mes  duartrokitjesh  mallëngjyese: Ky prag festash fundviti solli sërish te ne ceremonitë më prekëse dhe më me dinjitet, pensionimin e mësuesve tanë. Me zemrat plot mirënjohje, stafi dhe nxënësit u bënë bashkë për të përcjellë me nderime dy mësuese të dashura, dy figura të vërteta edukimi që i dhanë shpirtin shkollës sonë ndër vite:"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Zysh Nexhi Doko"
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image26.png",
+          "alt": "Ceremonia e pensionimit të mësueses Nexhi Doko me stafin e shkollës",
+          "caption": "Me mirënjohje dhe dashurie — lamtumirë zysh Nexhi Doko!"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Zysh Valdete Mullai"
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image27.png",
+          "alt": "Ceremonia e pensionimit të mësueses Valdete Mullai jashtë shkollës",
+          "caption": "Zysh Valdete Mullai — gjurma juaj do të mbetet gjithmonë e gjallë!"
+        },
+        {
+          "type": "quote",
+          "text": "• Urimi i Shkollës: Ju urojmë nga zemra një pensionim të mbarë, të gjatë, plot shëndet dhe paqe të patrazuar! Faleminderit që gdhendët me aq dashuri e durim dijen në mendjet e qindra brezave. Gjurma juaj do të mbetet përherë e gjallë jo vetëm në fotot e mureve të shkollës sonë, por me udhëtimin e dijes së brezave",
+          "cite": "Stafi dhe nxënësit e Shkollës Vasil Shanto"
+        }
+      ],
+      "related": [
+        "pavaresia-28-nentor",
+        "8-mars-koncerti-certifikime",
+        "busulla-jone"
+      ]
+    },
+    {
+      "slug": "sporti-na-bashkon",
+      "title": "Sporti Na Bashkon: Gjimnastradë, Shah, Volejboll dhe Futboll",
+      "excerpt": "Janari sjell kampionate: klasa 6-B fiton gjimnastradën, Dion Çela shpallet kampion i shahut, dhe futbolli mbush me emocione deri në sekondën e fundit.",
       "category": "sport",
       "categoryLabel": "Sport",
       "badgeClass": "badge-sport",
-      "author": "Drita Selimi",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Drita+Selimi&background=16a085&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-15",
-      "dateFormatted": "15 Nëntor 2024",
-      "readTime": "4 min lexim",
-      "image": "https://loremflickr.com/420/260/basketball,player,sport?lock=31",
-      "imageAlt": "Lojtare basketbolli gjatë ndeshjes dramatike",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2026-01-31",
+      "dateFormatted": "31 Janar 2026",
+      "readTime": "5 min lexim",
+      "image": "assets/gazeta/image40.png",
+      "imageAlt": "Salla sportive e shkollës gjatë kampionatit",
       "tags": [
         "Sport",
-        "Basketboll",
-        "Rikthim",
+        "Shah",
+        "Volejboll",
+        "Futboll",
+        "Gjimnastradë",
         "Kampionat"
       ],
       "content": [
         {
-          "type": "paragraph",
-          "text": "Askush nuk besonte. Gjysmën e dytë e nisëm me -12 pikë diferencë. Gjysma e tifozëve tanë kishin filluar të largohen. Pastaj ndodhi diçka magjike."
-        },
-        {
           "type": "heading",
           "level": 2,
-          "text": "Gjysmëtimi i Dytë që Bëri Historinë"
+          "text": "Janar — Sporti që Na Bashkon, Gara që Na Frymëzon!"
         },
         {
           "type": "paragraph",
-          "text": "Koçi bëri 3 ndërrime taktike të menjëhershme. Defense zonë 2-3 u bë man-to-man agresive. Trea-Pointerët filluan të rënin: 3, pastaj 5, pastaj 7 radhazi. Kur shënjoi basket i fundit, diferenca ishte +4 për ne."
-        },
-        {
-          "type": "quote",
-          "text": "Ndeshja e dytë kombëtare — e gjithë jeta ime sportive. Dhe kur bëmë rikthimin... s'e di si ta shpjegoj. Është ndjesi tjetër.",
-          "cite": "Albin Xhafa, top-scorer me 24 pikë"
+          "text": "JANAR: SPORTI QË NA BASHKON, GARA QË NA FRYMËZON! Ritëm, energji dhe shumë emocion në Gjimnastradë dhe Hip-Hop!  Duartrokitje, buzëqeshje dhe adrenalinë në çdo performancë! Vajzat e klasave të 6-ta dhe të 7-ta sollën një atmosferë të jashtëzakonshme në konkursin e Gjimnastradës dhe Kërcimit Hip-Hop. Nën drejtimin e mësueses së Edukimit Fizik, Sporteve dhe Shëndetit, znj.Mirela Bardhi, ato dëshmuan se puna, disiplina dhe talenti janë kombinimi fitues për të shkëlqyer në skenë."
         },
         {
           "type": "list",
           "items": [
-            "Gjysma e dytë: 51-39 në favor tonë",
-            "Albin Xhafa: 24 pikë, 8 asiste",
-            "Rudi Maloku: 18 pikë, 11 rikuperime (double-double)",
-            "Diferenca maksimale kundër: -14 pikë",
-            "Fitorja finale: 87-83"
+            "🏆 Skuadra fituese për klasat e 6-ta, u shpall e 6 B , kurse për paralelin e të 7-ve ,u shpall fituese klasa 7 A.",
+            "U nderua me çmim për koreografinë më origjinale të zhanrit “ Hip Hop” nxënësja e klasës së 9 D, Tea  Kapxhiu."
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Ky rezultat e vendos ekipin tonë si ekipin e 2-të kombëtar — arritje historike për shkollën. Stafi teknik po planifikon turnirin ndërkombëtar të Prishtinës si hapi i ardhshëm."
-        }
-      ],
-      "related": [
-        "finalja-futboll-3-1",
-        "enis-bajrami-rekord",
-        "volejbolli-finale"
-      ]
-    },
-    {
-      "slug": "enis-bajrami-rekord",
-      "title": "Enis Bajrami Thyen Rekordin Kombëtar të Nënmoshave në 100 Metrat",
-      "excerpt": "Nxënësi i klasës X u bë atletisti i parë shqiptar nënmoshave që kalon kufirin magjik të 11 sekondave.",
-      "category": "sport",
-      "categoryLabel": "Sport",
-      "badgeClass": "badge-sport",
-      "author": "Andi Krasniqi",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Andi+Krasniqi&background=c0392b&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-13",
-      "dateFormatted": "13 Nëntor 2024",
-      "readTime": "5 min lexim",
-      "image": "https://loremflickr.com/420/260/running,athletics,sprint?lock=32",
-      "imageAlt": "Enis Bajrami duke vrapuar 100 metrat me rekord kombëtar",
-      "tags": [
-        "Sport",
-        "Atletizëm",
-        "Rekord",
-        "100 Metrat"
-      ],
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "10.97 sekonda. Ky numër i vogël ndryshoi gjithçka. Enis Bajrami, 16 vjeç, nxënës i Klasës X, u bë atleti i parë shqiptar nënmoshave që theu barrierën e 11 sekondave në 100 metrat."
+          "type": "image",
+          "src": "assets/gazeta/image28.png",
+          "alt": "Vajzat e klasave 6-ta dhe 7-ta gjatë performancës së Gjimnastradës",
+          "caption": "Gjimnastradë dhe Hip-Hop — ritëm, energji dhe shumë emocion!"
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Historia pas Rekordit"
+          "text": "Kur Mendja Garon po Aq sa Trupi — Shahut!"
         },
         {
           "type": "paragraph",
-          "text": "Enis ka nisur vrapimin serioz vetëm 3 vjet më parë, kur atletizmi hyri si lëndë zgjedhore. Drejtori i atletizmit shqiptar, pasi pa videon e vrapimit, e kontaktoi menjëherë. Shkolla i ofroi orë shtesë trajnimi dhe akses në pishinën olimpike për rigjenerimin fizik."
+          "text": "Kur mendja garon po aq sa trupi!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Në kampionatin e shahut, çdo lëvizje kishte rëndësi. Nën kujdesin e mësuesve z. Vladimir Dana, z. Arben Duka dhe Z. Adriatik Gjoni, nxënësit zhvilluan duele interesante strategjie, duke treguar zgjuarsi, përqendrim dhe durim. Pas një gare të bukur, fitues u shpall nxënësi: 🏆 Dion Çela, Klasa 1-D. Suksese të mëtejshme Kampion !"
         },
         {
           "type": "image",
-          "src": "https://loremflickr.com/800/450/running,athletics,sprint?lock=32",
-          "alt": "Enis Bajrami crossing finish line",
-          "caption": "Momenti historik kur Enis kapërceu vijën e finishit me kohën rekord 10.97 sekonda."
+          "src": "assets/gazeta/image29.png",
+          "alt": "Nxënës duke luajtur shah gjatë kampionatit shkollor",
+          "caption": "Kampionati i Shahut — çdo lëvizje kishte rëndësi."
         },
         {
-          "type": "quote",
-          "text": "Nuk mendoja për rekordin. Mendoja: 'shko sa më shpejt'. Kur mora rezultatin... qava. Pastaj qeshën të gjithë.",
-          "cite": "Enis Bajrami, 16 vjeç"
+          "type": "image",
+          "src": "assets/gazeta/image30.png",
+          "alt": "Çertifikata e kampionatit të shahut për Dion Çela, klasa 1-D",
+          "caption": "Dion Çela — Kampion i Shahut, viti shkollor 2025-2026."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Volejbolli Ndezi Frymën e Skuadrës!"
         },
         {
           "type": "paragraph",
-          "text": "Federata Shqiptare e Atletizmit e ka ftuar Enisin të përfaqësojë Shqipërinë në Europianin Nënmoshave të vitit 2025. Shkolla dhe familja e mbështesin plotësisht."
+          "text": "Volejbolli ndezi frymën e skuadrës! Fusha e volejbollit u kthye në arenën e emocioneve, ku ekipet të vajzave të klasave( VI-IX) luftuan për çdo pikë. Pas ndeshjeve plot energji dhe sportivitet, fituese u shpallën klasat : 🥇 6D, 7A, 8A dhe 9D. Një sukses që mban vulën e punës nj së përbashkët të nxënësve dhe mësueseve të palodhura znj. Mirela Bardhi dhe znj. Blerina Pasholli."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image31.png",
+          "alt": "Nxënëse në aksion gjatë ndeshjes së volejbollit",
+          "caption": "Volejbolli — çdo pikë e luftuar!"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Futbolli — Pasioni që Na Bashkon të Gjithë!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Futbolli – pasioni që na bashkon të gjithë! Brohoritje, gola dhe emocione deri në sekondat e fundit! Kampionati i futbollit solli garë të fortë dhe momente të paharrueshme për të gjithë pjesëmarrësit. Në fund të këtij rrugëtimi sportiv, fituese u shpallën klasat 🥇 6C, 7D , 8B dhe 9D duke fituar  duartrokitjet e të gjithë të pranishmëve , shokëve dhe mësueve të tyre z.Adriatik Gjoni dhe z. Vladimir Dana . Janari shkarkoi të gjithë energjinë sportive përmes kampionateve të ndryshme të organizuara brenda shkollës."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image32.png",
+          "alt": "Nxënës gjatë ndeshjes së futbollit në palestër",
+          "caption": "Kampionati i Futbollit — brohoritje dhe emocione deri në fund."
         }
       ],
       "related": [
-        "finalja-futboll-3-1",
-        "basketboll-rikthimi",
-        "volejbolli-finale"
+        "gjimnastrada-hip-hop",
+        "java-olimpike",
+        "busulla-jone"
       ]
     },
     {
-      "slug": "grupi-teatral-cmimi",
-      "title": "Grupi Teatral Fiton Çmimin Kombëtar 'Talenti i Vitit 2024'",
-      "excerpt": "Shfaqja 'Skënderbeu dhe Koha' e grupit tonë teatral u shpall fituese e çmimit kombëtar në Festivalin e Teatrit Shkollor.",
+      "slug": "vasil-shanto-komemorim",
+      "title": "1 Shkurt: Kujtojmë Vasil Shantonë, Heroin tonë të Pavdekshëm",
+      "excerpt": "Qeveria e Nxënësve organizoi aktivitetin solemn — homazhe, këngë partizane dhe lexim i jetëshkrimit të heroit të popullit emri i të cilit mbart shkolla jonë.",
+      "category": "shkolla",
+      "categoryLabel": "Shkolla",
+      "badgeClass": "badge-science",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2026-02-01",
+      "dateFormatted": "1 Shkurt 2026",
+      "readTime": "5 min lexim",
+      "image": "assets/gazeta/image33.png",
+      "imageAlt": "Vasil Shanto — heroi i popullit shqiptar",
+      "tags": [
+        "Shkolla",
+        "Vasil Shanto",
+        "Histori",
+        "Heroizëm",
+        "Shkurt"
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "1 Shkurt — Homazhe dhe Nderim"
+        },
+        {
+          "type": "paragraph",
+          "text": "1 Shkurt – Nderim për ata që u martirizuan për Atdheun tonë të shtrenjtë. U zhvillua aktiviteti solemn përkujtimor nga Qeveria e nxënësve , kushtuar Vasil Shantos, heroit të popullit dhe figurës së paharruar që shkolla jonë e mban me krenari . Si çdo vit, kjo ceremoni bëri bashkë komunitetin tonë shkollor me familjarë dhe trashëgimtarë të familjeve të dëshmorëve të kombit. Pjesëmarrja e tyre e ktheu këtë ditë në një urë të fuqishme mes brezave, duke na kujtuar rëndësinë e ruajtjes së kujtesës historike, mirënjohjes dhe nderimit për ata që sakrifikuan për atdheun. Me këtë rast u bënë homazhe te busti i heroit me buqeta lulesh dhe me një tufë këngësh partizane nga kori i shkollës, për të nderuar kujtimin e tij , si një nga veprimtarët dhe aktivistët më të shquar të lëvizjes së LANÇ- it."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image33.png",
+          "alt": "Vasil Shanto — fotografi historike e heroit të popullit shqiptar",
+          "caption": "Vasil Shanto — hero i rezistencës antifashiste, emri i të cilit mbart shkolla jonë."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vasil Shanto: Jetëshkrimi i Një Heroi"
+        },
+        {
+          "type": "paragraph",
+          "text": "Përshëndetje të dashur nxënës! Sot në blogun e gazetës sonë do të njohim më afër një nga figurat më qendrore dhe më dinamike të rezistencës antifashiste shqiptare: Vasil Shanton. Përmes këtij artikulli, do të udhëtojmë shkurtimisht në jetën e tij, nga vitet e rinisë e deri te sakrifica e tij e lartë."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1. Origjina dhe Rinia e Hershme"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vasil Shanto lindi në fshatin Vrakë pranë Shkodrës. Familja e tij kishte një histori lëvizjesh, me origjinë të hershme nga Struga, përpara se të vendosej përfundimisht në kryeqytet, në Tiranë, në vitin 1930. Kjo zhvendosje do të shënonte një kthesë në jetën e Vasilit të ri."
+        },
+        {
+          "type": "paragraph",
+          "text": "Që në moshë mjaft të re, ai u angazhua me pasion në lëvizjen komuniste. Në vitin 1931, ai u bë pjesë aktive e celulës së parë komuniste në Tiranë, e cila u krijua nga dy figura të njohura të kohës: Ali Kelmendi dhe Asim Vokshi."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2. Drejtimi dhe Përndjekja Politike"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vasili dallohej për aftësitë e tij organizative. Si rrjedhojë, në vitin 1937, ai u zgjodh sekretar i degës së Tiranës për \"Grupin Komunist të Shkodrës\". Në kryesinë e këtij grupi, ai bashkëpunoi ngushtë me një tjetër figurë mjaft të njohur për rininë, Qemal Stafën."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fakt Historik: Për shkak të bindjeve të tij dhe veprimtarisë revolucionare kundër regjimit të mbretit Zog, Vasili u arrestua dhe në vitin 1939 u dënua me 10 vjet burg."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "3. Rezistenca Antifashiste dhe Ilegaliteti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vuajtja e dënimit nuk zgjati shumë, pasi me pushtimin fashist të Shqipërisë, ai arriti të lirohej nga burgu. Ai nuk hoqi dorë nga idealet e tij; përkundrazi, nisi menjëherë punën në ilegalitet (në fshehtësi të plotë) duke u bërë një nga organizatorët kryesorë të qëndresës së armatosur antifashiste."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "4. Rënia Heroike — 1 Shkurt 1944"
+        },
+        {
+          "type": "paragraph",
+          "text": "Më 1 shkurt 1944, në fshatin e tij të lindjes, në Vrakë të Shkodrës, Vasil Shanto u vra gjatë një përpjekjeje të pabarabartë e të guximshme me forcat armike."
+        },
+        {
+          "type": "quote",
+          "text": "Sot, ai kujtohet si një nga simbolet e rëndësishme të rezistencës antifashiste shqiptare, duke mbetur një shembull i angazhimit rinor për idealet ku besonte. Emrin e tij sot e mbajnë me krenari shkolla, rrugë dhe lagje në të gjithë vendin.",
+          "cite": "Nga historia e rezistencës shqiptare"
+        }
+      ],
+      "related": [
+        "busulla-jone",
+        "lufta-kunder-bullizmit",
+        "pavaresia-kosoves-17-shkurt"
+      ]
+    },
+    {
+      "slug": "pavaresia-kosoves-17-shkurt",
+      "title": "17 Shkurt — Pavarësia e Kosovës: Dokumentar dhe Ekspozitë Arti në SmartLab",
+      "excerpt": "Qeveria e Nxënësve organizoi dokumentar dhe ekspozitë arti me temë Kosovën. Nxënësja Briana Telha realizoi dokumentarin dhe Alesio Kolezi e kuroi për SmartBoard.",
       "category": "kulture",
       "categoryLabel": "Kulturë",
       "badgeClass": "badge-culture",
-      "author": "Fjolla Gashi",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Fjolla+Gashi&background=27ae60&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-16",
-      "dateFormatted": "16 Nëntor 2024",
-      "readTime": "4 min lexim",
-      "image": "https://loremflickr.com/130/85/theatre,drama,stage?lock=40",
-      "imageAlt": "Aktorë të rinj gjatë shfaqjes teatrale me kostume historike",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2026-02-17",
+      "dateFormatted": "17 Shkurt 2026",
+      "readTime": "3 min lexim",
+      "image": "assets/gazeta/image34.png",
+      "imageAlt": "Ekspozita e krijimeve artistike kushtuar Pavarësisë së Kosovës",
       "tags": [
         "Kulturë",
-        "Teatër",
+        "Kosova",
+        "Pavarësia",
         "Arte",
-        "Çmim",
-        "Talent"
+        "Shkurt"
       ],
       "content": [
         {
-          "type": "paragraph",
-          "text": "Pas 4 muaj provave intensive, 22 nxënës të grupit tonë teatral dolën në skenën kombëtare dhe fituan çmimin e lartë. Shfaqja 'Skënderbeu dhe Koha' — një reinterpretim modern i figurës historike — mahniti jyrinë."
-        },
-        {
           "type": "heading",
           "level": 2,
-          "text": "Rreth Shfaqjes"
+          "text": "17 Shkurt — Pavarësia e Kosovës"
         },
         {
           "type": "paragraph",
-          "text": "Teksti origjinal u shkrua nga nxënësi i Klasës XI, Besnik Shehu. Regjia u menaxhua nga mësuesja e arteve, Blerina Agaj. Kostumet historike u qepën me dorë nga nxënëset e Klasës IX të arteve. Gjithçka — teksti, aktrimi, skenografia — ishte produkt i punës së nxënësve."
-        },
-        {
-          "type": "quote",
-          "text": "Kur shoh këta të rinj që interpretojnë Skënderbeun me aq pagim dhe pasion, besoj te e ardhmja e kulturës shqiptare.",
-          "cite": "Luan Omari, Kryetar i Jurisë Kombëtare"
-        },
-        {
-          "type": "list",
-          "items": [
-            "22 aktorë nxënës nga Klasa VIII deri XII",
-            "Teksti origjinal — Besnik Shehu, Klasa XI",
-            "Regji — Mësuese Blerina Agaj",
-            "Kostume historike të bëra me dorë nga nxënëset",
-            "Shfaqja zgjati 75 minuta pa ndëprerje"
-          ]
+          "text": "17 Shkurt – Pavarësia e Kosovës . Kinema dhe ekspozitë në SmartLab: Me krenari dhe një frymë të lartë patriotizmi, Qeveria e nxënësve organizoi një aktivitet të veçantë ndërgjegjësues në SmartLab, duke bërë bashkë nxënësit tanë më të talentuar në Histori, Pikturë dhe TIK. Nën moton prekëse “Kosova është gjaku jonë që nuk falet!”, u shfaq një dokumentar mjaft emocionues i realizuar me përkushtim nga nxënësja Briana Telha (Klasa 8-C), i cili u përgatit dhe u kurua artistikisht për t'u shfaqur në Smartbord nga nxënësi Alesio Kolezi."
         },
         {
           "type": "paragraph",
-          "text": "Shfaqja do të riperformohet dy herë — 20 dhe 21 Dhjetor — për komunitetin e shkollës dhe familjet. Hyrja është falas."
-        }
-      ],
-      "related": [
-        "festivali-letersise",
-        "interviste-drejtori",
-        "historia-shkolles"
-      ]
-    },
-    {
-      "slug": "olimpiada-kimise",
-      "title": "Olimpiada e Kimisë: Nxënësi ynë Merr Medaljen e Artë Kombëtare",
-      "excerpt": "Artan Brahimi, nxënës i Klasës XI, fitoi medaljen e artë në Olimpiadën Kombëtare të Kimisë me pikë rekord.",
-      "category": "shkence",
-      "categoryLabel": "Shkencë",
-      "badgeClass": "badge-science",
-      "author": "Besnik Shehu",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Besnik+Shehu&background=2980b9&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-15",
-      "dateFormatted": "15 Nëntor 2024",
-      "readTime": "4 min lexim",
-      "image": "https://loremflickr.com/130/85/chemistry,laboratory,flask?lock=50",
-      "imageAlt": "Nxënës në laboratorin e kimisë gjatë eksperimenteve olimpike",
-      "tags": [
-        "Shkencë",
-        "Kimi",
-        "Olimpiadë",
-        "Çmim",
-        "STEM"
-      ],
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "96.5 pikë nga 100 — nota e Artan Brahimit në Olimpiadën Kombëtare të Kimisë ishte aq e lartë sa komisioni i olimpiadës e kontrolloi dy herë para shpalljes. Askush nuk kishte marrë kaq pikë në 15 vitet e fundit."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Sekreti pas Suksesit"
-        },
-        {
-          "type": "paragraph",
-          "text": "Artani ka filluar kimia si hobi: eksperimente shtëpiake me mbikëqyrjen e prindërve. Mësuese e kimisë, Mirela Lushi, e vuri re talentin e tij që në Klasën IX dhe e ndihmoi me burime shtesë dhe mentorim intensiv."
+          "text": "🎨 Më pas ky aktivitet pasoi me hapjen e Ekspozitës me Krijime për 17 Shkurtin me kuratore mësuesen e Artit Pamor , znj Hygerta Duraku. Paralelisht me dokumentarin, ambientet e shkollës u shndërruan në një galeri të vërtetë arti. Nxënësit prezantuan punimet e tyre plot ndjenjë me piktura shumëngjyrëshe, aplikacione grafike dhe punime artizanale \"Hand Made\" me tematikë qendrore Kosovën, e parë si simbol i pavarësisë dhe i lirisë së fituar përmes sakrificave dhe humbjeve të mëdha historike."
         },
         {
           "type": "image",
-          "src": "https://loremflickr.com/800/450/chemistry,laboratory,flask?lock=50",
-          "alt": "Artan Brahimi me medaljen e artë të olimpiadës",
-          "caption": "Artan Brahimi pasi mori medaljen e artë nga Ministri i Arsimit."
+          "src": "assets/gazeta/image34.png",
+          "alt": "Nxënës prezantojnë punimet e tyre artistike për Pavarësinë e Kosovës",
+          "caption": "Ekspozita artistike me temë Kosovën — piktura, aplikacione grafike dhe punime Hand Made."
         },
         {
           "type": "quote",
-          "text": "Kimia nuk është memorizim formulash. Është kuptimi i botës — pse qumështi bëhet kos, pse lumi ka ngjyrë, pse jemi ne. Kur e kuptoj kështu, studimi bëhet kënaqësi.",
-          "cite": "Artan Brahimi, 17 vjeç"
-        },
-        {
-          "type": "paragraph",
-          "text": "Artani do të përfaqësojë Shqipërinë në Olimpiadën Ndërkombëtare të Kimisë (IChO) 2025, e cila do të zhvillohet në Riyadh, Arabinë Saudite. Është i pari nga shkolla jonë që arrin këtë nivel."
+          "text": "Kosova është gjaku ynë që nuk falet!",
+          "cite": "Moto e aktivitetit — 17 Shkurt 2026"
         }
       ],
       "related": [
-        "historia-shkolles",
-        "interviste-drejtori",
-        "keshilla-provimet"
+        "vasil-shanto-komemorim",
+        "dita-gjuhes-amtare",
+        "pavaresia-28-nentor"
       ]
     },
     {
-      "slug": "interviste-drejtori",
-      "title": "Intervistë me Drejtorin: Vizioni për Shkollën e Ardhmes",
-      "excerpt": "Z. Agim Tashko flet hapur për sfidat, planifikimet dhe ëndrrat e tij për transformimin e shkollës sonë brenda 5 viteve.",
+      "slug": "dita-gjuhes-amtare",
+      "title": "Dita e Gjuhës Amtare: Takim me Shkrimtaren Valbona Banka dhe Çmimi për Kaltra Barajn",
+      "excerpt": "21 Shkurt — Nxënësi takon shkrimtaren Valbona Banka, fituese e çmimit të parë në Panairin e Librit. Kaltra Baraj shpallet «Udhëtare e Botës së Librave».",
+      "category": "kulture",
+      "categoryLabel": "Kulturë",
+      "badgeClass": "badge-culture",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2026-02-21",
+      "dateFormatted": "21 Shkurt 2026",
+      "readTime": "3 min lexim",
+      "image": "assets/gazeta/image35.png",
+      "imageAlt": "Shkrimtarja Valbona Banka prezanton librin Aria para nxënësve",
+      "tags": [
+        "Kulturë",
+        "Letërsi",
+        "Gjuha Amtare",
+        "Shkrimtare",
+        "Shkurt"
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "21 Shkurt — Dita Ndërkombëtare e Gjuhës Amtare"
+        },
+        {
+          "type": "paragraph",
+          "text": "21 Shkurt – Dita e Gjuhës Amtare -Takim me një shkrimtare: Patëm nderin të mirëprisnim në një takim të ngrohtë letrar shkrimtaren e njohur të letërsisë për fëmijë, znj.Valbona Banka, e cila u vlerësua me Çmimin e Parë në Panairin e Librit në nëntor 2025 për romanin e saj “Aria, në dorën time”. Nxënësit diskutuan me autoren mbi vlerën e leximit dhe bukurinë e gjuhës shqipe. Në këtë takim u shpall dhe fituesja e çmimit “ Udhëtare e Botës së Librave”, njëherazi dhe presidente e shkollës, Kaltra Baraj."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image35.png",
+          "alt": "Shkrimtarja Valbona Banka prezanton librin Aria para nxënësve",
+          "caption": "Znj. Valbona Banka, fituese e Çmimit të Parë në Panairin e Librit 2025."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image36.png",
+          "alt": "Nxënës dëgjojnë shkrimtaren gjatë takimit letrar",
+          "caption": "Takim letrar i ngrohtë — nxënësit diskutojnë me shkrimtaren."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image37.png",
+          "alt": "Çertifikata e çmimit Udhëtare e Botës së Librave për Kaltra Baraj",
+          "caption": "Kaltra Baraj, Klasa 9A — «Udhëtare e Botës së Librave», 21 Shkurt 2026."
+        },
+        {
+          "type": "quote",
+          "text": "Gjuha jonë amtare është pasuria jonë më e çmuar. Çdo fjalë shqipe që ruajmë dhe e transmetojmë brezave të ardhshëm është një akt dashurie ndaj identitetit tonë.",
+          "cite": "Znj. Valbona Banka, shkrimtare"
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/gjuha-amtare-nxenesit.jpeg",
+          "alt": "Nxënës gjatë takimit letrar me Valbona Bankën",
+          "caption": "Momente nga takimi letrar — Dita e Gjuhës Amtare 2026."
+        }
+      ],
+      "related": [
+        "dita-europiane-gjuheve",
+        "tetori-letersise-teatri",
+        "pavaresia-kosoves-17-shkurt"
+      ]
+    },
+    {
+      "slug": "gjimnastrada-hip-hop",
+      "title": "Gjimnastradë, Hip-Hop dhe Zërat Tanë Më të Mirë — 23 Shkurt",
+      "excerpt": "Klasa 6-B fiton gjimnastradën, 7-A sundon hip-hop-in, Tea Kapxhiu merr çmimin e koreografisë dhe Raina Hasani rrëmben vendin e parë në këngë.",
+      "category": "sport",
+      "categoryLabel": "Sport",
+      "badgeClass": "badge-sport",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2026-02-23",
+      "dateFormatted": "23 Shkurt 2026",
+      "readTime": "3 min lexim",
+      "image": "assets/gazeta/gjimnastrada-vajzat.jpeg",
+      "imageAlt": "Vajzat performojnë gjimnastradë dhe hip-hop",
+      "tags": [
+        "Sport",
+        "Gjimnastradë",
+        "Hip-Hop",
+        "Këngë",
+        "Shkurt"
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "23 Shkurt — Konkursi i Madh i Artit (Kërcim dhe Këngë)"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Gjimnastradë dhe Hip-Hop"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gjimnastradë dhe Hip-Hop: Ritëm, energji dhe shumë emocion! Vajzat e klasave të 6-ta dhe të 7-ta sollën performanca të jashtëzakonshme në skenë nën drejtimin e mësueses Mirela Bardhi duke dëshmuar se disiplina dhe talenti janë kombinimi fitues. ▪ 🏆 Koreografia më e bukur: Tea Kapxhiu (Klasa 9-D)."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/gjimnastrada-vajzat.jpeg",
+          "alt": "Vajzat performojnë gjimnastradë dhe hip-hop",
+          "caption": "Performancë e jashtëzakonshme nën drejtimin e mësueses Mirela Bardhi."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image38.png",
+          "alt": "Koreografi Hip-Hop nga nxënëset e klasave 6-7",
+          "caption": "Hip-Hop — ritëm dhe pasion në skenë!"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kampione e Gjimnastradës klasa 6 — Klasa 6-B",
+            "Kampione e Gjimnastradës klasa 7 — Klasa 7-A",
+            "Çmim për koreografinë më origjinale Hip-Hop — Tea Kapxhiu, Klasa 9-D"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Konkursi i Këngës — Zërat Tanë Më të Mirë"
+        },
+        {
+          "type": "paragraph",
+          "text": "Konkursi i Këngës (Zërat tanë më të mirë):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vendi I: Raina Hasani",
+            "Vendi II: shkon për Hana Lamaj e Ema Deda dhe  Kristel Metkaj .",
+            "Vendi III: I ndarë mes Amaris Bushi dhe dyshes Mariel e Eliza Horieti."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Duartrokitjet nuk reshtin fare! Shkolla jonë ka talent të pafund.",
+          "cite": "Redaksia «Ne për Ne»"
+        }
+      ],
+      "related": [
+        "sporti-na-bashkon",
+        "java-olimpike",
+        "tetori-letersise-teatri"
+      ]
+    },
+    {
+      "slug": "8-mars-koncerti-certifikime",
+      "title": "7–8 Mars: Megakoncerti Festiv, Certifikatat dhe 21 Mars — Dita Botërore e Sindromit Down",
+      "excerpt": "Palestra u kthye në skenë madhështore. Certifikata, lule, dashuri për nënat — dhe 21 Mars: shkolla jonë mesazh gjithëpërfshirjeje.",
+      "category": "kulture",
+      "categoryLabel": "Kulturë",
+      "badgeClass": "badge-culture",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2026-03-08",
+      "dateFormatted": "8 Mars 2026",
+      "readTime": "6 min lexim",
+      "image": "assets/gazeta/image39.png",
+      "imageAlt": "Megakoncerti festiv i shkollës — 7 Mars 2026",
+      "tags": [
+        "Kulturë",
+        "8 Mars",
+        "Koncert",
+        "Certifikata",
+        "Nënat",
+        "Down Syndrome"
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "7 Mars — Koncerti i Madh Festiv: \"Mirënjohje dhe Certifikime\""
+        },
+        {
+          "type": "paragraph",
+          "text": "7 Mars – Koncerti i Madh Festiv : \"Mirënjohje dhe Certifikime\".Në mjediset e palestrës u organizua një megakoncert spektakolar që bëri bashkë të gjithë elementet artistike të shkollës sonë. Nën udhëheqjen profesionale të mësuesit të Muzikës, z. Ledion Qama, kori i shkollës dhe vajzat fituese të konkursit të këngës, dhuruan spektakël, emocione të papërsëritshme dhe shumë duartrokitje. Shfaqja u pasurua me kërcime ritmike, koreografi të larmishme dhe recitime prekëse nga nxënësit tanë të talentuar."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image39.png",
+          "alt": "Performancë nga koncerti festiv i shkollës — 7 Mars 2026",
+          "caption": "Kori i shkollës nën drejtimin e mësuesit z. Ledion Qama."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Fjala e Drejtores dhe Certifikatat"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fjala e Rastit dhe Vlerësimi i Praktikës: Gjatë koncertit, një fjalë përshëndetëse e plot frymëzim u mbajt nga drejtoresha e shkollës, znj. Mimoza Hamza, si dhe nga znj. Nina Guga si përfaqësuese e stafit të Shkollës së Drejtorëve. Ky moment vuri në dukje një tjetër sukses të shkollës sonë, faktin që jemi përzgjedhur si një institucion model ku disa mësues aspirantë për drejtues shkolle, zhvillojnë me sukses praktikën e tyre profesionale pranë nesh."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image40.png",
+          "alt": "Salla sportive gjatë ceremonisë së certifikatave",
+          "caption": "Ceremonia e shpërndarjes së çertifikatave."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image41.png",
+          "alt": "Certifikatat e vlerësimit për nxënësit e talentuar",
+          "caption": "Çertifikata për: ese, poezi, pikturë, teatër, kërcim, volejboll, futboll, shah dhe kartolina më e bukur."
+        },
+        {
+          "type": "paragraph",
+          "text": "📜 Shpërndarja e Certifikatave: Si rezultat i punës së shkëlqyer dhe plot profesionalizëm të mësuesve tanë, u shpërndanë zyrtarisht Certifikatat e Vlerësimit për nxënësit e talentuar në çdo kategori (ese, poezi, pikturë, grup teatror,  grup kërcimi, skuadrat e volejbollit, futbollit, shahu si dhe dizajnimi e shkrimi i kartolinës më të bukur për 7 Mars ,të cilin e fitoi nxënësja e klasës së 7A, Amelia Dreni."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "8 Mars — Dashuria për Nënat Tona"
+        },
+        {
+          "type": "paragraph",
+          "text": "8 Mars: Aktivitetet plot dashuri, kartolina e lule kushtuar Nënave tona të mrekullueshme që na mësojnë, ndihmojnë dhe na edukojnë çdo ditë."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image42.jpg",
+          "alt": "Kartolina dhe lule të bëra me dorë nga nxënësit për 8 Marsin",
+          "caption": "Kartolina me dashuri — nxënësit tonë të mrekullueshëm."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image46.jpg",
+          "alt": "Libër artizanal me poezi kushtuar mësueses, punë e Amelia Drenit",
+          "caption": "«Gëzuar Festat» — libër artizanal nga Amelia Dreni, Klasa 7A."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image43.png",
+          "alt": "Ekipi i mësuesve dhe stafi shkollor festron 8 Marsin",
+          "caption": "Stafi i shkollës feston bashkërisht — mirënjohje e merituar!"
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image44.png",
+          "alt": "Drejtoresha znj. Mimoza Hamza gjatë fjalës festive",
+          "caption": "Fjalë frymëzuese nga drejtoresha."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image45.png",
+          "alt": "Përfaqësuese e Fondacionit Ivanaj gjatë fjalimit",
+          "caption": "Znj. Nina Guga — përfaqësuese e Fondacionit Ivanaj."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "21 Mars — Dita Botërore e Sindromit Down: Gjithëpërfshirja e Vërtetë"
+        },
+        {
+          "type": "paragraph",
+          "text": "21 Mars –  Një Ditë që na bën të Reflektojmë thellë: Shkolla jonë iu bashkua kauzës botërore përmes një mesazhi të fuqishëm gjithëpërfshirjeje. Kjo ditë e veçantë u kthye plotësisht në një aktivitet suksesi , ku u ekspozuan punime dhe detyra të nxënësve me AK, nga secili prej 11 mësuesve tanë ndihmës , heronjve tanë të heshtur dhe empatikë."
+        },
+        {
+          "type": "paragraph",
+          "text": "Përmes një pune të përditshme, intensive dhe shpesh sfiduese, ata punojnë me pasion e devotshmëri të jashtëzakonshme për t’i bërë nxënësit e tyre të ndihen përherë të pranuar mes miqsh në klasat ku janë pjesë, shpesh edhe me ritëm garues ku ato shfaqin një talent, por mbi të gjitha plotësisht të gjithëpërfshirë në punët me grupe, me të gjithë shokët dhe mësuesit e tyre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Shkolla jonë tregoi se ndryshimet na pasurojnë dhe dashuria na bashkon!"
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image47.png",
+          "alt": "Fëmijë me sindrom Down me gëzim dhe ballona — simboli i ditës",
+          "caption": "21 Mars — Dita Botërore e Sindromit Down."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image48.png",
+          "alt": "Nxënës gjatë aktivitetit të 21 Marsit — gjithëpërfshirje",
+          "caption": "Aktivitetet tona — ndryshimet na pasurojnë dhe dashuria na bashkon!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pjesëmarrje dinjitoze  të nxënësve tanë në konkurse."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image48.png",
+          "alt": "Pjesëmarrje dinjitoze e nxënësve në konkurse",
+          "caption": "Nxënësit tanë në aktivitete konkurruese."
+        }
+      ],
+      "related": [
+        "dita-gjuhes-amtare",
+        "gjimnastrada-hip-hop",
+        "dita-e-tokes-projektet"
+      ]
+    },
+    {
+      "slug": "dita-e-tokes-projektet",
+      "title": "Dita e Tokës: Projektet Tona — Thirrje për një Botë Më të Gjelbër",
+      "excerpt": "22 Prill — nxënësit prezantojnë projekte 3D mahnitëse. Amelia Dreni fiton çmimin e posterit dhe klasa 6-B rrëmben titullin e lulës më të bukur.",
+      "category": "kulture",
+      "categoryLabel": "Kulturë",
+      "badgeClass": "badge-culture",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2026-04-22",
+      "dateFormatted": "22 Prill 2026",
+      "readTime": "4 min lexim",
+      "image": "assets/gazeta/image50.png",
+      "imageAlt": "Diorama e Ditës së Tokës — projekt nxënësish",
+      "tags": [
+        "Mjedisi",
+        "Dita e Tokës",
+        "Arte",
+        "Projekte",
+        "Prill"
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "22 Prill — Dita e Tokës"
+        },
+        {
+          "type": "paragraph",
+          "text": "22 Prill – Dita e Tokës: Aktivitetet sensibilizuese na kujtuan rëndësinë e mbrojtjes së mjedisit dhe përgjegjësinë që kemi ndaj planetit tonë. Këtë vit, mesazhi mjedisor erdhi i gërshetuar me bukurinë e natyrës:"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Çmimi i Posterit Më të Bukur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Posteri më i bukur: U shpall krijimi i realizuar nga nxënësja Amelia Dreni ,Klasa 7A."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image49.png",
+          "alt": "Projekt 3D i nxënësve — Toka e gjelbër me energji të rinovueshme",
+          "caption": "Projekt ekologjik 3D — shtëpia, erëmori dhe pylli i gjelbër."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image50.png",
+          "alt": "Diorama Dita e Tokës me mesazh ndërgjegjësimi mjedisor",
+          "caption": "Natyra është sfera jonë — ta mbrojmë si një sfere e vetme jetësie."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/dita-tokes-diorama.jpeg",
+          "alt": "Diorama tridimensionale — Toka e shëndetshme kundrejt Tokës të ndotur",
+          "caption": "Mesazh i fuqishëm: STOP ndotjes!"
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image51.png",
+          "alt": "Projekt mjedisor i nxënësve — modeli i ekosistemit",
+          "caption": "Ekosistem i ndërtuar me duart tona."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image52.png",
+          "alt": "Punime artizanale me temë mjedisore nga nxënësit",
+          "caption": "Arti i gjelbër — kreativitet për planetin."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image53.png",
+          "alt": "Diorama nga karton — Toka e pastër vs Toka e ndotur",
+          "caption": "Kontrasti i qartë: bota që duam vs bota që rrezikojmë."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/dita-tokes-klasa7a.jpeg",
+          "alt": "Modeli ekologjik i ndërtuar nga klasa 7-A",
+          "caption": "Klasa 7-A — ekosistem i plotë me pyje, lume dhe jetë."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Konkursi «Lulja Më e Bukur»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Konkursi \"Lulja më e bukur\": Një atmosferë fantastike dhe plot gjallëri solli ky konkurs, ku vendin e parë e fitoi me meritë Klasa 6-B me kujdesin e mësueses së tyre kujdestare, znj.Almida Gjini,ku nxënësit realizuan një vazo kompozim të mrekullueshëm me disa lule, duke u kthyer në simbolin e përkujdesit dhe dashurisë për natyrën."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image54.png",
+          "alt": "Vazo me lule nga klasa fituese — konkursi i lulës më të bukur",
+          "caption": "Klasa 6-B — «Lulja Më e Bukur» 2026."
+        }
+      ],
+      "related": [
+        "8-mars-koncerti-certifikime",
+        "vizite-ne-parlament",
+        "java-olimpike"
+      ]
+    },
+    {
+      "slug": "vizite-ne-parlament",
+      "title": "Maj: Orientim Karriere, Punishtja e Demokracisë dhe Ekskursion te Mozaiku i Tiranës",
+      "excerpt": "Nxënësit e 9-tave orientohen për karrierë, klasa 8-A viziton Parlamentin dhe eksploron Punishten e Demokracisë, dhe të 8-tat zbulojnë Mozaikun e Tiranës.",
       "category": "shkolla",
       "categoryLabel": "Shkolla",
       "badgeClass": "badge-science",
-      "author": "Elira Hoxha",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Elira+Hoxha&background=8e44ad&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-20",
-      "dateFormatted": "20 Nëntor 2024",
-      "readTime": "8 min lexim",
-      "image": "https://loremflickr.com/420/260/teacher,professor,education?lock=55",
-      "imageAlt": "Drejtori i shkollës gjatë intervistës ekskluzive",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2026-05-09",
+      "dateFormatted": "9 Maj 2026",
+      "readTime": "5 min lexim",
+      "image": "assets/gazeta/vizite-parlament.jpeg",
+      "imageAlt": "Nxënës të klasës 8-A në mjediset e Punishtes së Demokracisë",
       "tags": [
         "Shkolla",
-        "Intervistë",
-        "Drejtori",
-        "Arsim",
-        "E Ardhmja"
+        "Parlament",
+        "Demokracia",
+        "Orientim Karriere",
+        "Mozaiku",
+        "Maj"
       ],
       "content": [
         {
+          "type": "heading",
+          "level": 2,
+          "text": "9 Maj — Dita e Europës: Orientim Karriere për të 9-tat"
+        },
+        {
           "type": "paragraph",
-          "text": "Gazeta Shkollore ka biseduar me drejtorin Z. Agim Tashko për rreth 90 minuta. Ndër temat: STEM-i i ri, laboratorët digjitalë, puna me komunitetin dhe sfidat financiare."
+          "text": "9 Maj – Dita e Europës: Në kuadër të kësaj dite, nxënësit tanë të klasave të 9-ta zhvilluan një vizitë mjaft produktive studimore dhe orientuese me znj. Kemiliana Jaupi, koordinatore e orjentimit të karrierës, në Gjimnazin Gjuhësor “Asim Vokshi”, duke parë nga afër mundësitë e tyre të ardhshme të shkollimit, si pasaportë e sigurtë në çdo shkollë të BE-së."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image45.png",
+          "alt": "Znj. Nina Guga gjatë prezantimit për orientim karriere",
+          "caption": "Znj. Kemiliana Jaupi — koordinatore e orientimit të karrierës, Gjimnazi Gjuhësor «Asim Vokshi»."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "\"Shkolla 2030\" — Vizioni 5-Vjeçar"
+          "text": "Vizitë në Parlament — «Punishtja e Demokracisë»"
         },
         {
           "type": "paragraph",
-          "text": "\"Shkolla 2030\" është plani strategjik i institucionit për 5 vitet e ardhshme. Parashikon: laborator të ri STEM me 40 kompjuterë të fundit, studio multimediale për gazetarinë shkollore, kopshtin ekologjik dhe hapësirë makerspace për projekte DIY."
+          "text": "🏛️ Vizitë në Parlament dhe në Mjediset e Botimit Digjital “ Punishtja e Demokracisë” Një aktivitet i jashtëzakonshëm dhe plot vlera u zhvillua nga nxënësit e Klasës 8-A së bashku me mësuesen e tyre kujdestare, znj. Albina Dyla. Ata vizituan mjediset e Parlamentit, duke u njohur nga afër me institucionin më të lartë ligjvënës të vendit. Përveç kësaj, nxënësit prekën të ardhmen e teknologjisë duke vizituar mjediset e tyre të botimit digjital, një eksperiencë fantastike që ndërthuri edukimin qytetar me botën e inovacionit."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/vizite-parlament.jpeg",
+          "alt": "Nxënës të 8-A gjatë vizitës studimore në Parlamentin e Shqipërisë",
+          "caption": "Nxënësit e Klasës 8-A me mësuesen kujdestare znj. Albina Dyla — Kuvendi i Shqipërisë."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image24.png",
+          "alt": "Aktivitet interaktiv — diskutim demokratik me nxënës",
+          "caption": "«Punishtja e Demokracisë» — ku demokracia bëhet e gjallë."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ekskursion te «Mozaiku i Tiranës»"
+        },
+        {
+          "type": "paragraph",
+          "text": "🏺 Në Fund të Majit – Ekskursion te “Mozaiku i Tiranës”: Nxënësit e klasave të 8-ta, të shoqëruar nga mësuesja e Historisë, znj. Alime Memetaj, si dhe nga tri mësuese kujdestare, zhvilluan një vizitë edukative në “Mozaikun e Tiranës”, një nga monumentet më të rëndësishme arkeologjike të kryeqytetit. Ata patën mundësinë të njiheshin nga afër me mozaikët e lashtë, duke mësuar më shumë për historinë dhe trashëgiminë kulturore të Tiranës."
         },
         {
           "type": "quote",
-          "text": "Shkolla e mirë nuk prodhon nxënës që dinë t'i kalojnë provimet. Prodhon njerëz që e dijnë se si të mësonin vetë gjatë gjithë jetës.",
-          "cite": "Z. Agim Tashko, Drejtor"
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Sfidat Reale"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Financimet publike mbulojnë vetëm 60% të buxhetit të nevojshëm",
-            "Mungesa e mësuesve të specialiteteve STEM",
-            "Infrastruktura e ndërtesës kërkon renovim",
-            "Nevoja për laboratorë modernë të teknologjisë",
-            "Integrimi i nxënësve me nevoja të veçanta"
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Pavarësisht sfidave, optimizmi i drejtorit është i qartë: \"Kemi nxënës të jashtëzakonshëm. Mësues me zjarr. Prindër të angazhuar. Gjithçka tjetër është detaj.\""
+          "text": "Kur nxënësi e sheh historinë jo vetëm në libra por me sytë e tij, ajo bëhet e paharruar.",
+          "cite": "Znj. Alime Memetaj, mësuese e Historisë"
         }
       ],
       "related": [
-        "historia-shkolles",
-        "keshilla-provimet",
-        "festivali-letersise"
+        "busulla-jone",
+        "vasil-shanto-komemorim",
+        "java-olimpike"
       ]
     },
     {
-      "slug": "keshilla-provimet",
-      "title": "10 Këshilla për të Kaluar Provimet Maturës me Sukses",
-      "excerpt": "Psikologu shkollor dhe maturantët e vitit të kaluar ndajnë strategjitë e tyre të provuara për të menaxhuar stresin dhe studiuar me eficiencë.",
-      "category": "shkolla",
-      "categoryLabel": "Shkolla",
+      "slug": "java-olimpike",
+      "title": "Java Olimpike: Festa e Vërtetë e Sportit për Klasat e 6-ta",
+      "excerpt": "Me energji të pafund, klasat e 6-ta mbyllën sezonin sportiv me vrapim, hedhje, kërcim dhe stafeta bashkëpunimi. Ky vit na tregoi: shkolla është jeta.",
+      "category": "sport",
+      "categoryLabel": "Sport",
+      "badgeClass": "badge-sport",
+      "author": "Redaksia \"Ne për Ne\"",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+      "date": "2026-05-18",
+      "dateFormatted": "18 Maj 2026",
+      "readTime": "3 min lexim",
+      "image": "assets/gazeta/image55.png",
+      "imageAlt": "Nxënës duke kryer ushtrime sportive gjatë Javës Olimpike",
+      "tags": [
+        "Sport",
+        "Java Olimpike",
+        "Gjymnastikë",
+        "Maj",
+        "Klasat 6"
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "18 Maj — Java Olimpike: Festa e Sportit"
+        },
+        {
+          "type": "paragraph",
+          "text": "18 Maj – Java Olimpike -Festa e Vërtetë e Sportit: Me energjinë e pafundme të nxënësve të klasave të 6-ta dhe nën drejtimin e mësuesve Znj.Mirela Bardhi dhe Z.Adriatik Gjoni, u përmbyll edhe kjo javë, ku treguam se fitorja më e madhe është pjesëmarrja, shpirti i skuadrës dhe respekti reciprok."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image55.png",
+          "alt": "Nxënës duke kryer ushtrime sportive gjatë Javës Olimpike",
+          "caption": "Java Olimpike — energji, bashkëpunim dhe shpirt skuadre."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image56.png",
+          "alt": "Nxënës në palestër gjatë aktiviteteve të Javës Olimpike",
+          "caption": "Aktivitete sportive — vrapim, hedhje, kërcim dhe stafeta."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image57.png",
+          "alt": "Nxënës me medalje dhe çmime olimpike",
+          "caption": "Çmimet olimpike — fitimi i vërtetë është pjesëmarrja."
+        },
+        {
+          "type": "image",
+          "src": "assets/gazeta/image58.png",
+          "alt": "Momente të gëzueshme gjatë Javës Olimpike",
+          "caption": "Gëzimi i sportit — buzëqeshje dhe emocion deri në fund."
+        },
+        {
+          "type": "quote",
+          "text": "Ky vit i mrekullueshëm na tregoi se shkolla jonë nuk është thjesht vendi ku mësojmë, por hapësira ku krijojmë kujtime, miqësi të vërteta dhe përvoja që do të na shoqërojnë gjatë gjithë jetës!",
+          "cite": "Nga gazeta jonë shkollore «Ne për Ne»"
+        }
+      ],
+      "related": [
+        "sporti-na-bashkon",
+        "gjimnastrada-hip-hop",
+        "busulla-jone"
+      ]
+    },
+    {
+      "slug": "roli-mesuesit-epoka-digjitale",
+      "title": "Roli i Ri i Mësuesit në Epokën Digjitale",
+      "excerpt": "Nxënësi Esio Myftaraj nga klasa 8-C argumenton pse mësuesi njerëzor mbetet i pazëvendësueshëm — edhe kur ChatGPT di gjithçka.",
+      "category": "teknologji",
+      "categoryLabel": "Teknologji",
       "badgeClass": "badge-tech",
-      "author": "Andi Krasniqi",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Andi+Krasniqi&background=c0392b&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-18",
-      "dateFormatted": "18 Nëntor 2024",
-      "readTime": "6 min lexim",
-      "image": "https://loremflickr.com/420/260/student,book,learning?lock=56",
-      "imageAlt": "Nxënës duke studiuar për provime me libra dhe shënime",
+      "author": "Esio Myftaraj",
+      "authorAvatar": "https://ui-avatars.com/api/?name=Esio+Myftaraj&background=8e44ad&color=fff&size=40&bold=true&rounded=true",
+      "date": "2026-05-01",
+      "dateFormatted": "1 Maj 2026",
+      "readTime": "5 min lexim",
+      "image": "assets/gazeta/image59.png",
+      "imageAlt": "Nxënës në klasë — lidhja njerëzore që asnjë AI nuk mund ta zëvendësojë",
       "tags": [
-        "Arsim",
-        "Provimet",
-        "Këshilla",
-        "Matura",
-        "Stres"
-      ],
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "Matura Shtetërore është momenti më stresues akademik i jetës së nxënësit shqiptar. Por me strategjinë e duhur, mund të bëhet edhe eksperienca më formative. Psikologu shkollor Vjosa Kaçani dhe 5 maturantë të vitit të kaluar ndajnë çfarë funksionon vërtet."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "10 Strategjitë Fituese"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Fillo rishikimin 3 muaj para provimit — jo 3 ditë",
-            "Teknika Pomodoro: 25 min studim, 5 min pushim",
-            "Testo veten me pyetjet e viteve të kaluara",
-            "Gjumi 8 orë — truri konsolidon memorien gjatë gjumit",
-            "Ushqim i shëndetshëm: shmang sheqerin e shpejtë",
-            "Stërvitja fizike rrit përqendrimin me 40%",
-            "Grupet e studimit — shpjego materialin kolegëve",
-            "Mos studioni 'gjithçka' — fokusohuni tek temat kyçe",
-            "Meditimi 10 min/ditë ul ankthin e provimit",
-            "Planifikoni ditën e provimit: transport, ujë, laps ekstra"
-          ]
-        },
-        {
-          "type": "quote",
-          "text": "Unë e mora 9.8 në Maturë. Sekreti? Jo të studijuarit 18 orë/ditë. Por të gjumisurit mirë, ushqyerit mirë dhe besimit se isha i/e gatshëm/e.",
-          "cite": "Klea Dervishi, Maturante 2024, studentja e Mjekësisë"
-        },
-        {
-          "type": "paragraph",
-          "text": "Psikologu shkollor mban sesione individuale çdo të enjte 14:00-16:00 për nxënësit e Klasës XII që ndiejnë ankth para provimeve. Regjistrimi bëhet te sekretaria."
-        }
-      ],
-      "related": [
-        "interviste-drejtori",
-        "historia-shkolles",
-        "teknologjia-ai-ne-arsim"
-      ]
-    },
-    {
-      "slug": "historia-shkolles",
-      "title": "Historia e Shkollës Sonë: 75 Vjet Arsim dhe Tradita të Pasura",
-      "excerpt": "Nga themelimi modest i vitit 1949 deri sot, shkolla jonë ka edukuar mbi 45,000 nxënës dhe lëshuar mbi 200 personalitete kombëtare.",
-      "category": "shkolla",
-      "categoryLabel": "Shkolla",
-      "badgeClass": "badge-culture",
-      "author": "Elira Hoxha",
-      "authorAvatar": "https://ui-avatars.com/api/?name=Elira+Hoxha&background=8e44ad&color=fff&size=40&bold=true&rounded=true",
-      "date": "2024-11-15",
-      "dateFormatted": "15 Nëntor 2024",
-      "readTime": "7 min lexim",
-      "image": "https://loremflickr.com/420/260/architecture,building,old?lock=57",
-      "imageAlt": "Ndërtesa historike e shkollës Vasil Shanto në Tiranë",
-      "tags": [
-        "Shkolla",
-        "Histori",
-        "75 Vjet",
-        "Traditë",
+        "Teknologji",
+        "AI",
+        "ChatGPT",
+        "Mësues",
         "Arsim"
       ],
       "content": [
         {
-          "type": "paragraph",
-          "text": "Viti 1949. Tirana kishte vetëm 30,000 banorë. Në një ndërtesë të vogël me 4 klasa dhe 12 mësues, u hap shkolla që do të bëhej njëra nga institucionet arsimore më të respektuara të Shqipërisë."
+          "type": "image",
+          "src": "assets/gazeta/image59.png",
+          "alt": "Klasë shkollore me nxënës — lidhja njerëzore në qendër",
+          "caption": "Klasa jonë — vendi ku ndjesia njerëzore nuk zëvendësohet nga asnjë teknologji."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Dekadë pas Dekade"
+          "text": "Roli i Ri i Mësuesit në Epokën Digjitale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Në kohën e inteligjencës artificiale, shpesh dëgjojmë të diskutohet: “A do të na zëvendësojë ChatGPT mësuesit tanë?” Për lëndën e matematikës, kjo pyetje bëhet edhe më interesante."
+        },
+        {
+          "type": "paragraph",
+          "text": "Disa thonë se inteligjenca artificiale mund të bëhet mësuesi ideal: është në dispozicion në çdo kohë, nuk lodhet kurrë duke shpjeguar të njëjtin ushtrim dhe përshtatet me nivelin e secilit. Nëse matematika do të ishte thjesht \"përcjellje e informacionit\", ChatGPT do të fitonte garën pa diskutim."
+        },
+        {
+          "type": "paragraph",
+          "text": "Por, a mjafton kaq?"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pse Mësuesi Mbetet i Pazëvendësueshëm"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si nxënës, e kuptojmë se mësimdhënia është shumë më tepër se kaq. Ja pse mësuesi mbetet i pazëvendësueshëm:"
         },
         {
           "type": "list",
           "items": [
-            "1949: Themelimi me 180 nxënës dhe 12 mësues",
-            "1965: Ndërtesa e re 3-katëshe me 30 klasa",
-            "1978: Laboratori i parë shkencor",
-            "1992: Demokratizimi — ndryshim kurrikule radikale",
-            "2005: Laboratori informatikë me 20 kompjuterë",
-            "2015: Çertifikimi ndërkombëtar ISO 9001",
-            "2024: 75 vjet — 45,000+ alumnë, 200+ personalitete kombëtare"
+            "Lidhja njerëzore: ChatGPT sheh vetëm tekstin, por mësuesi na sheh ne. Ai e kupton kur ne kemi një ditë të vështirë dhe na jep atë mbështetje që asnjë program nuk mund ta ofrojë.",
+            "Të mësosh të mendosh, jo thjesht të marrësh një përgjigje: Rreziku më i madh i inteligjencës artificiale është \"marrja e gatshme e zgjidhjes\". Mësuesi i mirë na mëson udhën drejt zgjidhjes, na ndihmon të zhvillojmë logjikën tonë kritike.",
+            "Autoriteti dhe vërtetësia: ChatGPT ndonjëherë bën gabime matematikore me një siguri të habitshme. Mësuesi ynë është aty për të na korrigjuar dhe për të na drejtuar te e vërteta shkencore."
           ]
         },
         {
-          "type": "image",
-          "src": "https://loremflickr.com/800/450/architecture,building,old?lock=57",
-          "alt": "Fotografi historike e shkollës vitet 1960",
-          "caption": "Klasa e pare e shkollës në vitin 1965 — fotografi nga arkiva e institucionit."
-        },
-        {
-          "type": "quote",
-          "text": "Çdo gur i kësaj ndërtese mban memorien e dhjetëra mijëra nxënësve. Ne jemi pasardhësit e tyre — dhe kemi detyrimin të vazhdojmë traditën.",
-          "cite": "Z. Agim Tashko, Drejtor"
+          "type": "heading",
+          "level": 2,
+          "text": "Një Riformësim i Mësimdhënies"
         },
         {
           "type": "paragraph",
-          "text": "Festivali i 75-vjetorit do të zhvillohet 15 Dhjetor 2024 me praninë e alumnëve nga e gjithë bota, ministrave dhe personaliteteve. Hyrja është e hapur për të gjithë komunitetin."
+          "text": "Një riformësim i mësimdhënies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Unë mendoj se ChatGPT nuk e zëvendëson mësuesin, por ai po ndryshon rolin e tij. Një mësues që përdor teknologjinë si mjet ndihmës, bëhet edhe më i fuqishëm:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Më shumë kohë për ne: Ai nuk humbet kohë me shpjegime të përsëritura, por përqendrohet te problemet e ndërlikuara dhe te nxënësit që kanë vërtet nevojë për ndihmë.",
+            "Mësimdhënie e veçantë për secilin: Duke përdorur mjetet digjitale, mësuesi mund të krijojë mësime më gjallëruese dhe tërheqëse për secilin prej nesh."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Në fund, mësuesi i së ardhmes nuk do të jetë ai që thjesht di më shumë formula, por ai që di si të na frymëzojë, të na udhëheqë dhe t'i japë frymëzim procesit të të mësuarit. Teknologjia është një mjet, por njeriu është zemra e shkollës.",
+          "cite": "Esio Myftaraj, Klasa 8-C"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si mendoni ju? A e përdorni inteligjencën artificiale për t’u ndihmuar me detyrat apo për të zgjidhur dilemat tuaja matematikore? Na shkruani në komentet e blogut!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nga: Nga: Esio Myftaraj, Klasa 8-C"
         }
       ],
       "related": [
-        "interviste-drejtori",
-        "festivali-letersise",
-        "grupi-teatral-cmimi"
+        "busulla-jone",
+        "dita-europiane-gjuheve",
+        "tetori-letersise-teatri"
       ]
     }
   ]

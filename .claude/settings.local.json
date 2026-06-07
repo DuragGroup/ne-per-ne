@@ -5,7 +5,9 @@
       "Bash(Select-Object FullName, Length)",
       "Bash(Format-Table -AutoSize)",
       "Bash(xargs wc -l)",
-      "Bash(grep -c 'id=\"__TRACKED_VAR__\"' C:/Users/klear/Documents/Gazeta/index.html)"
+      "Bash(grep -c 'id=\"__TRACKED_VAR__\"' C:/Users/klear/Documents/Gazeta/index.html)",
+      "Bash(python *)",
+      "Bash(del *)"
     ]
   }
 }
