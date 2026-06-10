@@ -397,7 +397,7 @@ window.ARTICLES = [
     "authorAvatar": "https://ui-avatars.com/api/?name=Alesia+Kalemi&background=27ae60&color=fff&size=40&bold=true&rounded=true",
     "date": "2025-11-01",
     "dateFormatted": "1 Nëntor 2025",
-    "readTime": "4 min lexim",
+    "readTime": "6 min lexim",
     "image": "assets/gazeta/image18.png",
     "imageAlt": "Stop Bullying — Fushata Kombëtare Kundër Bullizmit Ndaj Fëmijëve",
     "tags": [
@@ -478,6 +478,31 @@ window.ARTICLES = [
         "type": "quote",
         "text": "Një shkollë e mirë nuk është ajo që s’ka probleme, por ajo që i zgjidh ato me drejtësi dhe dashuri. Ti nuk je vetëm!",
         "cite": "Alesia Kalemi, Klasa 8C"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Si të mos jesh indiferent?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nga Envi Karaj, Klasa 8-C"
+      },
+      {
+        "type": "paragraph",
+        "text": "Të jemi të sinqertë: shkolla nuk është gjithmonë ajo që duket në fotot e bukura që postojmë. Nëse i hapim sytë, shohim gjëra që nuk na pëlqejnë. Shohim grupe që mbyllen te banka e fundit dhe lënë dikë jashtë, vetëm sepse nuk ka veshjet e duhura apo telefonin më të shtrenjtë. Shohim tallje që i kalojmë me të qeshur duke thënë \"shaka bëmë\", por në fakt e shohim shumë mirë që ai shoku në bankën e parë po ul kokën mbi libër që të mos ia shohim sytë. Pse e vazhdojmë të bëjmë sikur nuk shohim?!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Me kohën kemi filluar të kuptojmë se vuajtja e vërtetë nuk është kur nuk ke lekë në xhep për të blerë diçka. Mjerimi i vërtetë është kur dikush vjen çdo mëngjes me frikën se do e shajnë, do e anashkalojnë ose do i vjellë vetëm gjithë pushimin e gjatë duke parë dritaren. Nuk mjafton të thuash \"unë nuk i bëra gjë\". Nëse e sheh një shok apo shoqe që nuk po i flet askush dhe ti nuk lëviz nga vendi, atëherë je pjesë e problemit. Po përpiqemi ta ndryshojmë këtë sjellje indiferente, duke u ulur me ata që të tjerët i shmangin, edhe nëse na shohin çuditshëm."
+      },
+      {
+        "type": "paragraph",
+        "text": "Edhe pjesa e paragjykimeve është një mësim i gabuar që e kemi marrë gjatë rritjes. Kush tha që një djalë vlen më shumë se një vajzë, apo që ne jemi më të mirë se dikush tjetër vetëm prej besimit apo ngjyrës? Këto janë ide të mbështetura që nuk na nderojnë. E njëjta gjë vlen edhe për shokët me aftësi të kufizuara. Ata nuk duan që ne t'i shohim me mëshirë. Mëshira nuk ndihmon askënd, thjesht i bën të ndihen më keq. Ata duan të pranohen si të barabartë, të diskutojnë për lojërat apo të bëjnë detyrat bashkë me bankë, pa u ndjerë si \"të përjashtuar\" sa herë që mësuesja del nga klasa."
+      },
+      {
+        "type": "paragraph",
+        "text": "Në fund, ndryshimi nuk ndodh vetëm kur mësuesja shkruan në tabelë temën dhe e shpjegon. Ndryshimi i vërtetë ndodh kur bie zilja e pushimit dhe ne qëndrojmë në klasë. Ai ndodh aty, mes rreshtave të bankës, kur vendos të mos qeshësh me një ofendim që hidhet nga fundi i klasës, por kur kthen karrigen nga shoku që po rri vetëm dhe kur kupton se të jesh i fortë do të thotë të mbrosh atë që po shtypet, jo ta shtypësh vetë. Shkolla është vendi ku po vendosim çfarë njerëzish do jemi në të ardhmen: nga ata që bëjnë \"sehir\", apo nga ata që guxojnë të bëjnë diçka të guximshme e njerëzore, sa herë që klasa mbetet vetëm me Ne."
       }
     ],
     "related": [
@@ -927,7 +952,7 @@ window.ARTICLES = [
     "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
     "date": "2026-02-21",
     "dateFormatted": "21 Shkurt 2026",
-    "readTime": "3 min lexim",
+    "readTime": "7 min lexim",
     "image": "assets/gazeta/image35.png",
     "imageAlt": "Shkrimtarja Valbona Banka prezanton librin Aria para nxënësve",
     "tags": [
@@ -975,6 +1000,81 @@ window.ARTICLES = [
         "src": "assets/gazeta/gjuha-amtare-nxenesit.jpeg",
         "alt": "Nxënës gjatë takimit letrar me Valbona Bankën",
         "caption": "Momente nga takimi letrar — Dita e Gjuhës Amtare 2026."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Gjuha amtare, ura që lidh brezat"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nga Emajaba Idrizi"
+      },
+      {
+        "type": "paragraph",
+        "text": "Me rastin e 21 Shkurtit – Ditës Ndërkombëtare të Gjuhës Amtare, në shkollën 9-vjeçare \"Vasil Shanto\" u zhvillua një aktivitet i veçantë letrar me pjesëmarrjen e shkrimtares së njohur për fëmijë, Valbona Banka, fituese e vendit të parë për autorin e librit për fëmijë dhe të rinj në Panairin e Librit për vitin 2025 me romanin \"Aria në dorën time\". Libri rrëfen historinë e Arias, një vajzë e vogël që nis një udhëtim për të zbuluar Shqipërinë, jo vetëm përmes vendeve që viziton, por edhe përmes emocioneve, njerëzve dhe historive që e shoqërojnë. Me zemër, humor dhe një dashuri të thellë për vendin e saj, Aria sjell një këndvështrim të freskët dhe frymëzues për të gjithë lexuesit, të vegjël e të rritur. Kur ta lexoni do të zbuloni më shumë rreth frymëzimit e mesazhit që autorja dëshiron të përcjellë dhe mënyrës si letrat për fëmijë mund të bëhen ura që lidhin brezat me kulturën dhe identitetin."
+      },
+      {
+        "type": "paragraph",
+        "text": "Në një atmosferë të ngrohtë dhe plot interes, nxënësit patën mundësinë të kishin një bashkëbisedim të lirë me shkrimtaren, e cila ndau me ne përvojën e saj krijuese, dashurinë për librin dhe rëndësinë e gjuhës shqipe në ruajtjen e identitetit kombëtar. Përmes rrëfimeve dhe këshillave të saj, ajo i ftoi të gjithë të pranishmit të lexojnë më shumë, të pasurojnë fjalorin dhe të shprehen me kujdes e përgjegjshmëri në gjuhën amtare."
+      },
+      {
+        "type": "paragraph",
+        "text": "Gjatë aktivitetit, nxënësit drejtuan pyetje të shumta dhe u përfshinë në diskutime që nxorën në pah vlerën e leximit si një mjet i rëndësishëm për zhvillimin e mendimit, imagjinatës dhe kulturës së përgjithshme. Takimi u kthye në një orë frymëzimi, ku fjala artistike dhe dashuria për gjuhën u bënë urë komunikimi mes brezave."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mesazhi kryesor që përcolli ky aktivitet ishte i qartë: gjuha amtare është pasuria më e çmuar e një kombi, ndaj ruajtja, pasurimi dhe përdorimi i saj me krenari është përgjegjësi e secilit prej nesh. Përmes leximit, shkrimit dhe komunikimit të kujdesshëm, ne jo vetëm mbrojmë gjuhën tonë, por edhe forcojmë identitetin dhe kulturën që na bashkon."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Gjuha Shqipe dhe sfidat e saj në epokën digjitale"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nga Roen Meçaj, klasa 8C"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sot, gjuha shqipe nuk po përballet vetëm me teknologjinë, por me diçka më të rrezikshme: cungimin dhe shartimin e saj."
+      },
+      {
+        "type": "paragraph",
+        "text": "Kjo nuk duket menjëherë, por shfaqet në mënyrën si flasim çdo ditë. Në klasë, kur mësuesja kërkon një mendim më të thelluar për një tekst, shpesh përgjigjja mbetet te \"ishte bukur\" ose \"më pëlqeu\". Mendimi ekziston, por mungojnë fjalët për ta shprehur. Dhe kur mungojnë fjalët, mendimi mbetet i kufizuar."
+      },
+      {
+        "type": "paragraph",
+        "text": "Kjo lidhet drejtpërdrejt me një zakon që po bëhet i zakonshëm në jetën e përditshme të të rinjve: përdorimi i fjalëve të huaja dhe i të ashtuquajturave shprehje angleze që ndërhyjnë në rrjedhën e folur shqip. Nëse nuk e kemi fjalën e vetme, përdorimi i fjalëve të huaja nuk është domosdoshmërisht problem, por kur ato zëvendësojnë fjalët e shqipes dhe fillojnë të humbin kuptimin e tyre, problemi bëhet real."
+      },
+      {
+        "type": "paragraph",
+        "text": "Edhe më i rrezikshëm është një fenomen tjetër: kur pyetet \"Si ta kalove sot në shkollë?\" dhe përgjigjja është thjesht \"Mirë\". Kjo nuk është komunikim, është shmangie e tij. Aty mungon rrëfimi, përshkrimi dhe emocioni. Një bisedë më e gjatë do të ndihmonte jo vetëm gjuhën, por edhe marrëdhënien mes prindit dhe fëmijës."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ndikimi i teknologjisë e përforcon këtë problem. Në mjetet sociale, komunikimi është bërë i shpejtë dhe i shkurtër: \"ok\", \"flm\", \"lol\", apo një emoji që zëvendëson një fjali të tërë. Kjo është praktike, por e varfër për mendimin. Nëse mësohemi vetëm me këtë formë, rrezikojmë të humbasim aftësinë për të shprehur ide të plota dhe të qarta."
+      },
+      {
+        "type": "paragraph",
+        "text": "Për fat të keq, as modeli publik nuk na ndihmon gjithmonë. Në përpjekje për t'u dukur \"moderne\", disa gazetarë dhe prezantues e mbingarkojnë të folurin me fjalë të huaja të panevojshme. Kur përdoren terma si \"feedback\" në vend të \"mendim\" apo \"background\" në vend të \"prapavijë\", krijohet përshtypja se shqipja nuk mjafton. Në të vërtetë, pasuria e saj shpesh neglizhohet. Të flasësh pastër shqip nuk është prapambetje, por tregues kulture dhe qartësie mendimi."
+      },
+      {
+        "type": "paragraph",
+        "text": "Një tjetër shqetësim është humbja e etikës gjuhësore. Sot vërehet një përzierje e pakontrolluar e regjistrave: gjuha e përditshme po hyn gjithnjë e më shumë në mjedise ku kërkohet formalitet dhe respekt, si shkolla. Një shembull i thjeshtë: kur një nxënës i drejtohet mësuesit me të njëjtin ton si shokut të tij, nuk është thjesht çështje gjuhe, por mungesë respekti. Po kështu, kur debatet mes nxënësve kthehen në fjalë të ashpra, shpesh problemi nuk është ideja, por mënyra si shprehet ajo."
+      },
+      {
+        "type": "quote",
+        "text": "Gjuha është më shumë se një mjet komunikimi; ajo është pasqyrë e mendimit dhe e kulturës sonë. Një nxënës që di të shprehet qartë, fiton më shumë në shkollë dhe në jetë.",
+        "cite": "Roen Meçaj, klasa 8C"
+      },
+      {
+        "type": "paragraph",
+        "text": "Zgjidhja është e thjeshtë, por kërkon përpjekje nga të gjithë. Nxënësit duhet të lexojnë më shumë dhe të përpiqen të flasin më saktë. Mësuesit duhet të nxisin diskutime dhe të korrigjojnë me durim. Prindërit duhet të kërkojnë më shumë se një \"mirë\" dhe të krijojnë hapësirë për bisedë."
+      },
+      {
+        "type": "paragraph",
+        "text": "Në një kohë kur teknologjia është në duart tona, përgjegjësia është po ashtu në duart tona. Nëse dimë ta përdorim drejt, ajo mund të na ndihmojë të pasurojmë gjuhën, jo ta varfërojmë atë. Sepse në fund, gjuha nuk është vetëm ajo që themi, por ajo që jemi."
       }
     ],
     "related": [
@@ -1567,6 +1667,576 @@ window.ARTICLES = [
       "busulla-jone",
       "dita-europiane-gjuheve",
       "tetori-letersise-teatri"
+    ]
+  },
+  {
+    "slug": "buqeta-poezish-klasa-8c",
+    "title": "Një Buqetë Poezish nga Krijuesit e Klasës 8C",
+    "excerpt": "Gjashtë poezi të shkruara me dashuri nga nxënësit e klasës 8C — mbi miqësinë, familjen, mirësinë dhe gëzimin e jetës.",
+    "category": "poezi",
+    "categoryLabel": "Poezi",
+    "badgeClass": "badge-poetry",
+    "author": "Nxënësit e Klasës 8C",
+    "authorAvatar": "https://ui-avatars.com/api/?name=Klasa+8C&background=c2185b&color=fff&size=40&bold=true&rounded=true",
+    "date": "2026-06-10",
+    "dateFormatted": "10 Qershor 2026",
+    "readTime": "5 min lexim",
+    "image": "assets/gazeta/poetry.jpg",
+    "imageAlt": "Stilolaps mbi fletë shkrimi — krijimtaria poetike e nxënësve",
+    "tags": [
+      "Poezi",
+      "Klasë 8C",
+      "Krijimtari",
+      "Letërsi",
+      "Nxënës"
+    ],
+    "content": [
+      {
+        "type": "image",
+        "src": "assets/gazeta/poetry.jpg",
+        "alt": "Stilolaps mbi fletë shkrimi",
+        "caption": "Krijimtaria poetike e nxënësve të klasës 8C — fjalë nga zemra."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Një Buqetë Poezish nga Krijuesit e Klasës 8C"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nxënësit e klasës 8C na dhurojnë gjashtë poezi që flasin për miqësinë, dashurinë familjare, mirësinë dhe bukurinë e jetës. Secila poezi mban nënshkrimin e autorit dhe pasqyron botën e brendshme të një nxënësi në prag të moshës së rritur."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Miqësi prej Qelqi"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nga Emajaba Idrizi, klasa 8C"
+      },
+      {
+        "type": "paragraph",
+        "text": "Miqësia s'është kështjellë me gur, por një lidhje e brishtë si flutur."
+      },
+      {
+        "type": "paragraph",
+        "text": "Një fjalë e nxituar, një çast zemërim, mund ta kthejnë buzëqeshjen në trishtim."
+      },
+      {
+        "type": "paragraph",
+        "text": "S'kërkon pasuri, as fjalë të mëdha, veç zemër të hapur dhe mirësi pa nda. Kur dimë të falim dhe të kuptojmë, miqësinë e vërtetë gjithmonë e ruajmë."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Fara që Ël në Heshtje"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nga Natali Poloska, klasa 8C"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ti jep dritë që tjetri të shohë, por jo gjithmonë di ta vlerësojë. Kur mirësia mbetet pa përgjigje, zemra mëson disa të vërteta të hidhura."
+      },
+      {
+        "type": "paragraph",
+        "text": "Megjithatë mos resht s'bëri mirë, mos e humb besimin e dëshirën. Se fara nuk mbin në çdo vend, por diku patjetër do të ëlë."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Streha e Dashurisë"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nga Alesja Mataj, klasa 8C"
+      },
+      {
+        "type": "paragraph",
+        "text": "Në sytë e tu ka dashuri pa fund, forcë që na ngre sa herë rëzohemi. Je strehë në ditët me shi dhe dritë në çastet e vështira."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pak e shohin lodhjen që fsheh në zemër, por ne e ndiejme ngrohtësinë tënde. Në dy krahët e tu rriten ëndrrat tona, plot besim, shpresë dhe jetë — e madhërishmja Nënë."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Babai"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nga Dilaver Brahaj, klasa 8C"
+      },
+      {
+        "type": "paragraph",
+        "text": "Në duart e tij fle forca e ditës, Në sytë e tij shpresa jonë. Djersa e ballit bëhet dritë, Që ndriçon rrugën tonën."
+      },
+      {
+        "type": "paragraph",
+        "text": "Flet pak, por zemra i këndon, Me gjuhën e dashurisë së pastër. Hero i heshtur i jetës sonë, Thesar i ëmuar e i vlerë."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Udhërrëfyesit e Dijes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nga Sintia Penko, klasa 8C"
+      },
+      {
+        "type": "paragraph",
+        "text": "Në klasë hyjmë me hapa të qetë, dhe dita nis ndryshe nga më parë. Një pyetje e thjeshtë, një shpjegim i kthjellët, na hap një mendim të ri çdo ditë."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mbi fletë e libra kalojnë orët, mes gabimeve që mësojmë t'i ndreqim. Një fjalë e juaja shpesh mbetet gjatë, edhe kur ora ka përfunduar."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Të Jetosh!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nga Klaudia Kadriu, klasa 8C"
+      },
+      {
+        "type": "paragraph",
+        "text": "Të jetosh do të thotë ta vlerësosh çdo ditë që të falet, si një dhuratë të vogël që nuk kërkon asgjë në këmbim."
+      },
+      {
+        "type": "paragraph",
+        "text": "Të jetosh do të thotë të besosh te njerëzit, te dielli që lind çdo mëngjes, te ëndrrat që na japin forcë dhe te shpresa që na ndriçon rrugën."
+      },
+      {
+        "type": "paragraph",
+        "text": "Të jetosh do të thotë të mos dorëzohesh kur has vështirësi, por të ecësh përpara me zemër të hapur dhe me besim te e nesërmja."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sepse jeta bëhet më e bukur kur dimë të falënderojmë, të buzëqeshim dhe të gjejmë lumturinë edhe në gjërat më të thjeshta."
+      }
+    ],
+    "related": [
+      "dita-europiane-gjuheve",
+      "tetori-letersise-teatri",
+      "lufta-kunder-bullizmit"
+    ]
+  },
+  {
+    "slug": "liqeni-shkodres-rezerve-biosfere-unesco",
+    "title": "Zyrtare: Liqeni i Shkodrës Shpallet Rezervë Biosfere nga UNESCO",
+    "excerpt": "Liqeni i Shkodrës ka fituar statusin e Rezervës Biosfere nga UNESCO — një arritje historike që do të ndikojë ekonominë dhe mbrojtjen e natyrës shqiptare.",
+    "category": "kulture",
+    "categoryLabel": "Kulturë",
+    "badgeClass": "badge-culture",
+    "author": "Redaksia \"Ne për Ne\"",
+    "authorAvatar": "https://ui-avatars.com/api/?name=Redaksia+Ne+per+Ne&background=8e44ad&color=fff&size=40&bold=true&rounded=true",
+    "date": "2026-06-10",
+    "dateFormatted": "10 Qershor 2026",
+    "readTime": "3 min lexim",
+    "image": "assets/gazeta/liqeni-shkodres-kajak.png",
+    "imageAlt": "Kajak në Liqenin e Shkodrës — Rezervë Biosfere nga UNESCO",
+    "tags": [
+      "UNESCO",
+      "Liqeni i Shkodrës",
+      "Mjedis",
+      "Shqipëri",
+      "Kulturë"
+    ],
+    "content": [
+      {
+        "type": "image",
+        "src": "assets/gazeta/liqeni-shkodres-kajak.png",
+        "alt": "Kajak në Liqenin e Shkodrës",
+        "caption": "Liqeni i Shkodrës — tashme Rezervë Biosfere nga UNESCO."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Zyrtare: Liqeni i Shkodrës Shpallet Rezervë Biosfere nga UNESCO"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rubrika: Çka ndodh rreth nesh?!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Një tjetër pasuri përrallore e natyrës shqiptare merr vlerësimin maksimal ndërkombëtar. Liqeni i Shkodrës është shpallur zyrtarisht Rezervë Biosfere nga UNESCO, duke fituar një status të veçantë mbrojtjeje dhe rëndësie globale."
+      },
+      {
+        "type": "paragraph",
+        "text": "Lajmin e bëri të ditur Ministri i Infrastrukturës dhe Energjisë, Enea Karakaçi, i cili e cilësoi këtë arritje si një moment krenarie, por edhe si një përgjegjësi të madhe për të ardhmen e rajonit."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sipas ministrit Karakaçi, ky certifikim ndërkombëtar konfirmon vlerat e rralla ekologjike të zonës dhe do të shërbejë si një motor i fuqishëm për zhvillimin e qëndrueshëm."
+      },
+      {
+        "type": "quote",
+        "text": "Një pasuri e rrallë natyrore, që tashëm merr një vlerësim ndërkombëtar duke marrë një status të veçantë. Një moment krenarie dhe përgjegjësie.",
+        "cite": "Enea Karakaçi, Ministri i Infrastrukturës dhe Energjisë"
+      },
+      {
+        "type": "image",
+        "src": "assets/gazeta/liqeni-shkodres-kalaja.png",
+        "alt": "Liqeni i Shkodrës me kalanë e Rozafës",
+        "caption": "Kalaja e Rozafës mbi Liqenin e Shkodrës — një pasuri natyrore dhe historike e pazëvendësueshme."
+      },
+      {
+        "type": "paragraph",
+        "text": "Përfshirja e Liqenit të Shkodrës në rrjetin e UNESCO-s pritet të sjellë një impakt të drejtpërdrejtë në ekonominë lokale. Statusi i ri hap dritare të reja investimesh dhe mundësi punësimi për të gjithë komunitetin e zonës."
+      }
+    ],
+    "related": [
+      "dita-e-tokes-projektet",
+      "dita-gjuhes-amtare",
+      "pavaresia-kosoves-17-shkurt"
+    ]
+  },
+  {
+    "slug": "cikli-fillor-klasa-e-peste",
+    "title": "Përmbyllet me Sukses Cikli Fillor për Nxënësit e Klasave të Pesta",
+    "excerpt": "Katër klasat e pesta të shkollës sonë shënuan me emocion përfundimin e ciklit fillor — pesë vite mësimi, aktivitetesh dhe kujtimesh të paharrueshme.",
+    "category": "shkolla",
+    "categoryLabel": "Shkolla",
+    "badgeClass": "badge-science",
+    "author": "Redaksia \"Ne për Ne\"",
+    "authorAvatar": "https://ui-avatars.com/api/?name=Redaksia+Ne+per+Ne&background=d35400&color=fff&size=40&bold=true&rounded=true",
+    "date": "2026-06-10",
+    "dateFormatted": "10 Qershor 2026",
+    "readTime": "3 min lexim",
+    "image": "assets/gazeta/cikli-fillor-diplome.png",
+    "imageAlt": "Nxënëse me toga dhe diploma — fund i ciklit fillor",
+    "tags": [
+      "Shkolla",
+      "Cikli Fillor",
+      "Diplomim",
+      "Klasë 5",
+      "Ceremoni"
+    ],
+    "content": [
+      {
+        "type": "image",
+        "src": "assets/gazeta/cikli-fillor-diplome.png",
+        "alt": "Nxënëse me toga dhe diploma — fund i ciklit fillor",
+        "caption": "Nxënëset e klasave të pesta me toga, diploma dhe lule dielli — një moment i paharrueshëm."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Përmbyllet me Sukses Cikli Fillor për Nxënësit e Klasave të Pesta"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rubrika: Po ndodh."
+      },
+      {
+        "type": "paragraph",
+        "text": "Në një atmosferë festive, të mbushur me emocione, buzëqeshje dhe mirënjohje, katër klasat e pesta të shkollës sonë shënuan përfundimin me sukses të ciklit fillor, duke mbyllur një etapë të rëndësishme të formimit të tyre arsimor."
+      },
+      {
+        "type": "paragraph",
+        "text": "Gjatë pesë viteve të para të shkollimit, nxënësit kanë fituar njohuri, aftësi dhe vlera që do t'i shoqërojnë në rrugëtimin e tyre të mëtejshëm akademik. Nën përkujdesjen dhe përkushtimin e mësueseve të tyre, ata kanë arritur rezultate të mira në mësime, kanë marrë pjesë në veprimtari të ndryshme edukative, kulturore e sportive dhe kanë ndërtuar kujtime të bukura që do t'i mbajnë gjatë në zemër."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ceremonia e organizuar për këtë rast u kthye në një festë të vërtetë falë bashkëpunimit të shkëlqyer mes shkollës, mësuesve dhe prindërve, të cilët kanë qenë mbështetës të pandarë në edukimin dhe rritjen e fëmijëve."
+      },
+      {
+        "type": "paragraph",
+        "text": "Duke përgëzuar të gjithë nxënësit për përfundimin me sukses të kësaj faze, u urojmë atyre rrugëtim të mbarë në Arsimin e Mesëm të Ulët, suksese në sfidat e reja, rezultate gjithnjë e më të larta dhe realizimin e ëndrrave të tyre."
+      }
+    ],
+    "related": [
+      "nente-vite-fluturimi-drejt-aml",
+      "busulla-jone",
+      "vasil-shanto-komemorim"
+    ]
+  },
+  {
+    "slug": "nente-vite-fluturimi-drejt-aml",
+    "title": "9 Vite në një Fole: Fluturimi i Ri drejt AML-së!",
+    "excerpt": "Katër klasat e nënta po mbyllin 9 vite të jashtëzakonshme në shkollën 'Vasil Shanto' — me emocion, mirënjohje dhe sytë drejt AML-së.",
+    "category": "shkolla",
+    "categoryLabel": "Shkolla",
+    "badgeClass": "badge-science",
+    "author": "Redaksia \"Ne për Ne\"",
+    "authorAvatar": "https://ui-avatars.com/api/?name=Redaksia+Ne+per+Ne&background=d35400&color=fff&size=40&bold=true&rounded=true",
+    "date": "2026-06-10",
+    "dateFormatted": "10 Qershor 2026",
+    "readTime": "3 min lexim",
+    "image": "assets/gazeta/mini-prom-grupi.png",
+    "imageAlt": "Nxënësit e klasave të nënta të veshur me elegancë — nata e mini promit",
+    "tags": [
+      "Shkolla",
+      "Klasë 9",
+      "Mini Prom",
+      "Diplomim",
+      "AML"
+    ],
+    "content": [
+      {
+        "type": "image",
+        "src": "assets/gazeta/mini-prom-grupi.png",
+        "alt": "Nxënësit e klasave të nënta",
+        "caption": "Klasat e nënta të shkollës 'Vasil Shanto' — bashkë për herë të fundit para largimit drejt AML-së."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "9 Vite në një Fole: Fluturimi i Ri drejt AML-së!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nëntë vite nuk janë pak. Janë plot 3285 ditë të mbushura me zhurmë korridoresh, nota, të qeshura pa fund, zemërime të harruara dhe miqësi të papërsëritshme."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sot, 4 klasat tona të nënta po përmbyllin një cikël të jashtëzakonshëm të AMU-së. Fotografitë tona te hyrja e shkollës, librat e firmosur, veset tona — të gjitha kanë treguar botës se çfarë vlere kemi."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ky nuk është thjesht një largim. Ky është çasti kur thyhet foleja e ngrohtë 9-vjeçare sepse krahët tuaj janë bërë të fortë."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mos u trembni nga lartësitë! Kjo shkollë ju ka dhënë rrënjët, tani është koha të shpalosni krahët drejt largësive."
+      },
+      {
+        "type": "paragraph",
+        "text": "Për të gjithë ju që po mbyllni këtë kapitull: Mbajeni kokën lart, besoni te vetja dhe mos harroni kurrë se keni lënë gjurmë të pashlyera në muret e kësaj shkolle."
+      },
+      {
+        "type": "image",
+        "src": "assets/gazeta/mini-prom-festa.png",
+        "alt": "Festa e mini promit të klasave të nënta",
+        "caption": "Nata e mini promit — festa e fundit bashkë si klasa 9 e shkollës 'Vasil Shanto'."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ju urojmë me zemër shumë suksese në Provimet e Lirimit në lëndët: Gjuhë shqipe, Anglisht dhe Matematikë."
+      },
+      {
+        "type": "quote",
+        "text": "Rrugëtim të mbarë, kampionë! Hapësira e AML-së është e juaja për t'u pushtuar!",
+        "cite": "Redaksia \"Ne për Ne\" — #VasilShantoPride"
+      }
+    ],
+    "related": [
+      "cikli-fillor-klasa-e-peste",
+      "busulla-jone",
+      "vasil-shanto-komemorim"
+    ]
+  },
+  {
+    "slug": "kendi-i-vizioneve-shkolla-2036",
+    "title": "Këndi i Vizioneve: Si mendoj se do të jetë shkolla jonë pas 10 vitesh?",
+    "excerpt": "Ajla Dervishi imagjinon shkollën 'Vasil Shanto' në vitin 2036 — fletë digjitale, orë mësimi me Realitet Virtual, mure inteligjente dhe pyetja e madhe: a mund ta zëvendësojë IA-ja mësuesin?",
+    "category": "teknologji",
+    "categoryLabel": "Teknologji",
+    "badgeClass": "badge-tech",
+    "author": "Ajla Dervishi",
+    "authorAvatar": "https://ui-avatars.com/api/?name=Ajla+Dervishi&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+    "date": "2026-06-10",
+    "dateFormatted": "10 Qershor 2026",
+    "readTime": "4 min lexim",
+    "image": "assets/gazeta/education-virtual-reality.jpg",
+    "imageAlt": "Realitet Virtual në arsim — shkolla e së ardhmes",
+    "tags": [
+      "Teknologji",
+      "Vizion 2036",
+      "Arsim",
+      "IA",
+      "Realitet Virtual"
+    ],
+    "content": [
+      {
+        "type": "image",
+        "src": "assets/gazeta/education-virtual-reality.jpg",
+        "alt": "Realitet Virtual në arsim — shkolla e së ardhmes",
+        "caption": "Vizion 2036 — shkolla jonë e së ardhmes, parë përmes lentes së kohës."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Këndi i Vizioneve: Si mendoj se do të jetë shkolla jonë pas 10 vitesh?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nga Ajla Dervishi — (Vizion 2036 / Fantashkencë)"
+      },
+      {
+        "type": "quote",
+        "text": "Mbyllni sytë për një çast dhe udhëtoni me sytë e mendjes saktësisht pas 10 vitesh, në vitin 2036. Mirëseerdhët në shkollën tonë të së ardhmes, parë përmes lentes së kohës!",
+        "cite": "Ajla Dervishi"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ajo çanta e rëndë që sot u kërrus shpinën nxënësve rrugës për në shkollë, a do jetë më?! Pas një dekade, për brezat e rinj që do të popullojnë klasat e shkollës sonë, çanta që ne e kemi objekt të domosdoshëm, do të jetë thjesht një kujtim i vjetër muzeal. Në vitin 2036, librat e tyre do të jenë të gjithë të përmbledhur në një 'fletë digjitale' të hollë e inteligjente, e lidhur direkt me rrjetin global të dijes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Edhe mënyra se si ata do të mësojnë do të pësojë një hap galopant! Orët e mësimit nuk do të jenë më një dëgjim pasiv. Imagjinoni orën e Historisë apo të Gjeografisë: mjafton që nxënësit të vendosin syzet e tyre të Realitetit Virtual dhe matricat holografike do t'i lejojnë ata të ecin krah për krah me Jul Çezarin në Romën Antike, apo të lundrojnë brenda një qelize njerëzore. Projektet që sot shfaqen me videoprojektorë, do të projektohen si imazhe tredimensionale në hapësirë, duke e kthyer çdo klasë në një laborator të gjallë eksperimentesh."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mjedisi rreth tyre do të transformohet në një habitat ultramodern. Klasat e shkollës sonë do të kenë mure inteligjente që ndryshojnë ngjyrë dhe dekor sipas lëndës, duke krijuar një atmosferë çlodhëse. Po mësuesit? Ata do të jenë 'navigatorët' e këtyre brezave në kosmosin e madh të informacionit — por lind pyetja: a do të kenë fare mësues, apo do të jenë zëvendësuar nga IA-ja? Dhe nëse mësimet online zëvendësojnë mësimin fizik, a do të funksionojë shkolla si institucion?"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Por ja ku vjen pika më e fortë e këtij vizioni..."
+      },
+      {
+        "type": "paragraph",
+        "text": "Edhe pse teknologjia pas 10 vitesh do të bëjë hapa galaktikë për brezin e ardhshëm, zemra e shkollës sonë 'Vasil Shanto' jam shpresëplotë se do të rrahë me të njëjtën ngrohtësi njerëzore. Inteligjenca artificiale nuk do të zëvendësojë dot kurrë:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Përqafimin e sinqertë mes shokëve të klasës në një ditë të vështirë.",
+          "Të qeshurat shpërthyese që do të vazhdojnë të pushtojnë korridoret tona gjatë pushimit të gjatë.",
+          "Kujtimet dhe lidhjet shpirtërore që formojnë njerëzit e vërtetë."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Shtëpia nuk mund të zëvendësojë dot funksionin social që ka shkolla. Misioni i saj do të mbetet i shpalosur në kohë si sfidë që të mbetet ajo 'foleja e ngrohtë' ku brezat e rinj mësojnë të fluturojnë, pa harruar kurrë se si të duan dhe të komunikojnë me njëri-tjetrin. Viti 2036 po vjen... dhe shkolla jonë po bëhet gati për sfidat e reja!"
+      }
+    ],
+    "related": [
+      "roli-mesuesit-epoka-digjitale",
+      "dita-gjuhes-amtare",
+      "busulla-jone"
+    ]
+  },
+  {
+    "slug": "a-e-dini-se-kuriozitete-klasa-8c",
+    "title": "A e dini se...? Kuriozitete që tronditin imagjinatën",
+    "excerpt": "Nxënësit e klasës 8C sjellin 7 fakte mahnitëse — nga misteret e numrit Pi, tek pemët që komunikojnë, dilatimi i kohës dhe pyetja e Dekartit: 'A jemi ne realiteti apo ëndrra?'",
+    "category": "kuriozitete",
+    "categoryLabel": "Kuriozitete",
+    "badgeClass": "badge-curiosity",
+    "author": "Nxënësit e Klasës 8C",
+    "authorAvatar": "https://ui-avatars.com/api/?name=Klasa+8C&background=f39c12&color=fff&size=40&bold=true&rounded=true",
+    "date": "2026-06-10",
+    "dateFormatted": "10 Qershor 2026",
+    "readTime": "6 min lexim",
+    "image": "assets/gazeta/curiosity.jpg",
+    "imageAlt": "Kuriozitete shkencore — A e dini se...?",
+    "tags": [
+      "Kuriozitete",
+      "Shkencë",
+      "Matematikë",
+      "Fizikë",
+      "Filozofi"
+    ],
+    "content": [
+      {
+        "type": "image",
+        "src": "assets/gazeta/curiosity.jpg",
+        "alt": "Kuriozitete shkencore — A e dini se...?",
+        "caption": "Rubrika 'A e dini se...?' — kuriozitete nga nxënësit e klasës 8C."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Rubrika: A e dini se...?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nxënësit e klasës 8C — Erla Plepi, Luis Myhypaj, Lemart Ndreka, Flavio Palla dhe Antonio Pane — sjellin shtatë fakte që lidhin matematikën, gjuhën, natyrën, fizikën, filozofinë dhe letërsinë në një rubrikë që fton të mendosh ndryshe."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Misteri i pafundësisë: A ndodhet jeta jote brenda një numri?"
+      },
+      {
+        "type": "paragraph",
+        "text": "A keni dëgjuar ndonjëherë për numrin Pi? Në matematikë, ne e njohim si raportin midis perimetrit të një rrethi dhe diametrit të tij (afërsisht 3.14). Por Pi fsheh një sekret që trondit imagjinatën e çdo shkencëtari. Nëse i shkruan të gjitha shifrat e këtij numri, ato nuk përsëriten kurrë në të njëjtën mënyrë. Thuhet se në këtë numër, diku, ndodhet kodi numerik i datëlindjes sate, i numrit të telefonit tënd dhe i çdo shifre tjetër që ekziston në univers."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pi është një numër irracional — shifrat e tij pas presjes dhjetore vazhdojnë pafundësisht pa pasur kurrë një rend përsëritës. Kjo do të thotë se datëlindja juaj, numri juaj i telefonit, madje edhe kodi i ID-së janë të shkruara diku brenda shifrave të tij! Nëse kërkojmë kombinimin 17061969, zbulojmë se shfaqet për herë të parë pas 62 milionë shifrash. Nuk është magji — është thjesht statistika e pafundësisë."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sfidë për lexuesit: doni ta gjeni se ku ndodhet datëlindja juaj në pafundësinë e numrit Pi? Kërkoni në internet faqen 'Pi Search Page' dhe shkruani shifrat tuaja. Do të habiteni!"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Fjalët që udhëtojnë"
+      },
+      {
+        "type": "paragraph",
+        "text": "Në gjuhën shqipe kemi fjalë si 'besa', e cila është thuajse e pamundur të përkthehet me një fjalë të vetme në gjuhë të tjera, sepse ajo mbart një kod moral, jo thjesht një premtim. Besa nuk është vetëm fjala e dhënë — është nderi, identiteti dhe pasqyra e karakterit."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Rrjeti i internetit të pemëve"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pemët në një pyll komunikojnë me njëra-tjetrën përmes një rrjeti nëntokësor kërpudhash (miceliumi). Pemët e mëdha — të quajtura 'nënat' — i dërgojnë sheqer dhe lëndë ushqyese pemëve të vogla që nuk marrin dot mjaftueshëm dritë dielli. Është një leksion që na tregon se natyra është e organizuar si një shoqëri e ndërlidhur."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pse shkruajmë nga e majta në të djathtë?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Në lashtësi, grekët shkruanin në një stil të quajtur boustrophedon (si lëvizja e qeve kur lërojnë tokën): një rresht nga e djathta në të majtë, tjetri nga e majta në të djathtë. Shkrimi nga e majta në të djathtë u bë standardi sepse shumica e njerëzve janë djathtakë — duke shkruar me dorën e djathtë, nuk e 'fshinin' bojën e njomë teksa lëviznin përpara."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Koha nuk është kudo e njëjtë"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nëse do të kishe mundësinë të udhëtosh në hapësirë afër një vrime të zezë, koha për ty do të kalonte shumë më ngadalë sesa për njerëzit në Tokë. Ky fenomen quhet 'dilatimi i kohës' dhe është vërtetuar shkencërisht. Satelitët e GPS që rrotullohen rreth Tokës lëvizin me shpejtësi të lartë dhe janë në një gravitet më të dobët. Nëse shkencëtarët nuk do të kishin bërë llogaritjet e sakta të dilatimit të kohës për t'i sinkronizuar ato, sistemi GPS në telefonin tënd nuk do të ishte i saktë dhe do të ngatërroje rrugën."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sipas Ajnshtajnit, nëse njëri binjak udhëton në hapësirë me shpejtësi marramendëse ndërsa tjetri qëndron në Tokë, kur të bashkohen pas shumë vitesh, binjaku që udhëtoi do të jetë më i ri. Ky është 'Paradoksi i Binjakëve'."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "A jemi Ne realiteti apo ëndrra?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Filozofi René Descartes shtroi pyetjen: 'Si mund të jem i sigurt se nuk po ëndërroj?' Nëse fizika na thotë se koha është relative dhe hapësira përkulet, filozofia na fton të pyesim: a është bota që shohim 'e vërtetë', apo thjesht mënyra se si truri ynë përpunon informacionin? Nëse koha ndryshon, a ndryshon edhe realiteti ynë?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Koha si një personazh"
+      },
+      {
+        "type": "paragraph",
+        "text": "Në letërsi, koha shpesh bëhet personazh kryesor. Shkrimtarët e mëdhenj si Marcel Proust në veprën 'Në kërkim të kohës së humbur' tregojnë se koha nuk matet me orë, por me kujtime — një aromë apo një shije mund të na kthejë vite pas në një sekondë. Letërsia bën atë që fizika s'e bën dot: ajo 'përkul' kohën përmes emocioneve."
+      },
+      {
+        "type": "quote",
+        "text": "Nëse koha është relative (fizikë), nëse realiteti është subjektiv (filozofi) dhe nëse kujtesa na kthen në të shkuarën (letërsi)... kush jemi ne, kur ndalojmë së menduari?!",
+        "cite": "Nxënësit e klasës 8C — Erla Plepi, Luis Myhypaj, Lemart Ndreka, Flavio Palla, Antonio Pane"
+      }
+    ],
+    "related": [
+      "kendi-i-vizioneve-shkolla-2036",
+      "dita-gjuhes-amtare",
+      "roli-mesuesit-epoka-digjitale"
     ]
   }
 ];

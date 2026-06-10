@@ -20,6 +20,8 @@
   --science-color:   #d35400;
   --society-color:   #16a085;
   --literature-color:#c0392b;
+  --poetry-color:    #c2185b;
+  --curiosity-color: #f39c12;
 
   /* Light theme surfaces */
   --bg:          #f2f2f2;
@@ -203,6 +205,8 @@ time { font-size: 0.78rem; color: var(--text-muted); }
 .badge-science    { background: var(--science-color); }
 .badge-society    { background: var(--society-color); }
 .badge-literature { background: var(--literature-color); }
+.badge-poetry     { background: var(--poetry-color); }
+.badge-curiosity  { background: var(--curiosity-color); }
 
 /* ——————————————————————————————————————
    5. ARTICLE META
