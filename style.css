@@ -1197,6 +1197,32 @@ button.view-all-link[hidden] { display: none; }
 .pop-body h4 a:hover { color: var(--primary); }
 .pop-body .article-meta { gap: var(--space-xs); font-size: 0.74rem; }
 
+/* Ad widgets */
+.widget-ad,
+.asb-ad {
+  padding: 0;
+  overflow: hidden;
+}
+.widget-ad .ad-label,
+.asb-ad .ad-label {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  text-align: right;
+  padding: 5px 10px 2px;
+  margin: 0;
+}
+.widget-ad img,
+.asb-ad img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.18s;
+}
+.widget-ad a:hover img,
+.asb-ad a:hover img { opacity: 0.88; }
+
 /* Mini newsletter widget */
 .widget-accent {
   background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
