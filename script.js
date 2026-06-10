@@ -458,13 +458,24 @@ function showToast(message, duration = 4000) {
 }
 
 /* ——————————————————————————————————————
-   14. MINI NEWSLETTER (sidebar)
+   14. MINI NEWSLETTER (sidebar) — Firebase Firestore
 —————————————————————————————————————— */
 (function miniNewsletter() {
+  const FIREBASE_CONFIG = {
+    apiKey:            "AIzaSyD6M9Dyt-r9Il7Yw765nLORirIL8w-twZ0",
+    authDomain:        "gazeta-5a0ab.firebaseapp.com",
+    projectId:         "gazeta-5a0ab",
+    storageBucket:     "gazeta-5a0ab.firebasestorage.app",
+    messagingSenderId: "55770058774",
+    appId:             "1:55770058774:web:f671904e89c3bd5eb5e537"
+  };
+
+  const SDK = "https://www.gstatic.com/firebasejs/12.14.0";
+
   const form = $('#miniNlForm');
   if (!form) return;
 
-  form.addEventListener('submit', e => {
+  form.addEventListener('submit', async e => {
     e.preventDefault();
     const input = form.querySelector('input[type="email"]');
     const val   = input?.value.trim() ?? '';
@@ -475,16 +486,35 @@ function showToast(message, duration = 4000) {
       return;
     }
 
-    showToast('Faleminderit! Do t\'ju njoftojmë per lajmet e reja.');
+    const btn  = form.querySelector('button');
+    const orig = btn?.textContent ?? 'Abonohu';
+    if (btn) { btn.textContent = '...'; btn.disabled = true; }
 
-    if (input) { input.value = ''; input.blur(); }
+    try {
+      const { initializeApp, getApps } = await import(`${SDK}/firebase-app.js`);
+      const { getFirestore, collection, addDoc, serverTimestamp } =
+        await import(`${SDK}/firebase-firestore.js`);
 
-    const btn = form.querySelector('button');
-    if (btn) {
-      const orig = btn.textContent;
-      btn.textContent = 'U regjistruat!';
-      btn.disabled = true;
-      setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 3500);
+      const app = getApps().length ? getApps()[0] : initializeApp(FIREBASE_CONFIG);
+      const db  = getFirestore(app);
+
+      await addDoc(collection(db, 'subscribers'), {
+        email:        val,
+        subscribedAt: serverTimestamp(),
+        source:       'gazeta-website'
+      });
+
+      showToast('Faleminderit! U abonuat me sukses. 🎉');
+      if (input) { input.value = ''; input.blur(); }
+      if (btn)   { btn.textContent = 'U regjistruat!'; }
+      setTimeout(() => {
+        if (btn) { btn.textContent = orig; btn.disabled = false; }
+      }, 3500);
+
+    } catch (err) {
+      console.error('Newsletter subscription error:', err);
+      showToast('Ndodhi një gabim. Provoni përsëri.');
+      if (btn) { btn.textContent = orig; btn.disabled = false; }
     }
   });
 })();
