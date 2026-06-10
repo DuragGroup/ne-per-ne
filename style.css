@@ -1458,7 +1458,105 @@ button.view-all-link[hidden] { display: none; }
 }
 
 /* ——————————————————————————————————————
-   20. FOOTER
+   20. REDAKSIA SECTION
+—————————————————————————————————————— */
+.redaksia-section {
+  padding: var(--space-xl) 0;
+  background: var(--surface-2);
+}
+
+.redaksia-intro {
+  color: var(--text-light);
+  font-size: 1rem;
+  margin-top: var(--space-sm);
+  max-width: 560px;
+}
+
+.redaksia-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+@media (min-width: 600px) {
+  .redaksia-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1024px) {
+  .redaksia-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.redaksia-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-xs);
+  transition: box-shadow var(--ease), transform var(--ease);
+}
+
+.redaksia-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+}
+
+.redaksia-card--lead {
+  border-top: 3px solid var(--primary);
+}
+
+.redaksia-dept-icon {
+  font-size: 1.6rem;
+  margin-bottom: var(--space-sm);
+  line-height: 1;
+}
+
+.redaksia-dept-name {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--text);
+  margin: 0 0 var(--space-xs);
+}
+
+.redaksia-dept-desc {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin: 0 0 var(--space-sm);
+  line-height: 1.5;
+}
+
+.redaksia-names {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.redaksia-names li {
+  font-size: 0.88rem;
+  color: var(--text-light);
+  padding: 5px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.redaksia-names li:last-child {
+  border-bottom: none;
+}
+
+.redaksia-role {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--primary);
+  margin-right: 4px;
+}
+
+/* ——————————————————————————————————————
+   21. FOOTER
 —————————————————————————————————————— */
 .site-footer {
   background: var(--secondary, #1a1a2e);
