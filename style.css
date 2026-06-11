@@ -2293,6 +2293,22 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .prose-list li { line-height: 1.65; }
 
+/* ── Poetry stanzas ── */
+.prose-poem {
+  margin: var(--space-lg) 0;
+  padding: 1.5rem 2rem;
+  border-left: 4px solid var(--poetry-color);
+  background: var(--surface-2);
+  border-radius: 0 var(--r) var(--r) 0;
+  font-family: var(--font-display);
+  font-style: italic;
+}
+.prose-poem p {
+  margin: 0 0 1em;
+  line-height: 1.8;
+}
+.prose-poem p:last-child { margin-bottom: 0; }
+
 /* ── Interview Q&A ── */
 .prose-qa {
   margin: 2rem 0;

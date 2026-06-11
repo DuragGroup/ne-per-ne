@@ -1716,16 +1716,17 @@ window.ARTICLES = [
         "text": "Nga Emajaba Idrizi, klasa 8C"
       },
       {
-        "type": "paragraph",
-        "text": "Miqësia s'është kështjellë me gur, por një lidhje e brishtë si flutur."
-      },
-      {
-        "type": "paragraph",
-        "text": "Një fjalë e nxituar, një çast zemërim, mund ta kthejnë buzëqeshjen në trishtim."
-      },
-      {
-        "type": "paragraph",
-        "text": "S'kërkon pasuri, as fjalë të mëdha, veç zemër të hapur dhe mirësi pa nda. Kur dimë të falim dhe të kuptojmë, miqësinë e vërtetë gjithmonë e ruajmë."
+        "type": "poem",
+        "stanzas": [
+          ["Miqësia s'është", "kështjellë me gur,"],
+          ["por një lidhje", "e brishtë si flutur."],
+          ["Një fjalë e nxituar,", "një çast zemërim,"],
+          ["mund ta kthejnë", "buzëqeshjen në trishtim."],
+          ["S'kërkon pasuri,", "as fjalë të mëdha,"],
+          ["veç zemër të hapur", "dhe mirësi pa nda."],
+          ["Kur dimë të falim", "dhe të kuptojmë,"],
+          ["miqësinë e vërtetë", "gjithmonë e ruajmë."]
+        ]
       },
       {
         "type": "heading",
@@ -1737,12 +1738,17 @@ window.ARTICLES = [
         "text": "Nga Natali Poloska, klasa 8C"
       },
       {
-        "type": "paragraph",
-        "text": "Ti jep dritë që tjetri të shohë, por jo gjithmonë di ta vlerësojë. Kur mirësia mbetet pa përgjigje, zemra mëson disa të vërteta të hidhura."
-      },
-      {
-        "type": "paragraph",
-        "text": "Megjithatë mos resht s'bëri mirë, mos e humb besimin e dëshirën. Se fara nuk mbin në çdo vend, por diku patjetër do të çelë."
+        "type": "poem",
+        "stanzas": [
+          ["Ti jep dritë", "që tjetri të shohë,"],
+          ["por jo gjithmonë", "di ta vlerësojë."],
+          ["Kur mirësia,", "mbetet pa përgjigje,"],
+          ["zemra mëson", "disa të vërteta të hidhura."],
+          ["Megjithatë mos resht", "së bëri mirë,"],
+          ["mos e humb besimin e dëshirën."],
+          ["Se fara nuk mbin në çdo vend,"],
+          ["por diku patjetër do të çelë."]
+        ]
       },
       {
         "type": "heading",
@@ -1754,12 +1760,15 @@ window.ARTICLES = [
         "text": "Nga Alesja Mataj, klasa 8C"
       },
       {
-        "type": "paragraph",
-        "text": "Në sytë e tu ka dashuri pa fund, forcë që na ngre sa herë rrëzohemi. Je strehë në ditët me shi dhe dritë në çastet e vështira."
-      },
-      {
-        "type": "paragraph",
-        "text": "Pak e shohin lodhjen që fsheh në zemër, por ne e ndiejme ngrohtësinë tënde. Në dy krahët e tu rriten ëndrrat tona, plot besim, shpresë dhe jetë — e madhërishmja Nënë."
+        "type": "poem",
+        "stanzas": [
+          ["Në sytë e tu ka dashuri pa fund,", "forcë që na ngre sa herë rrëzohemi."],
+          ["Je strehë në ditët me shi", "dhe dritë në çastet e vështira."],
+          ["Pak e shohin lodhjen", "që fsheh në zemër,"],
+          ["por ne e ndiejmë", "ngrohtësinë tënde."],
+          ["Në dy krahët e tu", "rriten ëndrrat tona,"],
+          ["plot besim, shpresë dhe jetë", "e madhërishmja Nënë."]
+        ]
       },
       {
         "type": "heading",
@@ -1771,12 +1780,13 @@ window.ARTICLES = [
         "text": "Nga Dilaver Brahaj, klasa 8C"
       },
       {
-        "type": "paragraph",
-        "text": "Në duart e tij fle forca e ditës, Në sytë e tij shpresa jonë. Djersa e ballit bëhet dritë, Që ndriçon rrugën tonën."
-      },
-      {
-        "type": "paragraph",
-        "text": "Flet pak, por zemra i këndon, Me gjuhën e dashurisë së pastër. Hero i heshtur i jetës sonë, Thesar i çmuar e i vlerë."
+        "type": "poem",
+        "stanzas": [
+          ["Në duart e tij fle forca e ditës,", "Në sytë e tij shpresa jonë."],
+          ["Djersa e ballit bëhet dritë,", "Që ndriçon rrugën tonën."],
+          ["Flet pak, por zemra i këndon,", "Me gjuhën e dashurisë së pastër."],
+          ["Hero i heshtur i jetës sonë,", "Thesar i çmuar e i vlerë."]
+        ]
       },
       {
         "type": "heading",
@@ -1788,12 +1798,13 @@ window.ARTICLES = [
         "text": "Nga Sintia Penko, klasa 8C"
       },
       {
-        "type": "paragraph",
-        "text": "Në klasë hyjmë me hapa të qetë, dhe dita nis ndryshe nga më parë. Një pyetje e thjeshtë, një shpjegim i kthjellët, na hap një mendim të ri çdo ditë."
-      },
-      {
-        "type": "paragraph",
-        "text": "Mbi fletë e libra kalojnë orët, mes gabimeve që mësojmë t'i ndreqim. Një fjalë e juaja shpesh mbetet gjatë, edhe kur ora ka përfunduar."
+        "type": "poem",
+        "stanzas": [
+          ["Në klasë hyjmë me hapa të qetë,", "dhe dita nis ndryshe nga më parë."],
+          ["Një pyetje e thjeshtë, një shpjegim i kthjellët,", "na hap një mendim të ri çdo ditë."],
+          ["Mbi fletë e libra kalojnë orët,", "mes gabimeve që mësojmë t'i ndreqim."],
+          ["Një fjalë e juaja shpesh mbetet gjatë,", "edhe kur ora ka përfunduar."]
+        ]
       },
       {
         "type": "heading",
@@ -1805,20 +1816,13 @@ window.ARTICLES = [
         "text": "Nga Klaudia Kadriu, klasa 8C"
       },
       {
-        "type": "paragraph",
-        "text": "Të jetosh do të thotë ta vlerësosh çdo ditë që të falet, si një dhuratë të vogël që nuk kërkon asgjë në këmbim."
-      },
-      {
-        "type": "paragraph",
-        "text": "Të jetosh do të thotë të besosh te njerëzit, te dielli që lind çdo mëngjes, te ëndrrat që na japin forcë dhe te shpresa që na ndriçon rrugën."
-      },
-      {
-        "type": "paragraph",
-        "text": "Të jetosh do të thotë të mos dorëzohesh kur has vështirësi, por të ecësh përpara me zemër të hapur dhe me besim te e nesërmja."
-      },
-      {
-        "type": "paragraph",
-        "text": "Sepse jeta bëhet më e bukur kur dimë të falënderojmë, të buzëqeshim dhe të gjejmë lumturinë edhe në gjërat më të thjeshta."
+        "type": "poem",
+        "stanzas": [
+          ["Të jetosh do të thotë", "ta vlerësosh çdo ditë që të falet,", "si një dhuratë të vogël", "që nuk kërkon asgjë në këmbim."],
+          ["Të jetosh do të thotë", "të besosh te njerëzit,", "te dielli që lind çdo mëngjes,", "te ëndrrat që na japin forcë", "dhe te shpresa që na ndriçon rrugën."],
+          ["Të jetosh do të thotë", "të mos dorëzohesh kur has vështirësi,", "por të ecësh përpara", "me zemër të hapur", "dhe me besim te e nesërmja."],
+          ["Sepse jeta bëhet më e bukur", "kur dimë të falënderojmë,", "të buzëqeshim", "dhe të gjejmë lumturinë", "edhe në gjërat më të thjeshta."]
+        ]
       }
     ],
     "related": [

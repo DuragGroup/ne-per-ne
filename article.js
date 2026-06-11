@@ -160,6 +160,11 @@
             </div>
           </div>`;
 
+      case 'poem':
+        return `<div class="prose-poem">${(block.stanzas || []).map(lines =>
+          `<p>${lines.map(l => esc(l)).join('<br>')}</p>`
+        ).join('')}</div>`;
+
       default:
         return '';
     }
