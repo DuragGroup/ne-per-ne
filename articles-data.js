@@ -1730,7 +1730,7 @@ window.ARTICLES = [
       {
         "type": "heading",
         "level": 3,
-        "text": "Fara që Ël në Heshtje"
+        "text": "Fara që Çel në Heshtje"
       },
       {
         "type": "paragraph",
@@ -1742,7 +1742,7 @@ window.ARTICLES = [
       },
       {
         "type": "paragraph",
-        "text": "Megjithatë mos resht s'bëri mirë, mos e humb besimin e dëshirën. Se fara nuk mbin në çdo vend, por diku patjetër do të ëlë."
+        "text": "Megjithatë mos resht s'bëri mirë, mos e humb besimin e dëshirën. Se fara nuk mbin në çdo vend, por diku patjetër do të çelë."
       },
       {
         "type": "heading",
@@ -1755,7 +1755,7 @@ window.ARTICLES = [
       },
       {
         "type": "paragraph",
-        "text": "Në sytë e tu ka dashuri pa fund, forcë që na ngre sa herë rëzohemi. Je strehë në ditët me shi dhe dritë në çastet e vështira."
+        "text": "Në sytë e tu ka dashuri pa fund, forcë që na ngre sa herë rrëzohemi. Je strehë në ditët me shi dhe dritë në çastet e vështira."
       },
       {
         "type": "paragraph",
@@ -1776,7 +1776,7 @@ window.ARTICLES = [
       },
       {
         "type": "paragraph",
-        "text": "Flet pak, por zemra i këndon, Me gjuhën e dashurisë së pastër. Hero i heshtur i jetës sonë, Thesar i ëmuar e i vlerë."
+        "text": "Flet pak, por zemra i këndon, Me gjuhën e dashurisë së pastër. Hero i heshtur i jetës sonë, Thesar i çmuar e i vlerë."
       },
       {
         "type": "heading",
