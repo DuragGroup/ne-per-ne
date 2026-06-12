@@ -788,7 +788,8 @@ window.ARTICLES = [
   },
   {
     "slug": "vasil-shanto-komemorim",
-    "title": "1 Shkurt: Kujtojmë Vasil Shantonë, Heroin tonë të Pavdekshëm",
+    "title": "1 Shkurt: Kujtojmë Vasil Shanton, Heroin tonë të Pavdekshëm",
+    "title": "1 Shkurt: Kujtojmë Vasil Shanton, Heroin tonë të Pavdekshëm",
     "excerpt": "Qeveria e Nxënësve organizoi aktivitetin solemn — homazhe, këngë partizane dhe lexim i jetëshkrimit të heroit të popullit emri i të cilit mbart shkolla jonë.",
     "category": "shkolla",
     "categoryLabel": "Shkolla",
@@ -2117,6 +2118,63 @@ window.ARTICLES = [
       "roli-mesuesit-epoka-digjitale",
       "dita-gjuhes-amtare",
       "busulla-jone"
+    ]
+  },
+  {
+    "slug": "pensionim-mesuesit-2026",
+    "title": "Ju Duam Shumë dhe Do të Na Mungoni: Lamtumirë me Dashuri",
+    "excerpt": "Me fund të vitit shkollor 2025-2026, shkolla jonë përcjell me nderim dhe mirënjohje tre mësues të dashur: prof. Skënder Dema, prof. Arben Duka dhe prof. Vladimir Dana.",
+    "category": "shkolla",
+    "categoryLabel": "Shkolla",
+    "badgeClass": "badge-science",
+    "author": "Redaksia \"Ne për Ne\"",
+    "authorAvatar": "https://ui-avatars.com/api/?name=Ne+per+Ne&background=2980b9&color=fff&size=40&bold=true&rounded=true",
+    "date": "2026-06-12",
+    "dateFormatted": "12 Qershor 2026",
+    "readTime": "2 min lexim",
+    "image": "assets/gazeta/pensionim-mesuesit-2026.png",
+    "imageAlt": "Ceremonia e pensionimit — prof. Skënder Dema, prof. Arben Duka dhe prof. Vladimir Dana",
+    "tags": [
+      "Shkolla",
+      "Pensionim",
+      "Mësues",
+      "Mirënjohje",
+      "Fundviti"
+    ],
+    "content": [
+      {
+        "type": "image",
+        "src": "assets/gazeta/pensionim-mesuesit-2026.png",
+        "alt": "Ceremonia e pensionimit — prof. Skënder Dema, prof. Arben Duka dhe prof. Vladimir Dana",
+        "caption": "Lamtumirë me dashuri — prof. Skënder Dema, prof. Arben Duka dhe prof. Vladimir Dana."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Ju duam shumë dhe do të na mungoni!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Me mirënjohje për përkushtimin, profesionalizmin dhe gjurmën e pashlyeshme që keni lënë në shkollën tonë, ju përcjellim me respekt dhe dashuri në këtë etapë të re të jetës."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pensionim të mbarë, të gjatë dhe të shëndetshëm, prof. Skënder Dema, prof. Arben Duka dhe prof. Vladimir Dana!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Qofshin vitet që vijnë të mbushura me qetësi, gëzim, shëndet dhe kënaqësinë e një jete të jetuar me dinjitet e përkushtim."
+      },
+      {
+        "type": "quote",
+        "text": "Mirënjohje për gjithçka keni dhënë. Rrugëtim të mbarë! 🌹👏🏻📚",
+        "cite": "Stafi dhe nxënësit e Shkollës Vasil Shanto"
+      }
+    ],
+    "related": [
+      "dhjetor-fundviti",
+      "busulla-jone",
+      "sporti-na-bashkon"
     ]
   },
   {
